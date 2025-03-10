@@ -9,13 +9,13 @@ export function Navbar() {
     <Link to={'/Portfolio/'} className={location.pathname === '/Portfolio/' ? 'active' : ''}>
       <button className={location.pathname === '/Portfolio/' ? 'active' : ''}>
         Home
-        <img className="right-arrow" src="/arrow-right-solid.svg" alt="Right Arrow" />
+        <img className="right-arrow" src="/Portfolio/arrow-right-solid.svg" alt="Right Arrow" />
       </button>
     </Link>
     <Link to={'/Portfolio/stuff'} className={location.pathname === '/Portfolio/stuff' ? 'active' : ''}>
       <button className={location.pathname === '/Portfolio/stuff' ? 'active' : ''}>
         Stuff
-        <img className="right-arrow" src="/arrow-right-solid.svg" alt="Right Arrow" />
+        <img className="right-arrow" src="/Portfolio/arrow-right-solid.svg" alt="Right Arrow" />
       </button>
     </Link>
   </nav>
