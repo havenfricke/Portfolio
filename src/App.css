@@ -1,7 +1,40 @@
 #root {
-  max-width: 100%;
+  max-width: 80%;
+  margin-left: 20%;
   padding: 2rem;
   overflow-x: hidden;
 }
 
+#nav {
+  float: left;
+  top: 0;
+  left: 0;
+  position: fixed;
+  min-width: 20%;
+  min-height: 100%;
+  background-color: rgb(61, 61, 61);
+}
+
+#nav button {
+  min-width: 100%;
+  border-radius: 0;
+}
+
+.home-page{
+    /* Replace the URL with your image */
+    background-image: url("./assets/");
+    min-height: 100%; /* Adjust the height as needed */
+    
+    /* Parallax effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-body {
+  height: 500px; /* or any height */
+  background-color: #fff;
+  padding: 20px;
+}
 

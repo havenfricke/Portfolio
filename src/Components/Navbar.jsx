@@ -5,14 +5,14 @@ export function Navbar() {
   return (
     <nav id="nav">
       <Link to={''}>
-        <div>
+        <button>
             Home
-        </div>
+        </button>
       </Link>
       <Link to={'stuff'}>
-        <div>
+        <button>
             Stuff
-        </div>
+        </button>
       </Link>
     </nav>
   )

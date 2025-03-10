@@ -10,7 +10,9 @@ function HomePage()
 
   return (
     <section className="home-page">
-        Home Page
+        <div className="home-body">
+           
+        </div>
     </section>
   )
 }
