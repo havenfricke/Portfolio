@@ -1,40 +1,74 @@
+/* Ensure padding is included in width calculations */
+* {
+  box-sizing: border-box;
+}
+
 #root {
-  max-width: 80%;
+  width: calc(100% - 20%);
   margin-left: 20%;
-  padding: 2rem;
   overflow-x: hidden;
 }
 
 #nav {
-  float: left;
+  position: fixed;
   top: 0;
   left: 0;
-  position: fixed;
-  min-width: 20%;
-  min-height: 100%;
+  width: 20%;
+  height: 100%;
   background-color: rgb(61, 61, 61);
 }
 
 #nav button {
-  min-width: 100%;
+  width: 100%;
   border-radius: 0;
 }
 
-.home-page{
-    /* Replace the URL with your image */
-    background-image: url("./assets/");
-    min-height: 100%; /* Adjust the height as needed */
-    
-    /* Parallax effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.home-page {
+  margin-top: 30%;
+  min-height: 10vh;
+  width: 100%;
+  padding: 2%;
+  background-color: rgb(26, 26, 26);
 }
 
-.home-body {
-  height: 500px; /* or any height */
-  background-color: #fff;
-  padding: 20px;
+.home-profile-img {
+  float: left;
+  border-radius: 50%;
+  padding: 10%;
+  background-color: rgb(148, 148, 148);
+  background-image: url("/public/parallax.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  border: solid 1px #646cff;
+}
+
+.home-banner{
+  margin-left: 30%;
+}
+
+@media screen and (max-width: 768px) {
+  #nav {
+    width: 30%; 
+  }
+
+  #root {
+    width: calc(100% - 30%);
+    margin-left: 30%;
+  }
+
+  .home-page {
+    margin-top: 25%;
+  }
+
+  .home-profile-img {
+    padding: 50%; 
+    float: none;          
+    display: block;        
+    margin: 0 auto;        
+  }
+
+  .banner{
+    margin-left: 10%;
+  }
 }
 

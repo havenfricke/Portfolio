@@ -10,9 +10,14 @@ function HomePage()
 
   return (
     <section className="home-page">
-        <div className="home-body">
-           
-        </div>
+      <div className="home-profile-img"></div>
+      <div className="home-banner">
+        <h2>Haven Fricke</h2>
+        <h3>Interactive Developer | Web | Mobile | Games</h3>
+      </div>
+      <div className="home-content">
+        Content
+      </div>
     </section>
   )
 }
