@@ -13,10 +13,15 @@ function HomePage()
       <div className="home-profile-img"></div>
       <div className="home-banner">
         <h2>Haven Fricke</h2>
-        <h3>Interactive Developer | Web | Mobile | Games</h3>
+        <hr />
+        <h3>Software Developer</h3><br /> 
       </div>
       <div className="home-content">
-        Content
+        <h2>Bio</h2>
+        <hr />
+        <div className="info-card">
+            
+        </div>
       </div>
     </section>
   )

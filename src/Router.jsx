@@ -6,12 +6,12 @@ import StuffPage from './Pages/StuffPage.jsx';
 
 export const router = createBrowserRouter([
     {
-      path: "/Portfolio",
+      path: "/Portfolio/",
       element: <App />,
       errorElement: <ErrorPage />,
       children: [
         {
-          path: "/Portfolio",
+          path: "/Portfolio/",
           element: <HomePage />,
         },
         {
