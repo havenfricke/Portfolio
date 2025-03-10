@@ -8,12 +8,12 @@ export function Navbar() {
     <nav id="nav">
       <Link to={'/Portfolio/'} className={location.pathname === '/Portfolio/' ? 'active' : ''}>
         <button className={location.pathname === '/Portfolio/' ? 'active' : ''}>
-          Home<img className="right-arrow" src="public\arrow-right-solid.svg" alt="Right Arrow"/>
+          Home<img className="right-arrow" src="./public/arrow-right-solid.svg" alt="Right Arrow"/>
         </button>
       </Link>
       <Link to={'/Portfolio/stuff'} className={location.pathname === '/Portfolio/stuff' ? 'active' : ''}>
         <button className={location.pathname === '/Portfolio/stuff' ? 'active' : ''}>
-          Stuff<img className="right-arrow" src="public\arrow-right-solid.svg" alt="Right Arrow"/>
+          Stuff<img className="right-arrow" src="./public/arrow-right-solid.svg" alt="Right Arrow"/>
         </button>
       </Link>
     </nav>
