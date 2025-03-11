@@ -31,8 +31,8 @@ export function Navbar() {
         <img className="right-arrow" src="/Portfolio/arrow-right-solid.svg" alt="Right Arrow" />
       </button>
     </Link>
-    <Link to={'/Portfolio/3d'} className={location.pathname === '/Portfolio/3d' ? 'active' : ''} title="Music Artifacts">
-      <button className={location.pathname === '/Portfolio/3d' ? 'active' : ''}>
+    <Link to={'/Portfolio/music'} className={location.pathname === '/Portfolio/music' ? 'active' : ''} title="Music Artifacts">
+      <button className={location.pathname === '/Portfolio/music' ? 'active' : ''}>
         <img className="cube" src="/Portfolio/music-solid.svg" alt="Music Notes" />
         <img className="right-arrow" src="/Portfolio/arrow-right-solid.svg" alt="Right Arrow" />
       </button>

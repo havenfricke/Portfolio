@@ -6,6 +6,7 @@ import JoinPage from './Pages/JoinPage.jsx';
 import WebSoftwarePage from './Pages/WebSoftwarePage.jsx';
 import GameDevPage from './Pages/GameDevPage.jsx';
 import ThreeDPage from './Pages/ThreeDPage.jsx';
+import MusicPage from './Pages/MusicPage.jsx';
 
 export const router = createBrowserRouter([
     {
@@ -30,7 +31,11 @@ export const router = createBrowserRouter([
           element: <ThreeDPage />
         },
         {
-          path:"/Portfolio/join",
+          path: "/Portfolio/3d",
+          element: <MusicPage />
+        },
+        {
+          path:"/Portfolio/music",
           element: <JoinPage />
         }
       ],
