@@ -35,7 +35,7 @@ export const router = createBrowserRouter([
           element: <MusicPage />
         },
         {
-          path:"/Portfolio/music",
+          path:"/Portfolio/join",
           element: <JoinPage />
         }
       ],
