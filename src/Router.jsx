@@ -31,7 +31,7 @@ export const router = createBrowserRouter([
           element: <ThreeDPage />
         },
         {
-          path: "/Portfolio/3d",
+          path: "/Portfolio/music",
           element: <MusicPage />
         },
         {
