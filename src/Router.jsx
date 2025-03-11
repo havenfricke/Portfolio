@@ -1,8 +1,11 @@
 import { App } from './App.jsx';
+import { createBrowserRouter } from 'react-router-dom';
 import ErrorPage from './pages/ErrorPage.jsx';
 import HomePage from './pages/HomePage.jsx';
-import { createBrowserRouter } from 'react-router-dom';
-import StuffPage from './Pages/StuffPage.jsx';
+import JoinPage from './Pages/JoinPage.jsx';
+import WebSoftwarePage from './Pages/WebSoftwarePage.jsx';
+import GameDevPage from './Pages/GameDevPage.jsx';
+import ThreeDPage from './Pages/ThreeDPage.jsx';
 
 export const router = createBrowserRouter([
     {
@@ -15,8 +18,20 @@ export const router = createBrowserRouter([
           element: <HomePage />,
         },
         {
-            path:"/Portfolio/stuff",
-            element: <StuffPage />
+          path:"/Portfolio/websoftware",
+          element: <WebSoftwarePage />
+        },
+        {
+          path: "/Portfolio/gamedev",
+          element: <GameDevPage />
+        },
+        {
+          path: "/Portfolio/3d",
+          element: <ThreeDPage />
+        },
+        {
+          path:"/Portfolio/join",
+          element: <JoinPage />
         }
       ],
     },

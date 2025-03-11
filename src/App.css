@@ -15,7 +15,7 @@
   left: 0;
   width: 15%;
   height: 100%;
-  background-color: #1a1a1a;
+  background-color: #1a1a1a; 
 }
 
 #nav button {
@@ -25,7 +25,6 @@
 }
 
 .home-page {
-  margin-top: 30%;
   min-height: 10vh;
   width: 100%;
 }
@@ -33,7 +32,7 @@
 .home-profile-img {
   float: left;
   border-radius: 50%;
-  padding: 10%;
+  padding: 12%;
   margin: 1%;
   background-color: rgb(148, 148, 148);
   background-image: url("/public/parallax.jpg");
@@ -43,8 +42,9 @@
 }
 
 .home-banner{
+  border-bottom: solid 10px #646cff;
   text-align: left;
-  padding: 20%;
+  padding: 25%;
   padding-top: 3%;
   padding-bottom: 1%;
   background-color: rgb(26, 26, 26);
@@ -58,9 +58,52 @@
   background-color: rgb(26, 26, 26);
 }
 
+.artifacts-page{
+  margin-top: 10%;
+
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  padding: 0% 2%;
+}
+
+.tabs a {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0% 3px;
+  background: rgb(26, 26, 26);
+  color: rgba(255, 255, 255, 0.87);
+  border-radius: 5px 5px 0 0;
+  transition: all 0.2s;
+}
+
+.tabs a:hover {
+  background: #646cff;
+}
+
+.tabs a:active{
+  background: #898fff;
+}
+
+.tab-content {
+  display: none;
+  background-color: rgb(26, 26, 26);
+  padding: 20px;
+}
+
+.tab-content:target {
+  display: block;
+}
+
+body:not(:target) .tab-content:first-of-type {
+  display: block;
+}
+
 .info-card{
   background-color: rgb(44, 44, 44);
-  padding: 10%;
+  padding: 3% 12%;
   border-bottom-right-radius: 1em; 
   border-bottom-left-radius: 1em;
   filter: drop-shadow(0px 4px 5px #4444dd);
@@ -68,7 +111,57 @@
 
 .right-arrow{
   filter: invert(1) sepia(1) saturate(50) hue-rotate(180deg);
-  max-width: 15px;
+  max-width: 13px;
+  margin-right: 0.2em;
+  transition: transform 0.3s ease;
+}
+
+.door-open{
+  filter: invert(1) sepia(1) saturate(50) hue-rotate(180deg);
+  max-width:30px;
+  margin-right: 0.2em;
+  transition: transform 0.3s ease;
+}
+
+.house{
+  filter: invert(1) sepia(1) saturate(50) hue-rotate(180deg);
+  max-width:30px;
+  margin-right: 0.2em;
+  transition: transform 0.3s ease;
+}
+
+.code{
+  filter: invert(1) sepia(1) saturate(50) hue-rotate(180deg);
+  max-width:30px;
+  margin-right: 0.2em;
+  transition: transform 0.3s ease;
+}
+
+.joint{
+  filter: invert(1) sepia(1) saturate(50) hue-rotate(180deg);
+  max-width:30px;
+  margin-right: 0.2em;
+  transition: transform 0.3s ease;
+}
+
+.game-pad{
+  filter: invert(1) sepia(1) saturate(50) hue-rotate(180deg);
+  max-width:30px;
+  margin-right: 0.2em;
+  transition: transform 0.3s ease;
+}
+
+.cube{
+  filter: invert(1) sepia(1) saturate(50) hue-rotate(180deg);
+  max-width:30px;
+  margin-right: 0.2em;
+  transition: transform 0.3s ease;
+}
+
+.music{
+  filter: invert(1) sepia(1) saturate(50) hue-rotate(180deg);
+  max-width:30px;
+  margin-right: 0.2em;
   transition: transform 0.3s ease;
 }
 
@@ -80,10 +173,6 @@
   #root {
     width: calc(100% - 30%);
     margin-left: 30%;
-  }
-
-  .home-page {
-    margin-top: 25%;
   }
 
   .home-profile-img {
@@ -99,6 +188,10 @@
     padding-right: 10%;
     padding-top: 20%;
     text-align: center;
+  }
+
+  .info-card{
+    padding: 3% 7%;
   }
 }
 
