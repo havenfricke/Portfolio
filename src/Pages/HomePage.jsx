@@ -54,8 +54,8 @@ function HomePage()
               worthy mentions including web and software development.
               <br />
               <br />
-              I beleive in listening to the way the wind moves and following the journey it has for you. As the journey continues on this vast horizon I am reminded constantly of how
-              it truly is an amazing privilege to be a part of what I do.
+              I beleive in listening to the way the wind moves and following the journey it has for you. As the journey continues on this vast horizon I am reminded constantly of the 
+              truly amazing privilege it is to be a part of what I do.
               <br />
               <br />
               - Haven

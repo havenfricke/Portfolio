@@ -1,11 +1,14 @@
 /* Ensure padding is included in width calculations */
 * {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;  
+  text-rendering: optimizeLegibility;   
 }
 
 #root {
-  width: calc(100% - 15%);
-  margin-left: 15%;
+  width: calc(100% - 8%);
+  margin-left: 8%;
   overflow-x: hidden;
 }
 
@@ -13,8 +16,9 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 15%;
+  width: 8%;
   height: 100%;
+  border-right: #c3c6ff;
   background-color: #1a1a1a; 
 }
 
@@ -32,8 +36,8 @@
 .home-profile-img {
   float: left;
   border-radius: 50%;
-  padding: 12%;
-  margin: 1%;
+  padding: 10%;
+  margin: 5% 3%;
   background-color: rgb(148, 148, 148);
   background-image: url("/public/parallax.jpg");
   background-size: cover; 
@@ -46,7 +50,7 @@
   text-align: left;
   padding: 25%;
   padding-top: 3%;
-  padding-bottom: 1%;
+  padding-bottom: 0;
   background-color: rgb(26, 26, 26);
   width: 100%;
 }
@@ -58,47 +62,23 @@
   background-color: rgb(26, 26, 26);
 }
 
-.artifacts-page{
-  margin-top: 10%;
-
+.web-software-page{
+  min-height: 100%;
+  margin-top: 10vh;
+  width: 100%;
 }
 
-.tabs {
-  display: flex;
-  gap: 10px;
-  padding: 0% 2%;
-}
-
-.tabs a {
-  text-decoration: none;
-  padding: 10px 20px;
-  margin: 0% 3px;
-  background: rgb(26, 26, 26);
-  color: rgba(255, 255, 255, 0.87);
-  border-radius: 5px 5px 0 0;
-  transition: all 0.2s;
-}
-
-.tabs a:hover {
-  background: #646cff;
-}
-
-.tabs a:active{
-  background: #898fff;
-}
-
-.tab-content {
-  display: none;
-  background-color: rgb(26, 26, 26);
-  padding: 20px;
-}
-
-.tab-content:target {
+.web-software-banner{
+  height: 10vh;
+  position: fixed; 
+  top: 0;
+  width: 100%;
   display: block;
-}
-
-body:not(:target) .tab-content:first-of-type {
-  display: block;
+  padding: 0 1%;
+  transform: drop-shadow(10px 2px 30px black);
+  background-color: #1a1a1a;
+  border-bottom: solid 1px #c3c6ff;
+  z-index: 5; 
 }
 
 .info-card{
@@ -109,6 +89,7 @@ body:not(:target) .tab-content:first-of-type {
   filter: drop-shadow(0px 4px 5px #4444dd);
 }
 
+/*ICONS*/
 .right-arrow{
   filter: invert(1) sepia(1) saturate(50) hue-rotate(180deg);
   max-width: 13px;
@@ -165,19 +146,112 @@ body:not(:target) .tab-content:first-of-type {
   transition: transform 0.3s ease;
 }
 
+.view-project-button{
+  background-color: #4444dd;
+  text-align: center;
+  transition: all 1s ease;
+  border-radius: 1em;
+  filter: drop-shadow(1px 3px 5px #3f3f3f);
+  margin: 10% 0;
+  padding: 3%;
+}
+
+.view-project-button:hover{
+  background-color: #646cff;
+  transition: all 0.25s ease;
+  transform: scale(1.01);
+  border-radius: 0.3em;
+}
+
+.img-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+}
+
+.img-wrapper img{
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 1em;
+  border: solid 1px #646cff;
+}
+
+/*MODAL*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 50;
+}
+
+.modal-content {
+  background-color: rgb(26, 26, 26);
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 70%;
+  border-radius: 5px;
+  position: relative;
+}
+
+.close {
+  color: #aaa;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+}
+
+.modal-wrapper{
+  padding: 0% 12%;
+}
+
+/*GRID*/
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.col-2-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 120px;
+  width: 100%;
+}
+
+.col-2-grid:first-child {
+  margin: 0 10%;
+}
+
 @media screen and (max-width: 768px) {
   #nav {
-    width: 30.5%; 
+    width: 15.5%; 
   }
 
   #root {
-    width: calc(100% - 30%);
-    margin-left: 30%;
+    width: calc(100% - 15%);
+    margin-left: 15%;
   }
 
   .home-profile-img {
     padding: 50%; 
-    transform: translate(0px, 40px);
+    transform: translate(0px, 80px) scale(0.9);
     float: none;          
     display: block;        
     margin: 0 auto;        
@@ -193,13 +267,24 @@ body:not(:target) .tab-content:first-of-type {
   .info-card{
     padding: 3% 7%;
   }
-}
 
-@media screen and (max-width: 1260px) {
+  .right-arrow{
+    display: none;
+  }
 
-  .home-profile-img {
-    margin-top: 5%;         
+  #nav button{
+    justify-content: center;
+  }
+
+  .col-2-grid {
+    grid-template-columns: 1fr;
+    gap: 100px;
+  }
+
+  .col-2-grid:first-child {
+    margin: 0 5%;
   }
 }
+
 
 
