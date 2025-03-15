@@ -65,8 +65,8 @@ export default function ModalWindow({ modalId, title, children }) {
   const modalContent = (
     <div ref={modalRef} id={uniqueId} className="modal">
       <div className="modal-content">
-        <span ref={closeBtnRef} className="close" tabIndex={0}>&times;</span>
-            <Project contentName={title} contentBody={children}/>
+      <span ref={closeBtnRef} className="close" tabIndex={0}>&times;</span>
+          <Project contentName={title} contentBody={children}/>
       </div>
     </div>
   );

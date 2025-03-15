@@ -8,8 +8,8 @@ function WebSoftwarePage()
 {
 
     return (
-        <section className='web-software-page'>
-            <div className="web-software-banner">
+        <section className='card-view-page'>
+            <div className="card-view-banner">
                 <h2>Web & Software</h2> 
             </div>
             <div className="row">
@@ -22,7 +22,7 @@ function WebSoftwarePage()
                             <img src="/Portfolio/ksm1.png"/>
                         </div>
                         <ModalWindow title={"Kendall Spokesmasters"}>
-                            <div>content 1</div>
+                            <div className='content-test'>content 1</div>
                         </ModalWindow>
                     </div>
  

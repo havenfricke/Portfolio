@@ -17,7 +17,6 @@ function HomePage()
         <h3>Interactive Software Developer</h3><br /> 
       </div>
       <div className="home-content">
-        <hr />
         <div className="info-card">
             <p>
               Hello. 

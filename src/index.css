@@ -96,3 +96,8 @@ button:active .right-arrow{
 }
 
 
+@media screen and (max-width: 768px) {
+  h1, h2, h3 {
+    transform: scale(0.9);
+  }
+}
