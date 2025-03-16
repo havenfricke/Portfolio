@@ -42,22 +42,19 @@ const ModelViewer = ({ modelPath }) => {
     currentMount.appendChild(renderer.domElement);
 
     const controls = new OrbitControls(camera, renderer.domElement);
-    controls.minDistance = 700;
-    controls.maxDistance = 1000;
+    controls.minDistance = 500;
+    controls.maxDistance = 800;
 
     // Add lighting
     const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
     scene.add(ambientLight);
     const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
-    directionalLight.position.set(0, 5, 5);
+    directionalLight.position.set(-90, -180, 0); // adjust lighting as needed
     scene.add(directionalLight);
 
     // Load the OBJ model using the passed modelPath
     const loader = new OBJLoader();
-    loader.load(
-      modelPath, 
-      (obj) => {
-        console.log('OBJ loaded:', obj);
+    loader.load(modelPath, (obj) => {
         obj.position.y = - 100; // Adjust vertical position as needed
         scene.add(obj);
       },
