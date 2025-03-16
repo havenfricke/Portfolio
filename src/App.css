@@ -238,32 +238,35 @@
 }
 
 /*3D-Viewer*/
-.three-d-page{
-  min-height: 100vh;
-  min-width: 100%;
+.three-d-page {
+  height: 100vh; /* Exactly the viewport height */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Prevent child overflow from causing scroll */
 }
 
 .model-viewer {
+  flex: 1; /* Takes up remaining space */
   width: 100%;
-  height: 75vh;
   position: relative;
   cursor: crosshair;
 }
 
-.model-viewer-nav{
-  text-align: center;
-  display: block;
-  position: flex;
+.model-viewer-nav {
   background-color: #3f3f3f;
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
-  border-top: solid 10px #646cff;
+  border-top: 10px solid #646cff;
 }
 
 .model-viewer-nav button {
   padding: 1rem 5%;
+  display: flex;
   min-height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .model-viewer-info {
@@ -271,9 +274,9 @@
   justify-content: center;
   align-items: center;
   width: 100%;  
-  height: 18vh; 
+  min-height: 19vh; 
+  padding: 0 3%;
   background-color: #000000;
-  overflow-y: hidden;
 }
 
 .model-viewer-info button:hover a {
@@ -321,12 +324,12 @@
 
 @media screen and (max-width: 768px) {
   #nav {
-    width: 15.5%; 
+    width: 12.5%; 
   }
 
   #root {
-    width: calc(100% - 15%);
-    margin-left: 15%;
+    width: calc(100% - 12%);
+    margin-left: 12%;
   }
 
   .home-profile-img {
