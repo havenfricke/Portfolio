@@ -1,6 +1,6 @@
 import React from 'react';
 import { observer } from 'mobx-react-lite';
-import ModalWindow from '../Components/ModalWindow'
+import ModalWindow from '../Components/ModalWindow';
 
 function GameDevPage()
 {
@@ -19,41 +19,41 @@ function GameDevPage()
                             <div className='img-wrapper'>
                                 <img src="/Portfolio/ksm1.png"/>
                             </div>
-                            <ModalWindow title={"Kendall Spokesmasters"}>
-                                <div className='content-test'>content 1</div>
+                            <ModalWindow title={"Kendall Spokesmasters 2a"}>
+                                <div className='content-test'>content 1b</div>
                             </ModalWindow>
                         </div>
         
                         <div className='info-card'>
-                            <h3>Spokespersons</h3>
+                            <h3>Spokespersons b</h3>
                             <hr />
                             <div className='img-wrapper'>
                                 <img src="/Portfolio/ksm1.png"/>
                             </div>
-                            <ModalWindow title={"Spondall Kendamsters"}>
-                                <div>content 2</div>
+                            <ModalWindow title={"Spondall Kendamsters 2b"}>
+                                <div>content 2b</div>
                             </ModalWindow>
                         </div>
     
                         <div className='info-card'>
-                            <h3>Spokespersons</h3>
+                            <h3>Spokespersons b</h3>
                             <hr />
                             <div className='img-wrapper'>
                                 <img src="/Portfolio/ksm1.png"/>
                             </div>
-                            <ModalWindow title={"Spondall Kendamsters"}>
-                                <div>content 2</div>
+                            <ModalWindow title={"Spondall Kendamsters 3b"}>
+                                <div>content 3b</div>
                             </ModalWindow>
                         </div>
     
                         <div className='info-card'>
-                            <h3>Spokespersons</h3>
+                            <h3>Spokespersons b</h3>
                             <hr />
                             <div className='img-wrapper'>
                                 <img src="/Portfolio/ksm1.png"/>
                             </div>
-                            <ModalWindow title={"Spondall Kendamsters"}>
-                                <div>content 2</div>
+                            <ModalWindow title={"Spondall Kendamsters 4b"}>
+                                <div>content 4b</div>
                             </ModalWindow>
                         </div>
     

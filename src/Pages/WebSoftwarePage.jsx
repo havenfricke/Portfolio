@@ -21,41 +21,41 @@ function WebSoftwarePage()
                         <div className='img-wrapper'>
                             <img src="/Portfolio/ksm1.png"/>
                         </div>
-                        <ModalWindow title={"Kendall Spokesmasters"}>
+                        <ModalWindow title={"Kendall Spokesmasters 1a"}>
                             <div className='content-test'>content 1</div>
                         </ModalWindow>
                     </div>
  
                     <div className='info-card'>
-                        <h3>Spokespersons</h3>
+                        <h3>Spokespersons dsd</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <img src="/Portfolio/ksm1.png"/>
                         </div>
-                        <ModalWindow title={"Spondall Kendamsters"}>
+                        <ModalWindow title={"Spondall Kendamsters 1b"}>
                             <div>content 2</div>
                         </ModalWindow>
                     </div>
 
                     <div className='info-card'>
-                        <h3>Spokespersons</h3>
+                        <h3>Spokespersons dsd</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <img src="/Portfolio/ksm1.png"/>
                         </div>
-                        <ModalWindow title={"Spondall Kendamsters"}>
-                            <div>content 2</div>
+                        <ModalWindow title={"Spondall Kendamsters 1c"}>
+                            <div>content 3</div>
                         </ModalWindow>
                     </div>
 
                     <div className='info-card'>
-                        <h3>Spokespersons</h3>
+                        <h3>Spokespersons sds</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <img src="/Portfolio/ksm1.png"/>
                         </div>
-                        <ModalWindow title={"Spondall Kendamsters"}>
-                            <div>content 2</div>
+                        <ModalWindow title={"Spondall Kendamsters 1d"}>
+                            <div>content 4</div>
                         </ModalWindow>
                     </div>
 

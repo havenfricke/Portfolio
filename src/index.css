@@ -23,12 +23,12 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #b7bbff;
   text-decoration: inherit;
   cursor: pointer;
 }
 a:hover {
-  color: #b7bbff;
+  color: #646cff;
 }
 
 body {
