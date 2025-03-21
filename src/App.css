@@ -71,6 +71,13 @@
   width: 100%;
 }
 
+.music-page{
+  max-height: 100vh;
+  min-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
 .card-view-banner {
   height: 10vh;
   position: fixed; 
@@ -154,6 +161,63 @@
   max-width:30px;
   margin-right: 0.2em;
   transition: transform 0.3s ease;
+}
+
+.linkedin{
+  filter: invert(1) sepia(1) saturate(50) hue-rotate(180deg);
+  max-width:30px;
+  margin-right: 0.2em;
+  transition: all 0.2s ease;
+}
+
+.linkedin:hover, .linkedin:focus{
+  transition: all 0.25s ease;
+  animation: iconBounce 1s ease;
+}
+
+.email{
+  filter: invert(1) sepia(1) saturate(50) hue-rotate(180deg);
+  max-width:30px;
+  margin-right: 0.2em;
+  transition: all 0.2s ease;
+}
+
+.email:hover, .email:focus{
+  
+  transition: all 0.25s ease;
+  animation: iconBounce 1s ease;
+}
+
+@keyframes iconBounce {
+  0%{
+    transform: translateY(0);
+  }
+  25%{
+    transform: translateY(-10px);
+  }
+  40%{
+    transform: translateY(-15px);
+  }
+  50%{
+    transform: translateY(-9px);
+  }
+  60%{
+    transform: translateY(-12px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+.home-icons a{
+  padding: 0 15px;
+}
+
+.home-icons a:active{
+  transform: scale(1.2);
+}
+
+.home-icons a img{
 }
 
 .view-project-button{
@@ -298,6 +362,36 @@
   z-index: 10;
   pointer-events: none; 
   text-align: center;
+}
+
+/*TAB WINDOW*/
+.tab{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 300px;
+  min-height: 100%;
+}
+
+.tab button {
+  display: flex;
+  padding: 0  1%;
+  margin: 0;
+  min-width: 25%;
+  justify-content: center; 
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.tabcontent{
+  background-color: #1a1a1a;
+  border-top: solid 1px #c3c6ff;
+  min-height: 100vh;
+  padding: 5%;
+}
+
+.tabcontent h3{
+  margin: 0;
+  padding: 3%;
 }
 
 /*GRID*/
