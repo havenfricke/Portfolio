@@ -8,7 +8,7 @@ function GameDevPage()
     return (
             <section className='card-view-page'>
                 <div className="card-view-banner">
-                    <h2>Game Development</h2> 
+                    <h2><strong>Game Development</strong></h2> 
                 </div>
                 <div className="row">
                     <div className='col-2-grid'>

@@ -9,7 +9,7 @@ export default function TabWindow(){
         case 'Playlists':
           return (
             <div id="playlists" className="tabcontent">
-              <h3>Playlists</h3>
+              <h4>Playlists</h4>
               <div>
                 <p>
                     playlists body
@@ -20,7 +20,7 @@ export default function TabWindow(){
         case 'Personal':
           return (
             <div id="personal" className="tabcontent">
-              <h3>Personal</h3>
+              <h4>Personal</h4>
               <div>
                 <p>
                     playlists body
@@ -39,12 +39,12 @@ export default function TabWindow(){
           <button
             className={`tablinks ${activeTab === 'Playlists' ? 'active' : ''}`}
             onClick={() => setActiveTab('Playlists')}>
-            <h3>Playlists</h3>
+            <h4>Playlists</h4>
           </button>
           <button
             className={`tablinks ${activeTab === 'Personal' ? 'active' : ''}`}
             onClick={() => setActiveTab('Personal')}>
-            <h3>Personal</h3>
+            <h4>Personal</h4>
           </button>
         </div>
         {renderContent()}
