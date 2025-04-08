@@ -23,7 +23,7 @@ export default function TabWindow(){
               <h4>Personal</h4>
               <div>
                 <p>
-                    playlists body
+                    personal body
                 </p>
               </div>
             </div>

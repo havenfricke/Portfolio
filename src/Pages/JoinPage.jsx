@@ -7,7 +7,8 @@ function JoinPage()
 
     return (
         <section className='join-page'>
-            Join Me Page
+            <div className='info-card'>
+            </div>
         </section>
     )
 }

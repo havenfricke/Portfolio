@@ -374,15 +374,15 @@
 .tab{
   display: flex;
   justify-content: flex-start;
-  margin-top: 300px;
+  margin-top: 250px;
   min-height: 100%;
 }
 
 .tab button {
   display: flex;
-  padding: 0  1%;
+  padding: 0 5%;
   margin: 0;
-  min-width: 25%;
+  min-width: 50%;
   justify-content: center; 
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
@@ -562,5 +562,10 @@
   }
 }
 
+@media screen and (max-width: 1270px){
+  .right-arrow{
+    display: none;
+  }
+}
 
 

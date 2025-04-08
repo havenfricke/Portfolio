@@ -97,7 +97,7 @@ function WebSoftwarePage()
                                     This website is using the boilerplate as a foundation.
                                     <br />
                                     <br />
-                                    <a href="https://github.com/havenf/ReactApp-Vanilla-Starter" target="_blank">GitHub Repository Link</a>
+                                    <a href="https://github.com/havenfricke/ReactApp-Vanilla-Starter" target="_blank">GitHub Repository Link</a>
                                 </p>
                             </div>
                             <div className='row'>
@@ -116,14 +116,40 @@ function WebSoftwarePage()
                     </div>
 
                     <div className='info-card'>
-                        <h3>Spokespersons sds</h3>
+                        <h3>React + D3 Data Narrative</h3>
                         <hr />
                         <div className='img-wrapper'>
-                            <img src="/Portfolio/ksm1.png"/>
+                            <img src="/Portfolio/reactd31.png"/>
                         </div>
-                        <ModalWindow title={"Spondall Kendamsters 1d"}>
-                            <div className='modal-body'>
-                                content 4
+                        <ModalWindow title={"React + D3 Data Narrative"}>
+                        <div className='row'>
+                                <p>
+                                    React and D3 data visualization libraries combined to create a responsive data narrative. This project
+                                    was completed during my time with <a href="https://www.boisestate.edu/gimm/" target='_blank'>GIMM</a>. 
+                                    It challenged students to create a responsive front end application built on React that 
+                                    gamified datasets. The goal with this project was to create an unbiased narrative with support from
+                                    fossil fuel data, atmospheric records, basic economic concepts, and some general sentiments.
+                                    The application is built on boilerplate code from my 
+                                    <a href="https://github.com/havenfricke/ReactApp-Vanilla-Starter" target='_blank'> React client repository</a>. 
+                                    <br />
+                                    <br />
+                                    <a href="https://github.com/havenfricke/ReactD3MobileDataNarrative" target="_blank">GitHub Repository Link</a>
+                                    <br />
+                                    <br />
+                                    <a href="https://havenfricke.github.io/ReactD3MobileDataNarrative" target="_blank">Website Link</a>
+                                </p>
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <img src="/Portfolio/reactd31.png"/>
+                                    <img src="/Portfolio/reactd32.png"/>
+                                </div>  
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <img src="/Portfolio/reactd33.png"/>
+                                    <img src="/Portfolio/reactd34.png"/>
+                                </div>
                             </div>
                         </ModalWindow>
                     </div>
