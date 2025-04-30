@@ -55,16 +55,54 @@ const ModelViewer = ({ modelPath }) => {
     // Load the OBJ model using the passed modelPath
     const loader = new OBJLoader();
     loader.load(modelPath, (obj) => {
-        obj.position.y = - 100; // Adjust vertical position as needed
-        scene.add(obj);
-      },
-      (xhr) => {
-        console.log(`${(xhr.loaded / xhr.total) * 100}% loaded`);
-      },
-      (error) => {
-        console.error('An error occurred while loading the OBJ:', error);
+      obj.position.y = -100; // Adjust vertical position as needed
+
+      // Checks on objects for alterations
+
+      // Large Tree
+      if(modelPath.includes("Environment_Tree_Large_No_Leaves"))
+      {
+        obj.scale.set(0.15, 0.15, 0.15);
       }
-    );
+
+      // Rock Modium
+      if(modelPath.includes("Enironment_Rock_Medium"))
+      {
+        obj.scale.set(0.5, 0.5, 0.5);
+        obj.position.x = 325;
+        obj.position.z = 150;
+        obj.position.y = -50;
+      }
+      
+      // Leaf
+      if(modelPath.includes("Environment_Leaf"))
+      {
+        obj.scale.set(5, 5, 5);
+        obj.position.x = 2400;
+        obj.position.z = -615;
+        obj.position.y = -3200;
+      }
+
+      if(modelPath.includes("Environment_Tree_Medium_No_Leaves"))
+      {
+        obj.scale.set(0.3, 0.3, 0.3);
+        obj.position.z = 200;
+      }
+
+      if(modelPath.includes("Environment_Tree_Small_No_Leaves"))
+      {
+        obj.scale.set(0.3, 0.3, 0.3);
+        obj.position.z = 400;
+      }
+    
+      scene.add(obj);
+    },
+    (xhr) => {
+      console.log(`${(xhr.loaded / xhr.total) * 100}% loaded`);
+    },
+    (error) => {
+      console.error('An error occurred while loading the OBJ:', error);
+    });
 
     // Animation loop
     const animate = () => {

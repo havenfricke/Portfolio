@@ -5,9 +5,12 @@ import ModelViewer from '../Components/ModelViewer';
 function ThreeDPage() {
   // Array of model path
   const models = [
-    '/Portfolio/low_poly_starter_humanoid_TestA.obj',
-    '/Portfolio/low_poly_starter_humanoid_TestB.obj',
-    '/Portfolio/low_poly_starter_humanoid.obj'
+    '/Portfolio/Environment_Tree_Large_No_Leaves.obj',
+    '/Portfolio/Enironment_Rock_Medium.obj',
+    '/Portfolio/low_poly_starter_humanoid.obj',
+    '/Portfolio/Environment_Leaf.obj',
+    '/Portfolio/Environment_Tree_Medium_No_Leaves.obj',
+    '/Portfolio/Environment_Tree_Small_No_Leaves.obj'
   ];
 
   const [currentInfoText, setInfoText] = useState();
@@ -16,14 +19,23 @@ function ThreeDPage() {
 
   useEffect (() => {
     switch (models[currentModelIndex]) {
-      case '/Portfolio/low_poly_starter_humanoid_TestA.obj':
-        setInfoText("A simple humanoid .obj for sculpting, animating and prototyping. TestA");
+      case '/Portfolio/Environment_Tree_Large_No_Leaves.obj':
+        setInfoText("Large tree, ready for texturing.");
         break;
-      case '/Portfolio/low_poly_starter_humanoid_TestB.obj':
-        setInfoText("A simple humanoid .obj for sculpting, animating and prototyping. TestB");
+      case '/Portfolio/Enironment_Rock_Medium.obj':
+        setInfoText("A rock. Underwhelming even with it's textured.");
         break;
       case '/Portfolio/low_poly_starter_humanoid.obj':
         setInfoText("A simple humanoid .obj for sculpting, animating and prototyping.");
+        break;
+      case '/Portfolio/Environment_Leaf.obj':
+        setInfoText("A small leaf for constructing foliage.");
+        break;
+      case '/Portfolio/Environment_Tree_Medium_No_Leaves.obj':
+        setInfoText("A small leaf for constructing foliage.");
+        break;
+      case '/Portfolio/Environment_Tree_Small_No_Leaves.obj':
+        setInfoText("A small leaf for constructing foliage.");
         break;
       default:
         setInfoText("");

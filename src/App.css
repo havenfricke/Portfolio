@@ -28,8 +28,8 @@
   align-items: center;
   border-radius: 0;
   text-align: left;
-  padding-top: calc((100vh / 6) / 2.01);
-  padding-bottom: calc((100vh / 6) / 2.01);
+  padding-top: calc((100vh / 4) / 2.01);
+  padding-bottom: calc((100vh / 4) / 2.01);
 }
 
 .home-page {
@@ -296,6 +296,7 @@
   cursor: pointer;
   position: sticky;
   justify-self: end;
+  z-index: 100;
 }
 
 .close:hover,
@@ -305,6 +306,11 @@
 
 .modal-wrapper{
   padding: 0% 12%;
+}
+
+/*Video Player*/
+.video-player{
+  max-width: 100%;
 }
 
 /*3D-Viewer*/

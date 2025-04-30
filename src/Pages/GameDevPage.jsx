@@ -14,49 +14,26 @@ function GameDevPage()
                     <div className='col-2-grid'>
     
                         <div className='info-card'>
-                            <h3>Kendall Spokesmasters</h3>
+                            <h3>Wary Path</h3>
                             <hr />
                             <div className='img-wrapper'>
                                 <img src="/Portfolio/ksm1.png"/>
                             </div>
-                            <ModalWindow title={"Kendall Spokesmasters 2a"}>
-                                <div className='content-test'>content 1b</div>
-                            </ModalWindow>
-                        </div>
-        
-                        <div className='info-card'>
-                            <h3>Spokespersons b</h3>
-                            <hr />
-                            <div className='img-wrapper'>
-                                <img src="/Portfolio/ksm1.png"/>
+                            <ModalWindow title={"Wary Path"}>
+                            <div className='row'>
+                                <p>
+                                    Unity Game Engine project prototyping a game. This project
+                                    was completed during my time with <a href="https://www.boisestate.edu/gimm/" target='_blank'>GIMM</a>. 
+                                </p>
                             </div>
-                            <ModalWindow title={"Spondall Kendamsters 2b"}>
-                                <div>content 2b</div>
-                            </ModalWindow>
-                        </div>
-    
-                        <div className='info-card'>
-                            <h3>Spokespersons b</h3>
-                            <hr />
-                            <div className='img-wrapper'>
-                                <img src="/Portfolio/ksm1.png"/>
+                            <div className='row'>
+                            <iframe className='video-player' src="https://drive.google.com/file/d/1hcMgP3iCLdyrBgm1oVNJoNnTPrdLpEzm/preview" width="640" height="480" allow="autoplay"></iframe>
                             </div>
-                            <ModalWindow title={"Spondall Kendamsters 3b"}>
-                                <div>content 3b</div>
-                            </ModalWindow>
-                        </div>
-    
-                        <div className='info-card'>
-                            <h3>Spokespersons b</h3>
-                            <hr />
-                            <div className='img-wrapper'>
-                                <img src="/Portfolio/ksm1.png"/>
+                            <div className='row'>
+                            <iframe src="https://drive.google.com/file/d/1VgssK52dBwFmQN16f7RXkTbxz-dlrZTp/preview" width="640" height="480" allow="autoplay"></iframe>
                             </div>
-                            <ModalWindow title={"Spondall Kendamsters 4b"}>
-                                <div>content 4b</div>
                             </ModalWindow>
                         </div>
-    
                     </div>
                 </div>  
             </section>
