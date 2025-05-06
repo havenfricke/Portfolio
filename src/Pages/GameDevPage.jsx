@@ -17,7 +17,7 @@ function GameDevPage()
                             <h3>Wary Path</h3>
                             <hr />
                             <div className='img-wrapper'>
-                                <img src="/Portfolio/ksm1.png"/>
+                                <img src="/Portfolio/warypath1.png"/>
                             </div>
                             <ModalWindow title={"Wary Path"}>
                             <div className='row'>

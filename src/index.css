@@ -7,7 +7,8 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
 
-  background-image: url("/public/parallax.jpg");
+  background-image: url("/public/background.jpg");
+  filter: contrast(0.95) hue-rotate(1deg);
   min-height: 100%; 
   
   background-attachment: fixed;
