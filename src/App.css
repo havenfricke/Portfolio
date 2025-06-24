@@ -55,20 +55,19 @@
   padding: 25%;
   padding-top: 3%;
   padding-bottom: 0;
-  background-color: rgb(26, 26, 26);
+  background-color: rgb(32, 32, 32);
   width: 100%;
 }
 
 .home-content{
-  margin-top: 15%;
   min-height: 50vh;
-  padding: 5%;
-  background-color: rgb(26, 26, 26);
+  padding: 5% 15%;
+  background-color: rgb(32, 32, 32);
 }
 
 .card-view-page{
   min-height: 100%;
-  margin-top: 10vh;
+  margin-top: 25vh;
   width: 100%;
 }
 
@@ -80,15 +79,17 @@
 }
 
 .card-view-banner {
-  height: 10vh;
   position: fixed; 
   top: 0;
   width: 100%;
-  display: flex;              
-  align-items: center;        
-  justify-content: left;     
-  padding: 0 1%;
-  transform: drop-shadow(10px 2px 30px black);
+  height: 25vh;
+
+  display: flex;
+  align-items: flex-end;        
+  justify-content: flex-start;     
+
+  padding: 0 5%;
+  transform: none;
   background-color: #1a1a1a;
   border-bottom: solid 1px #bfbfda;
   z-index: 5;
@@ -97,13 +98,18 @@
   overflow-wrap: break-word;
 }
 
+.card-view-banner h2 {
+  padding: 1% 0;
+}
+
 .info-card{
   background-color: rgb(44, 44, 44);
-  padding: 2% 12%;
+  padding: 5% 12% 2% 12%;;
   margin: 1% 0;
   border-bottom-right-radius: 1em; 
   border-bottom-left-radius: 1em;
   border-top: solid 2px #646cff;
+  box-shadow: #111111 3px 3px 5px;
 }
 
 /*ICONS*/
@@ -226,7 +232,7 @@
   transition: all 1s ease;
   border-radius: 1em;
   filter: drop-shadow(1px 3px 5px #3f3f3f);
-  margin: 10% 0;
+  margin: 12% 0 6% 0;
   padding: 3%;
 }
 
@@ -241,6 +247,7 @@
   display: flex;
   justify-content: center;
   margin-top: 6%;
+  padding: 3% 0;
 }
 
 .img-wrapper img{
@@ -352,7 +359,7 @@
   width: 100%;  
   min-height: 19vh; 
   padding: 0 3%;
-  background-color: #000000;
+  background-color: rgb(32, 32, 32);
 }
 
 .model-viewer-info button:hover a {
@@ -457,7 +464,7 @@
 }
 
 .magic-eight-ball{
-  margin: 5% 0%;
+  margin: 7% 0% 3% 0%;
 }
 
 /*GRID*/
@@ -497,7 +504,7 @@
     transform: translate(0px, 80px) scale(0.9);
     float: none;          
     display: block;        
-    margin: 0 auto;        
+    margin: 10% auto;        
   }
 
   .home-banner{
@@ -509,6 +516,11 @@
 
   .info-card{
     padding: 3% 5%;
+  }
+
+  .info-card h3{
+    padding-top: 15%;
+    padding-right: 25%;
   }
 
   .right-arrow{

@@ -10,7 +10,7 @@ function WebSoftwarePage()
     return (
         <section className='card-view-page'>
             <div className="card-view-banner">
-                <h2><strong>Web & Software</strong></h2> 
+                <h2><strong>Web & Software<br /> Development</strong></h2> 
             </div>
             <div className="row">
                 <div className='col-2-grid'>
@@ -90,7 +90,7 @@ function WebSoftwarePage()
                                     <a href="https://www.boisestate.edu/gimm/student-information/" target='_blank'> Boise State University</a>. 
                                     The architecture was learned during my time as a student at <a href="https://boisecodeworks.com/" target='_blank'>Boise CodeWorks</a>, 
                                     a trade school that focuses on teaching with refactored code to touch on basic concepts in a high 
-                                    level, full stack development enironment. It is equipped with vite's React starting application, 
+                                    level, full stack development enironment. It is equipped with Vite's React starting application, 
                                     react mobx, react document object model, react router, and axios. 
                                     Additionally it has some example components, an application state, and API example call routes.
                                     This is a client, single-page application, and front end of a full stack application. 
@@ -137,6 +137,269 @@ function WebSoftwarePage()
                                     <br />
                                     <br />
                                     <a href="https://havenfricke.github.io/ReactD3MobileDataNarrative" target="_blank">Website Link</a>
+                                </p>
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <img src="/Portfolio/reactd31.png"/>
+                                    <img src="/Portfolio/reactd32.png"/>
+                                </div>  
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <img src="/Portfolio/reactd33.png"/>
+                                    <img src="/Portfolio/reactd34.png"/>
+                                </div>
+                            </div>
+                        </ModalWindow>
+                    </div>
+
+                    <div className='info-card'>
+                        <h3>Website Builder Concept Application</h3>
+                        <hr />
+                        <div className='img-wrapper'>
+                            <img src="/Portfolio/reactd31.png"/>
+                        </div>
+                        <ModalWindow title={"Website Builder Concept Application"}>
+                        <div className='row'>
+                                <p>
+                                    React front-end and node backend full stack application. The server's static HTML page enables create, 
+                                    read, update, and delete routes for data management. The React front-end only contains a get, fetching the 
+                                    public facing website's page content.
+                                    <br />
+                                    <br />
+                                    <a href="https://github.com/havenfricke/Website-Builder" target="_blank">GitHub Repository Link</a>
+                                </p>
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <img src="/Portfolio/reactd31.png"/>
+                                    <img src="/Portfolio/reactd32.png"/>
+                                </div>  
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <img src="/Portfolio/reactd33.png"/>
+                                    <img src="/Portfolio/reactd34.png"/>
+                                </div>
+                            </div>
+                        </ModalWindow>
+                    </div>
+
+                    <div className='info-card'>
+                        <h3>Swift: Group Prototype Application</h3>
+                        <hr />
+                        <div className='img-wrapper'>
+                            <img src="/Portfolio/reactd31.png"/>
+                        </div>
+                        <ModalWindow title={"Swift: Group Prototype Application"}>
+                        <div className='row'>
+                                <p>
+                                    Prototype application to familiarize with xcode development 
+                                    in a group setting and showcase topics related to Swift development 
+                                    methodologies pertinent to iOS accessibility.
+                                    <br />
+                                    <br />
+                                    <a href="https://github.com/havenfricke/GroupPrototypeApp" target="_blank">GitHub Repository Link</a>
+                                </p>
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <img src="/Portfolio/reactd31.png"/>
+                                    <img src="/Portfolio/reactd32.png"/>
+                                </div>  
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <img src="/Portfolio/reactd33.png"/>
+                                    <img src="/Portfolio/reactd34.png"/>
+                                </div>
+                            </div>
+                        </ModalWindow>
+                    </div>
+
+                    <div className='info-card'>
+                        <h3>Swift: Photo Utlity Application</h3>
+                        <hr />
+                        <div className='img-wrapper'>
+                            <img src="/Portfolio/reactd31.png"/>
+                        </div>
+                        <ModalWindow title={"Swift: Photo Utility Application"}>
+                        <div className='row'>
+                                <p>
+                                    Project that uses SwiftData and device permissions to access photos. The intent of the project was to familiarize with SwiftData and
+                                    the iOS device's photo library. Additionaly, apply the MVC pattern to Swift. The project was built on Swift, SwiftUI, and Xcode.
+                                    Features include utilization of photos with proper access consent for an application on an iOS device.
+                                    <br />
+                                    <br />
+                                    <a href="https://github.com/havenfricke/PhotoUtilityApp" target="_blank">GitHub Repository Link</a>
+                                </p>
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <img src="/Portfolio/reactd31.png"/>
+                                    <img src="/Portfolio/reactd32.png"/>
+                                </div>  
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <img src="/Portfolio/reactd33.png"/>
+                                    <img src="/Portfolio/reactd34.png"/>
+                                </div>
+                            </div>
+                        </ModalWindow>
+                    </div>
+
+                    <div className='info-card'>
+                        <h3>Swift: iOS + MVC</h3>
+                        <hr />
+                        <div className='img-wrapper'>
+                            <img src="/Portfolio/reactd31.png"/>
+                        </div>
+                        <ModalWindow title={"Swift: iOS + MVC"}>
+                        <div className='row'>
+                                <p>
+                                    Basic Model, View, Controller boilerplate iOS application designed as a blueprint for new projects. 
+                                    In this setup, Swift's "Main Actor" or main dispatch queue of the iOS device doubles as a controller's code (MVC). 
+                                    This is to prioritize processing power for the application when/if an API call is made over network and UI updates with returned data.
+                                    <br />
+                                    <br />
+                                    <a href="https://github.com/havenfricke/Swift-iOS-MVC" target="_blank">GitHub Repository Link</a>
+                                </p>
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <img src="/Portfolio/reactd31.png"/>
+                                    <img src="/Portfolio/reactd32.png"/>
+                                </div>  
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <img src="/Portfolio/reactd33.png"/>
+                                    <img src="/Portfolio/reactd34.png"/>
+                                </div>
+                            </div>
+                        </ModalWindow>
+                    </div>
+
+                    <div className='info-card'>
+                        <h3>Keepr (legacy code)</h3>
+                        <hr />
+                        <div className='img-wrapper'>
+                            <img src="/Portfolio/reactd31.png"/>
+                        </div>
+                        <ModalWindow title={"Keepr (legacy code)"}>
+                        <div className='row'>
+                                <p>
+                                    Keepr is a project that I started in 2022 during my attendance at Boise Codeworks, a trade school that focuses on
+                                    teaching with refactored code to touch on basic concepts in a high level, full stack development environment.
+                                    The goal of the project was to create an application that resembled Pinterest. Only there are "keeps" and "vaults" that 
+                                    allow users to group images. The images can be uploaded, edited, and deleted.
+                                    Access permissions include private "keeps" or a collection of images uploaded and public. The project was built on
+                                    Vue, Vue Router, SASS / SCSS, and Axios. The back end is built on .NET, Dapper, and MySQL.
+                                    <br />
+                                    <br />
+                                    <a href="https://github.com/havenfricke/keepr" target='_blank'> Keepr repository</a>
+                                </p>
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <img src="/Portfolio/reactd31.png"/>
+                                    <img src="/Portfolio/reactd32.png"/>
+                                </div>  
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <img src="/Portfolio/reactd33.png"/>
+                                    <img src="/Portfolio/reactd34.png"/>
+                                </div>
+                            </div>
+                        </ModalWindow>
+                    </div>
+
+                    <div className='info-card'>
+                        <h3>PlanIt (legacy code)</h3>
+                        <hr />
+                        <div className='img-wrapper'>
+                            <img src="/Portfolio/reactd31.png"/>
+                        </div>
+                        <ModalWindow title={"PlanIt (legacy code)"}>
+                        <div className='row'>
+                                <p>
+                                    PlanIt is a project that I started in 2022 during my attendance at Boise Codeworks, a trade school that focuses on
+                                    teaching with refactored code to touch on basic concepts in a high level, full stack development environment.
+                                    The goal of the project was to create a full stack application that allows users to
+                                    create, edit, and delete projects then sprints within those projects. Sprints can be assigned to users and tasks. 
+                                    Access permissions must be granted to users to allow them to view, edit, and delete projects. The project was built on
+                                    Vue, Vue Router, SASS / SCSS, and Axios. The back end is built on Node.js, Express, and MongoDB.
+                                    <br />
+                                    <br />
+                                    <a href="https://github.com/havenfricke/PlanIt" target='_blank'> PlanIt repository</a>
+                                </p>
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <img src="/Portfolio/reactd31.png"/>
+                                    <img src="/Portfolio/reactd32.png"/>
+                                </div>  
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <img src="/Portfolio/reactd33.png"/>
+                                    <img src="/Portfolio/reactd34.png"/>
+                                </div>
+                            </div>
+                        </ModalWindow>
+                    </div>
+
+                    <div className='info-card'>
+                        <h3>Mus.io (legacy code)</h3>
+                        <hr />
+                        <div className='img-wrapper'>
+                            <img src="/Portfolio/reactd31.png"/>
+                        </div>
+                        <ModalWindow title={"Mus.io (legacy code)"}>
+                        <div className='row'>
+                                <p>
+                                    Mus.io - A Vue + Express prototype application designed for musicians, venues, 
+                                    and music driven groups to showcase and sell their live talent. The goal was to 
+                                    have the artist, promotor, and the business/venue share a platform as co-participants.
+                                    <br />
+                                    <br />
+                                    <a href="https://github.com/havenfricke/Mus-io" target='_blank'> Mus.io repository</a>
+                                </p>
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <img src="/Portfolio/reactd31.png"/>
+                                    <img src="/Portfolio/reactd32.png"/>
+                                </div>  
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <img src="/Portfolio/reactd33.png"/>
+                                    <img src="/Portfolio/reactd34.png"/>
+                                </div>
+                            </div>
+                        </ModalWindow>
+                    </div>
+
+                     <div className='info-card'>
+                        <h3>Tower (legacy code)</h3>
+                        <hr />
+                        <div className='img-wrapper'>
+                            <img src="/Portfolio/reactd31.png"/>
+                        </div>
+                        <ModalWindow title={"Tower (legacy code)"}>
+                        <div className='row'>
+                                <p>
+                                    Vue + Express prototype web application geared towards event planning, browsing, and attending. 
+                                    Users can create events, set an event date or time, and set an amount of seats for the event. 
+                                    Other users can find the event and RSVP. Events are viewed and managed form the user's profile view. 
+                                    Events can be cancelled, deleted or both.
+                                    <br />
+                                    <br />
+                                    <a href="https://github.com/havenfricke/Tower" target='_blank'> Mus.io repository</a>
                                 </p>
                             </div>
                             <div className='row'>

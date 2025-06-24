@@ -32,10 +32,10 @@ function ThreeDPage() {
         setInfoText("A small leaf for constructing foliage.");
         break;
       case '/Portfolio/Environment_Tree_Medium_No_Leaves.obj':
-        setInfoText("A small leaf for constructing foliage.");
+        setInfoText("Medium tree, ready for texturing.");
         break;
       case '/Portfolio/Environment_Tree_Small_No_Leaves.obj':
-        setInfoText("A small leaf for constructing foliage.");
+        setInfoText("Small tree, ready for texturing.");
         break;
       default:
         setInfoText("");

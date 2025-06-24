@@ -8,18 +8,18 @@ function GameDevPage()
     return (
             <section className='card-view-page'>
                 <div className="card-view-banner">
-                    <h2><strong>Game Development</strong></h2> 
+                    <h2><strong>Game <br/>Development</strong></h2> 
                 </div>
                 <div className="row">
                     <div className='col-2-grid'>
     
                         <div className='info-card'>
-                            <h3>Wary Path</h3>
+                            <h3>Wary Path Prototype Game</h3>
                             <hr />
                             <div className='img-wrapper'>
                                 <img src="/Portfolio/warypath1.png"/>
                             </div>
-                            <ModalWindow title={"Wary Path"}>
+                            <ModalWindow title={"Wary Path Prototype Game"}>
                             <div className='row'>
                                 <p>
                                     Unity Game Engine project prototyping a game. This project
