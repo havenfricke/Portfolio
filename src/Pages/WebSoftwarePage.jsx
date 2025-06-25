@@ -155,15 +155,15 @@ function WebSoftwarePage()
                     </div>
 
                     <div className='info-card'>
-                        <h3>Website Builder Concept Application</h3>
+                        <h3>Website Builder Application</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <img src="/Portfolio/reactd31.png"/>
                         </div>
-                        <ModalWindow title={"Website Builder Concept Application"}>
+                        <ModalWindow title={"Website Builder Application"}>
                         <div className='row'>
                                 <p>
-                                    React front-end and node backend full stack application. The server's static HTML page enables create, 
+                                    React front-end and Express backend full stack application. The server's static HTML page enables create, 
                                     read, update, and delete routes for data management. The React front-end only contains a get, fetching the 
                                     public facing website's page content.
                                     <br />

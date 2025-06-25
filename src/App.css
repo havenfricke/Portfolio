@@ -62,7 +62,7 @@
 .home-content{
   min-height: 50vh;
   padding: 5% 15%;
-  background-color: rgb(32, 32, 32);
+  background-color: rgb(15, 3, 71)#000000;
 }
 
 .card-view-page{
@@ -99,7 +99,9 @@
 }
 
 .card-view-banner h2 {
-  padding: 1% 0;
+  padding: 1% 1%;
+  width: 92%;
+  box-shadow: #646cff -5px 5px 0.1px;
 }
 
 .info-card{
@@ -110,6 +112,7 @@
   border-bottom-left-radius: 1em;
   border-top: solid 2px #646cff;
   box-shadow: #111111 3px 3px 5px;
+  background-color: #2e2e2e;
 }
 
 /*ICONS*/
@@ -230,14 +233,14 @@
   background-color: #4444dd;
   text-align: center;
   transition: all 1s ease;
-  border-radius: 1em;
+  border: solid 1px #989dff;
   filter: drop-shadow(1px 3px 5px #3f3f3f);
-  margin: 12% 0 6% 0;
+  margin: 6% 0 15% 0;
   padding: 3%;
 }
 
 .view-project-button:hover{
-  background-color: #646cff;
+  background-color: #1a1a1a;
   transition: all 0.25s ease;
   transform: scale(1.01);
   border-radius: 0.3em;
@@ -254,8 +257,7 @@
   max-width: 100%;
   margin: 0;
   padding: 0;
-  border-radius: 1em;
-  border: solid 1px #646cff;
+  border: solid 0.5px #646cff;
 }
 
 /*MODAL*/
