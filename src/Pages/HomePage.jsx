@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { observer } from "mobx-react-lite";
-import MagicEightBall from "../Components/MagicEightBall";
 
 
 function HomePage() 
@@ -25,14 +24,17 @@ function HomePage()
       <div className="home-content">
         <div className="info-card">
           <p>
-            My name is Haven. Thanks for visiting.
-            In my portfolio you will find work in software development, games, and other topics. 
-            If you have any other questions about me or questions in general, please feel free to reach out or, 
-            use the magic eight ball below by clicking on it. Thanks!
+            I am a software developer, specializing in interactive and engaging applications. <br /><br />
+            My Ikigai is driven by a tactical perception of communication technologies, an intuition in design, and many years of working with computers. <br /><br />
+            Computing as a means to communicate ideas to people using organized, accessible information is a tactical and technological approach 
+            to business success. Business driven applications support public access directly to products and services. Additionally organize a business
+            for structured internal processes.<br /><br />
+            My past experience as a tactical communicator plays heavily into my software development when it comes to innovating new technologies. <br /><br />
+            Using computers for a progamatically creative purpose such as game development is a newly introduced practice into my life but it extends connecting people with ideas.<br /><br />
+            <br /> 
           </p>
           <p></p>
         </div>
-        <MagicEightBall />
       </div>
     </section>
   )
