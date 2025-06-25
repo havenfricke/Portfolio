@@ -1,6 +1,9 @@
 import React from 'react';
 import { observer } from 'mobx-react-lite';
 import ModalWindow from '../Components/ModalWindow'
+import { Skeleton } from '@mui/material';
+import LazyImage from '../Components/LazyImage';
+
 
 
 
@@ -18,8 +21,8 @@ function WebSoftwarePage()
                     <div className='info-card'>
                         <h3>Kendall Spokesmasters</h3>
                         <hr />
-                        <div className='img-wrapper'>
-                            <img src="/Portfolio/ksm1.png"/>
+                        <div className='LazyImage-wrapper'>
+                            <LazyImage src="/Portfolio/ksm1.png"/>
                         </div>
                         <ModalWindow title={"Kendall Spokesmasters"}>
                             <div className='row'>
@@ -34,14 +37,14 @@ function WebSoftwarePage()
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/ksm1.png"/>
-                                    <img src="/Portfolio/ksm2.png"/>
+                                    <LazyImage src="/Portfolio/ksm1.png"/>
+                                    <LazyImage src="/Portfolio/ksm2.png"/>
                                 </div>  
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/ksm3.png"/>
-                                    <img src="/Portfolio/ksm4.png"/>
+                                    <LazyImage src="/Portfolio/ksm3.png"/>
+                                    <LazyImage src="/Portfolio/ksm4.png"/>
                                 </div>
                             </div>
                         </ModalWindow>
@@ -50,8 +53,8 @@ function WebSoftwarePage()
                     <div className='info-card'>
                         <h3>Moffet Energy Modeling</h3>
                         <hr />
-                        <div className='img-wrapper'>
-                            <img src="/Portfolio/mofen1.png"/>
+                        <div className='LazyImage-wrapper'>
+                            <LazyImage src="/Portfolio/mofen1.png"/>
                         </div>
                         <ModalWindow title={"Moffet Energy Modeling"}>
                             <div className='row'>
@@ -64,14 +67,14 @@ function WebSoftwarePage()
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/mofen1.png"/>
-                                    <img src="/Portfolio/mofen2.png"/>
+                                    <LazyImage src="/Portfolio/mofen1.png"/>
+                                    <LazyImage src="/Portfolio/mofen2.png"/>
                                 </div>  
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/mofen3.png"/>
-                                    <img src="/Portfolio/mofen4.png"/>
+                                    <LazyImage src="/Portfolio/mofen3.png"/>
+                                    <LazyImage src="/Portfolio/mofen4.png"/>
                                 </div>
                             </div>
                         </ModalWindow>
@@ -80,8 +83,8 @@ function WebSoftwarePage()
                     <div className='info-card'>
                         <h3>React Vanilla Boilerplate</h3>
                         <hr />
-                        <div className='img-wrapper'>
-                            <img src="/Portfolio/reactvan1.png"/>
+                        <div className='LazyImage-wrapper'>
+                            <LazyImage src="/Portfolio/reactvan1.png"/>
                         </div>
                         <ModalWindow title={"React Vanilla Boilerplate"}>
                             <div className='row'>
@@ -102,14 +105,14 @@ function WebSoftwarePage()
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactvan1.png"/>
-                                    <img src="/Portfolio/reactvan2.png"/>
+                                    <LazyImage src="/Portfolio/reactvan1.png"/>
+                                    <LazyImage src="/Portfolio/reactvan2.png"/>
                                 </div>  
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactvan3.png"/>
-                                    <img src="/Portfolio/reactvan4.png"/>
+                                    <LazyImage src="/Portfolio/reactvan3.png"/>
+                                    <LazyImage src="/Portfolio/reactvan4.png"/>
                                 </div>
                             </div>
                         </ModalWindow>
@@ -118,8 +121,8 @@ function WebSoftwarePage()
                     <div className='info-card'>
                         <h3>React + D3 Data Narrative</h3>
                         <hr />
-                        <div className='img-wrapper'>
-                            <img src="/Portfolio/reactd31.png"/>
+                        <div className='LazyImage-wrapper'>
+                            <LazyImage src="/Portfolio/reactd31.png"/>
                         </div>
                         <ModalWindow title={"React + D3 Data Narrative"}>
                         <div className='row'>
@@ -141,14 +144,14 @@ function WebSoftwarePage()
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactd31.png"/>
-                                    <img src="/Portfolio/reactd32.png"/>
+                                    <LazyImage src="/Portfolio/reactd31.png"/>
+                                    <LazyImage src="/Portfolio/reactd32.png"/>
                                 </div>  
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactd33.png"/>
-                                    <img src="/Portfolio/reactd34.png"/>
+                                    <LazyImage src="/Portfolio/reactd33.png"/>
+                                    <LazyImage src="/Portfolio/reactd34.png"/>
                                 </div>
                             </div>
                         </ModalWindow>
@@ -157,8 +160,8 @@ function WebSoftwarePage()
                     <div className='info-card'>
                         <h3>Website Builder Application</h3>
                         <hr />
-                        <div className='img-wrapper'>
-                            <img src="/Portfolio/reactd31.png"/>
+                        <div className='LazyImage-wrapper'>
+                            <LazyImage src="/Portfolio/reactd31.png"/>
                         </div>
                         <ModalWindow title={"Website Builder Application"}>
                         <div className='row'>
@@ -173,14 +176,14 @@ function WebSoftwarePage()
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactd31.png"/>
-                                    <img src="/Portfolio/reactd32.png"/>
+                                    <LazyImage src="/Portfolio/reactd31.png"/>
+                                    <LazyImage src="/Portfolio/reactd32.png"/>
                                 </div>  
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactd33.png"/>
-                                    <img src="/Portfolio/reactd34.png"/>
+                                    <LazyImage src="/Portfolio/reactd33.png"/>
+                                    <LazyImage src="/Portfolio/reactd34.png"/>
                                 </div>
                             </div>
                         </ModalWindow>
@@ -189,8 +192,8 @@ function WebSoftwarePage()
                     <div className='info-card'>
                         <h3>Swift: Group Prototype Application</h3>
                         <hr />
-                        <div className='img-wrapper'>
-                            <img src="/Portfolio/reactd31.png"/>
+                        <div className='LazyImage-wrapper'>
+                            <LazyImage src="/Portfolio/reactd31.png"/>
                         </div>
                         <ModalWindow title={"Swift: Group Prototype Application"}>
                         <div className='row'>
@@ -205,14 +208,14 @@ function WebSoftwarePage()
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactd31.png"/>
-                                    <img src="/Portfolio/reactd32.png"/>
+                                    <LazyImage src="/Portfolio/reactd31.png"/>
+                                    <LazyImage src="/Portfolio/reactd32.png"/>
                                 </div>  
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactd33.png"/>
-                                    <img src="/Portfolio/reactd34.png"/>
+                                    <LazyImage src="/Portfolio/reactd33.png"/>
+                                    <LazyImage src="/Portfolio/reactd34.png"/>
                                 </div>
                             </div>
                         </ModalWindow>
@@ -221,8 +224,8 @@ function WebSoftwarePage()
                     <div className='info-card'>
                         <h3>Swift: Photo Utlity Application</h3>
                         <hr />
-                        <div className='img-wrapper'>
-                            <img src="/Portfolio/reactd31.png"/>
+                        <div className='LazyImage-wrapper'>
+                            <LazyImage src="/Portfolio/reactd31.png"/>
                         </div>
                         <ModalWindow title={"Swift: Photo Utility Application"}>
                         <div className='row'>
@@ -237,14 +240,14 @@ function WebSoftwarePage()
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactd31.png"/>
-                                    <img src="/Portfolio/reactd32.png"/>
+                                    <LazyImage src="/Portfolio/reactd31.png"/>
+                                    <LazyImage src="/Portfolio/reactd32.png"/>
                                 </div>  
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactd33.png"/>
-                                    <img src="/Portfolio/reactd34.png"/>
+                                    <LazyImage src="/Portfolio/reactd33.png"/>
+                                    <LazyImage src="/Portfolio/reactd34.png"/>
                                 </div>
                             </div>
                         </ModalWindow>
@@ -253,8 +256,8 @@ function WebSoftwarePage()
                     <div className='info-card'>
                         <h3>Swift: iOS + MVC</h3>
                         <hr />
-                        <div className='img-wrapper'>
-                            <img src="/Portfolio/reactd31.png"/>
+                        <div className='LazyImage-wrapper'>
+                            <LazyImage src="/Portfolio/reactd31.png"/>
                         </div>
                         <ModalWindow title={"Swift: iOS + MVC"}>
                         <div className='row'>
@@ -269,14 +272,14 @@ function WebSoftwarePage()
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactd31.png"/>
-                                    <img src="/Portfolio/reactd32.png"/>
+                                    <LazyImage src="/Portfolio/reactd31.png"/>
+                                    <LazyImage src="/Portfolio/reactd32.png"/>
                                 </div>  
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactd33.png"/>
-                                    <img src="/Portfolio/reactd34.png"/>
+                                    <LazyImage src="/Portfolio/reactd33.png"/>
+                                    <LazyImage src="/Portfolio/reactd34.png"/>
                                 </div>
                             </div>
                         </ModalWindow>
@@ -285,8 +288,8 @@ function WebSoftwarePage()
                     <div className='info-card'>
                         <h3>Keepr (legacy code)</h3>
                         <hr />
-                        <div className='img-wrapper'>
-                            <img src="/Portfolio/reactd31.png"/>
+                        <div className='LazyImage-wrapper'>
+                            <LazyImage src="/Portfolio/reactd31.png"/>
                         </div>
                         <ModalWindow title={"Keepr (legacy code)"}>
                         <div className='row'>
@@ -304,14 +307,14 @@ function WebSoftwarePage()
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactd31.png"/>
-                                    <img src="/Portfolio/reactd32.png"/>
+                                    <LazyImage src="/Portfolio/reactd31.png"/>
+                                    <LazyImage src="/Portfolio/reactd32.png"/>
                                 </div>  
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactd33.png"/>
-                                    <img src="/Portfolio/reactd34.png"/>
+                                    <LazyImage src="/Portfolio/reactd33.png"/>
+                                    <LazyImage src="/Portfolio/reactd34.png"/>
                                 </div>
                             </div>
                         </ModalWindow>
@@ -320,8 +323,8 @@ function WebSoftwarePage()
                     <div className='info-card'>
                         <h3>PlanIt (legacy code)</h3>
                         <hr />
-                        <div className='img-wrapper'>
-                            <img src="/Portfolio/reactd31.png"/>
+                        <div className='LazyImage-wrapper'>
+                            <LazyImage src="/Portfolio/reactd31.png"/>
                         </div>
                         <ModalWindow title={"PlanIt (legacy code)"}>
                         <div className='row'>
@@ -339,14 +342,14 @@ function WebSoftwarePage()
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactd31.png"/>
-                                    <img src="/Portfolio/reactd32.png"/>
+                                    <LazyImage src="/Portfolio/reactd31.png"/>
+                                    <LazyImage src="/Portfolio/reactd32.png"/>
                                 </div>  
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactd33.png"/>
-                                    <img src="/Portfolio/reactd34.png"/>
+                                    <LazyImage src="/Portfolio/reactd33.png"/>
+                                    <LazyImage src="/Portfolio/reactd34.png"/>
                                 </div>
                             </div>
                         </ModalWindow>
@@ -355,8 +358,8 @@ function WebSoftwarePage()
                     <div className='info-card'>
                         <h3>Mus.io (legacy code)</h3>
                         <hr />
-                        <div className='img-wrapper'>
-                            <img src="/Portfolio/reactd31.png"/>
+                        <div className='LazyImage-wrapper'>
+                            <LazyImage src="/Portfolio/reactd31.png"/>
                         </div>
                         <ModalWindow title={"Mus.io (legacy code)"}>
                         <div className='row'>
@@ -371,14 +374,14 @@ function WebSoftwarePage()
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactd31.png"/>
-                                    <img src="/Portfolio/reactd32.png"/>
+                                    <LazyImage src="/Portfolio/reactd31.png"/>
+                                    <LazyImage src="/Portfolio/reactd32.png"/>
                                 </div>  
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactd33.png"/>
-                                    <img src="/Portfolio/reactd34.png"/>
+                                    <LazyImage src="/Portfolio/reactd33.png"/>
+                                    <LazyImage src="/Portfolio/reactd34.png"/>
                                 </div>
                             </div>
                         </ModalWindow>
@@ -387,8 +390,8 @@ function WebSoftwarePage()
                      <div className='info-card'>
                         <h3>Tower (legacy code)</h3>
                         <hr />
-                        <div className='img-wrapper'>
-                            <img src="/Portfolio/reactd31.png"/>
+                        <div className='LazyImage-wrapper'>
+                            <LazyImage src="/Portfolio/reactd31.png"/>
                         </div>
                         <ModalWindow title={"Tower (legacy code)"}>
                         <div className='row'>
@@ -404,14 +407,14 @@ function WebSoftwarePage()
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactd31.png"/>
-                                    <img src="/Portfolio/reactd32.png"/>
+                                    <LazyImage src="/Portfolio/reactd31.png"/>
+                                    <LazyImage src="/Portfolio/reactd32.png"/>
                                 </div>  
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <img src="/Portfolio/reactd33.png"/>
-                                    <img src="/Portfolio/reactd34.png"/>
+                                    <LazyImage src="/Portfolio/reactd33.png"/>
+                                    <LazyImage src="/Portfolio/reactd34.png"/>
                                 </div>
                             </div>
                         </ModalWindow>
