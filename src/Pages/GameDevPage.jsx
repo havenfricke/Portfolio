@@ -16,7 +16,7 @@ function GameDevPage()
                         <div className='info-card'>
                             <h3>Wary Path Game Update: 05.2025</h3>
                             <hr />
-                            <ModalWindow title={"Wary Path Prototype Game"}>
+                            <ModalWindow title={"Wary Path Game Update: 05.2025"}>
                             <div className='row'>
                                 <p>
                                     Unity Game Engine project prototyping a game. This project
