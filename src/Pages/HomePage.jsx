@@ -24,7 +24,7 @@ function HomePage()
       <div className="home-content">
         <div className="info-card">
           <p>
-            I am a software developer, specializing in interactive and engaging applications. <br /><br />
+            I am a software developer specializing in interactive applications. <br /><br />
             My Ikigai is driven by a tactical perception of communication technologies, an intuition in design, and many years of working with computers. <br /><br />
             Computing as a means to communicate ideas to people using organized, accessible information is a tactical and technological approach 
             to business success. Business driven applications support public access directly to products and services. Additionally organize a business

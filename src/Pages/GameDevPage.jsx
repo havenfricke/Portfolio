@@ -14,11 +14,8 @@ function GameDevPage()
                     <div className='col-2-grid'>
     
                         <div className='info-card'>
-                            <h3>Wary Path Prototype Game</h3>
+                            <h3>Wary Path Game Update: 05.2025</h3>
                             <hr />
-                            <div className='img-wrapper'>
-                                <img src="/Portfolio/warypath1.png"/>
-                            </div>
                             <ModalWindow title={"Wary Path Prototype Game"}>
                             <div className='row'>
                                 <p>

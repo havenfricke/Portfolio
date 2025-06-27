@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Skeleton } from '@mui/material';
 
-export default function LazyImage({ src, alt = '', height = 200, ...props }) {
+export default function LazyImage({ src, alt = '', height = 300, ...props }) {
   const [loaded, setLoaded] = useState(false);
   const [error, setError] = useState(false);
 
