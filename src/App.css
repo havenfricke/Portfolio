@@ -47,6 +47,8 @@
   background-size: cover; 
   background-repeat: no-repeat; 
   border: solid 1px #646cff;
+   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .home-banner{
@@ -531,8 +533,6 @@
     float: none;          
     display: block;        
     margin: 10% auto;        
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
   }
 
   .home-banner{
