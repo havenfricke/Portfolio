@@ -256,7 +256,7 @@ function WebSoftwarePage()
                         <h3>Swift: iOS + MVC</h3>
                         <hr />
                         <div className='img-wrapper'>
-                            <LazyImage src="/Portfolio/reactd31.png"/>
+                            <LazyImage src="/Portfolio/iosmvc1.jpg"/>
                         </div>
                         <ModalWindow title={"Swift: iOS + MVC"}>
                         <div className='row'>
@@ -271,14 +271,14 @@ function WebSoftwarePage()
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <LazyImage src="/Portfolio/reactd31.png"/>
-                                    <LazyImage src="/Portfolio/reactd32.png"/>
+                                    <LazyImage src="/Portfolio/iosmvc1.jpg"/>
+                                    <LazyImage src="/Portfolio/iosmvc2.jpg"/>
                                 </div>  
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <LazyImage src="/Portfolio/reactd33.png"/>
-                                    <LazyImage src="/Portfolio/reactd34.png"/>
+                                    <LazyImage src="/Portfolio/iosmvc3.jpg"/>
+                                    <LazyImage src="/Portfolio/iosmvc4.jpg"/>
                                 </div>
                             </div>
                         </ModalWindow>

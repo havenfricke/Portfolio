@@ -27,10 +27,9 @@ function HomePage()
             I am a software developer specializing in interactive applications. <br /><br />
             My Ikigai is driven by a tactical perception of communication technologies, an intuition in design, and many years of working with computers. <br /><br />
             Computing as a means to communicate ideas to people using organized, accessible information is a tactical and technological approach 
-            to business success. Business driven applications support public access directly to products and services. Additionally organize a business
-            for structured internal processes.<br /><br />
-            My past experience as a tactical communicator plays heavily into my software development when it comes to innovating new technologies. <br /><br />
-            Using computers for a progamatically creative purpose such as game development is a newly introduced practice into my life but it extends connecting people with ideas.<br /><br />
+            to business success and what I specialize in. <br /><br />
+            My past experience as a tactical communicator plays heavily into my software development when it comes to innovating new technologies. My strategy is to establish solutions that maintain longevity of use and purpose through good design and architecture.<br /><br />
+            Using computers for a progamatically creative purpose such as game development is a newly introduced practice into my life but it extends my passion for connecting people with ideas.<br /><br />
             <br /> 
           </p>
           <p></p>
