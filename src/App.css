@@ -253,15 +253,15 @@
   display: flex;
   justify-content: center;
   margin-top: 6%;
-  padding: 3% 0;
-  height: 25vh;
+  padding: 0 0;
+  height: 30vh;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   overflow: hidden;
 }
 
  .img-wrapper img{
   content: "";
-  position: absolute;
+  position: relative;
   object-fit: cover;
   margin: 0;
   padding: 0;
