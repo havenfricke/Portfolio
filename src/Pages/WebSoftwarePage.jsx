@@ -288,7 +288,7 @@ function WebSoftwarePage()
                         <h3>Keepr (legacy code)</h3>
                         <hr />
                         <div className='img-wrapper'>
-                            <LazyImage src="/Portfolio/reactd31.png"/>
+                            <LazyImage src="/Portfolio/keepr1.png"/>
                         </div>
                         <ModalWindow title={"Keepr (legacy code)"}>
                         <div className='row'>
@@ -306,14 +306,14 @@ function WebSoftwarePage()
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <LazyImage src="/Portfolio/reactd31.png"/>
-                                    <LazyImage src="/Portfolio/reactd32.png"/>
+                                    <LazyImage src="/Portfolio/keepr1.png"/>
+                                    <LazyImage src="/Portfolio/keepr2.png"/>
                                 </div>  
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <LazyImage src="/Portfolio/reactd33.png"/>
-                                    <LazyImage src="/Portfolio/reactd34.png"/>
+                                    <LazyImage src="/Portfolio/keepr3.png"/>
+                                    <LazyImage src="/Portfolio/keepr4.png"/>
                                 </div>
                             </div>
                         </ModalWindow>
