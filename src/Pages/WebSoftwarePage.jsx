@@ -19,7 +19,7 @@ function WebSoftwarePage()
                 <div className='col-2-grid'>
 
                     <div className='info-card'>
-                        <h3>Kendall Spokesmasters</h3>
+                        <h3><a target="_blank" href="https://wordpress.com/">WordPress</a>: Kendall Spokesmasters</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <LazyImage src="/Portfolio/ksm1.png"/>
@@ -51,7 +51,7 @@ function WebSoftwarePage()
                     </div>
  
                     <div className='info-card'>
-                        <h3>Moffet Energy Modeling</h3>
+                        <h3><a target="_blank" href="https://wordpress.com/">WordPress</a>: Moffet Energy Modeling</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <LazyImage src="/Portfolio/mofen1.png"/>
@@ -81,7 +81,7 @@ function WebSoftwarePage()
                     </div>
 
                     <div className='info-card'>
-                        <h3>React Vanilla Boilerplate</h3>
+                        <h3><a target="_blank" href="https://react.dev/">React</a>: Vanilla Boilerplate</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <LazyImage src="/Portfolio/reactvan1.png"/>
@@ -119,7 +119,7 @@ function WebSoftwarePage()
                     </div>
 
                     <div className='info-card'>
-                        <h3>React + D3 Data Narrative</h3>
+                        <h3><a target="_blank" href="https://react.dev/">React</a> + <a target='_blank' href="https://d3js.org/">D3</a>: Data Narrative</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <LazyImage src="/Portfolio/reactd31.png"/>
@@ -158,7 +158,7 @@ function WebSoftwarePage()
                     </div>
 
                     <div className='info-card'>
-                        <h3>Website Builder Application</h3>
+                        <h3><a target="_blank" href="https://react.dev/">React</a> + <a target="_blank" href="https://expressjs.com/">Express</a>: Website Builder Application</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <LazyImage src="/Portfolio/wb1.png"/>
@@ -190,7 +190,7 @@ function WebSoftwarePage()
                     </div>
 
                     <div className='info-card'>
-                        <h3>Swift: Assistive App</h3>
+                        <h3><a target='_blank' href="https://www.swift.org/">Swift</a>: Assistive App</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <LazyImage src="/Portfolio/aa1.jpg"/>
@@ -221,7 +221,7 @@ function WebSoftwarePage()
                     </div>
 
                     <div className='info-card'>
-                        <h3>Swift: Photo Utlity Application</h3>
+                        <h3><a target='_blank' href="https://www.swift.org/">Swift</a>: Photo Utlity Application</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <LazyImage src="/Portfolio/pua1.jpg"/>
@@ -253,7 +253,7 @@ function WebSoftwarePage()
                     </div>
 
                     <div className='info-card'>
-                        <h3>Swift: iOS + MVC</h3>
+                        <h3><a target='_blank' href="https://www.swift.org/">Swift</a>: iOS + MVC</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <LazyImage src="/Portfolio/iosmvc1.jpg"/>
@@ -285,12 +285,12 @@ function WebSoftwarePage()
                     </div>
 
                     <div className='info-card'>
-                        <h3>Keepr (legacy code)</h3>
+                        <h3><a target='_blank' href='https://vuejs.org/'>Vue</a> + <a target="_blank" href='https://dotnet.microsoft.com/en-us/download/dotnet-framework'>.NET</a>: Keepr</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <LazyImage src="/Portfolio/keepr1.png"/>
                         </div>
-                        <ModalWindow title={"Keepr (legacy code)"}>
+                        <ModalWindow title={"Keepr"}>
                         <div className='row'>
                                 <p>
                                     Keepr is a project that I started in 2022 during my attendance at Boise Codeworks, a trade school that focuses on
@@ -320,12 +320,12 @@ function WebSoftwarePage()
                     </div>
 
                     <div className='info-card'>
-                        <h3>PlanIt (legacy code)</h3>
+                        <h3><a target='_blank' href='https://vuejs.org/'>Vue</a> + <a target="_blank" href="https://expressjs.com/">Express</a>: PlanIt</h3>
                         <hr />
                         <div className='img-wrapper'>
-                            <LazyImage src="/Portfolio/reactd31.png"/>
+                            <LazyImage src="/Portfolio/planit1.png"/>
                         </div>
-                        <ModalWindow title={"PlanIt (legacy code)"}>
+                        <ModalWindow title={"PlanIt"}>
                         <div className='row'>
                                 <p>
                                     PlanIt is a project that I started in 2022 during my attendance at Boise Codeworks, a trade school that focuses on
@@ -341,26 +341,26 @@ function WebSoftwarePage()
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <LazyImage src="/Portfolio/reactd31.png"/>
-                                    <LazyImage src="/Portfolio/reactd32.png"/>
+                                    <LazyImage src="/Portfolio/planit1.png"/>
+                                    <LazyImage src="/Portfolio/planit2.png"/>
                                 </div>  
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <LazyImage src="/Portfolio/reactd33.png"/>
-                                    <LazyImage src="/Portfolio/reactd34.png"/>
+                                    <LazyImage src="/Portfolio/planit3.png"/>
+                                    <LazyImage src="/Portfolio/planit4.png"/>
                                 </div>
                             </div>
                         </ModalWindow>
                     </div>
 
                     <div className='info-card'>
-                        <h3>Mus.io (legacy code)</h3>
+                        <h3><a target='_blank' href='https://vuejs.org/'>Vue</a> + <a target="_blank" href="https://expressjs.com/">Express</a>: Mus.io</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <LazyImage src="/Portfolio/reactd31.png"/>
                         </div>
-                        <ModalWindow title={"Mus.io (legacy code)"}>
+                        <ModalWindow title={"Mus.io"}>
                         <div className='row'>
                                 <p>
                                     Mus.io - A Vue + Express prototype application designed for musicians, venues, 
@@ -387,12 +387,12 @@ function WebSoftwarePage()
                     </div>
 
                      <div className='info-card'>
-                        <h3>Tower (legacy code)</h3>
+                        <h3><a target='_blank' href='https://vuejs.org/'>Vue</a> + <a target="_blank" href="https://expressjs.com/">Express</a>: Tower</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <LazyImage src="/Portfolio/reactd31.png"/>
                         </div>
-                        <ModalWindow title={"Tower (legacy code)"}>
+                        <ModalWindow title={"Tower"}>
                         <div className='row'>
                                 <p>
                                     Vue + Express prototype web application geared towards event planning, browsing, and attending. 
