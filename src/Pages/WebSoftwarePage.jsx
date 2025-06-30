@@ -158,7 +158,7 @@ function WebSoftwarePage()
                     </div>
 
                     <div className='info-card'>
-                        <h3><a target="_blank" href="https://react.dev/">React</a> + <a target="_blank" href="https://expressjs.com/">Express</a>: Website Builder Application</h3>
+                        <h3><a target="_blank" href="https://react.dev/">React</a> + <a target="_blank" href="https://expressjs.com/">Express</a>:<br /> Website Builder Application</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <LazyImage src="/Portfolio/wb1.png"/>
