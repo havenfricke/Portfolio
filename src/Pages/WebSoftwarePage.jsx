@@ -358,7 +358,7 @@ function WebSoftwarePage()
                         <h3><a target='_blank' href='https://vuejs.org/'>Vue</a> + <a target="_blank" href="https://expressjs.com/">Express</a>: Mus.io</h3>
                         <hr />
                         <div className='img-wrapper'>
-                            <LazyImage src="/Portfolio/reactd31.png"/>
+                            <LazyImage src="/Portfolio/musio1.png"/>
                         </div>
                         <ModalWindow title={"Mus.io"}>
                         <div className='row'>
@@ -373,14 +373,14 @@ function WebSoftwarePage()
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <LazyImage src="/Portfolio/reactd31.png"/>
-                                    <LazyImage src="/Portfolio/reactd32.png"/>
+                                    <LazyImage src="/Portfolio/musio1.png"/>
+                                    <LazyImage src="/Portfolio/musio2.png"/>
                                 </div>  
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <LazyImage src="/Portfolio/reactd33.png"/>
-                                    <LazyImage src="/Portfolio/reactd34.png"/>
+                                    <LazyImage src="/Portfolio/musio3.png"/>
+                                    <LazyImage src="/Portfolio/musio4.png"/>
                                 </div>
                             </div>
                         </ModalWindow>
@@ -390,7 +390,7 @@ function WebSoftwarePage()
                         <h3><a target='_blank' href='https://vuejs.org/'>Vue</a> + <a target="_blank" href="https://expressjs.com/">Express</a>: Tower</h3>
                         <hr />
                         <div className='img-wrapper'>
-                            <LazyImage src="/Portfolio/reactd31.png"/>
+                            <LazyImage src="/Portfolio/tower1.png"/>
                         </div>
                         <ModalWindow title={"Tower"}>
                         <div className='row'>
@@ -406,14 +406,14 @@ function WebSoftwarePage()
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <LazyImage src="/Portfolio/reactd31.png"/>
-                                    <LazyImage src="/Portfolio/reactd32.png"/>
+                                    <LazyImage src="/Portfolio/tower1.png"/>
+                                    <LazyImage src="/Portfolio/tower2.png"/>
                                 </div>  
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
-                                    <LazyImage src="/Portfolio/reactd33.png"/>
-                                    <LazyImage src="/Portfolio/reactd34.png"/>
+                                    <LazyImage src="/Portfolio/tower3.png"/>
+                                    <LazyImage src="/Portfolio/tower4.png"/>
                                 </div>
                             </div>
                         </ModalWindow>

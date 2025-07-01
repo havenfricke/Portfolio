@@ -257,7 +257,7 @@
   padding: 0 0;
   height: 25vh;
   overflow: hidden;
-  filter: drop-shadow(0px 0px 20px #0c0c0ccc);
+  filter: drop-shadow(0px 0px 12px #0c0c0cbb);
 }
 
 .img-wrapper img {
