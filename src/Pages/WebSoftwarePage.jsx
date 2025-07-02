@@ -199,7 +199,8 @@ function WebSoftwarePage()
                         <div className='row'>
                                 <p>
                                     An iOS application that uses ARKit and peer-to-peer with the goal of assisting people who have non-verbal disabilities. 
-                                    The application is meant to be used as a liaison between the business and customer, facilitating more efficient communication.
+                                    The application is meant to be used as a liaison between the business and customer, facilitating more efficient communication 
+                                    with a specific demographic of customer.
                                     <br />
                                     <br />
                                     <a href="https://github.com/havenfricke/Assistive-App" target="_blank">GitHub Repository Link</a>
@@ -331,8 +332,8 @@ function WebSoftwarePage()
                                     PlanIt is a project that I started in 2022 during my attendance at Boise Codeworks, a trade school that focuses on
                                     teaching with refactored code to touch on basic concepts in a high level, full stack development environment.
                                     The goal of the project was to create a full stack application that allows users to
-                                    create, edit, and delete projects then sprints within those projects. Sprints can be assigned to users and tasks. 
-                                    Access permissions must be granted to users to allow them to view, edit, and delete projects. The project was built on
+                                    create, edit, and delete projects then sprints (Agile framework) within those projects. 
+                                    Sprints can be shared to other users via url. The project was built on
                                     Vue, Vue Router, SASS / SCSS, and Axios. The back end is built on Node.js, Express, and MongoDB.
                                     <br />
                                     <br />
@@ -365,7 +366,7 @@ function WebSoftwarePage()
                                 <p>
                                     Mus.io - A Vue + Express prototype application designed for musicians, venues, 
                                     and music driven groups to showcase and sell their live talent. The goal was to 
-                                    have the artist, promotor, and the business/venue share a platform as co-participants.
+                                    have the artist / agent, promotor, and the business/venue share a platform as co-participants.
                                     <br />
                                     <br />
                                     <a href="https://github.com/havenfricke/Mus-io" target='_blank'> Mus.io repository</a>
@@ -397,8 +398,8 @@ function WebSoftwarePage()
                                 <p>
                                     Vue + Express prototype web application geared towards event planning, browsing, and attending. 
                                     Users can create events, set an event date or time, and set an amount of seats for the event. 
-                                    Other users can find the event and RSVP. Events are viewed and managed form the user's profile view. 
-                                    Events can be cancelled, deleted or both.
+                                    Other users can find the event and RSVP. Events are viewed and managed from the user's profile view. 
+                                    Events can be cancelled, deleted, or both.
                                     <br />
                                     <br />
                                     <a href="https://github.com/havenfricke/Tower" target='_blank'> Mus.io repository</a>
