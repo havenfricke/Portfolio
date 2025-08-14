@@ -3,13 +3,12 @@ import { observer } from 'mobx-react-lite';
 import ModalWindow from '../Components/ModalWindow'
 import { Skeleton } from '@mui/material';
 import LazyImage from '../Components/LazyImage';
-
+import MarkdownFile from '../Components/MarkdownFile';
 
 
 
 function WebSoftwarePage()
 {
-
     return (
         <section className='card-view-page'>
             <div className="card-view-banner">
@@ -17,6 +16,35 @@ function WebSoftwarePage()
             </div>
             <div className="row">
                 <div className='col-2-grid'>
+
+                    <div className='info-card'>
+                        <h3>
+                            <a target="_blank" href="https://react.dev/">React</a> + <a target="_blank" href="https://expressjs.com/">Express</a> + <a target="_blank" href="https://auth0.com/">Auth0</a><br />
+                            Fullstack Identity Assertion
+                        </h3>
+                        <hr />
+                        <div className='img-wrapper'>
+                            <LazyImage src="/Portfolio/fsida3.png"/>
+                        </div>
+                        <ModalWindow title={"Fullstack Identity Assertion"}>
+                            <MarkdownFile
+                                src="/Portfolio/README-Fullstack-ID.md"
+                                className="modal-markdown"
+                            />
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <LazyImage src="/Portfolio/fsida1.png"/>
+                                    <LazyImage src="/Portfolio/fsida2.png"/>
+                                </div>  
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <LazyImage src="/Portfolio/fsida3.png"/>
+                                    <LazyImage src="/Portfolio/fsida4.png"/>
+                                </div>
+                            </div>
+                        </ModalWindow>
+                    </div>
 
                     <div className='info-card'>
                         <h3><a target="_blank" href="https://wordpress.com/">WordPress</a>: Kendall Spokesmasters</h3>

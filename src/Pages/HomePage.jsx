@@ -25,7 +25,7 @@ function HomePage()
         <div className="info-card">
           <p>
             I am a software developer specializing in interactive applications. <br /><br />
-            My Ikigai is driven by a tactical perception of communication technologies, an intuition in design, and many years of working with computers. <br /><br />
+            My Ikigai is driven by a tactical perception of communication technologies, an intuition in design, and many years of working with computing technology. <br /><br />
             Computing as a means to communicate ideas to people using organized, accessible information is a tactical and technological approach 
             to business success and what I specialize in. <br /><br />
             My past experience as a tactical communicator plays heavily into my software development when it comes to innovating new technologies. My strategy is to establish solutions that maintain longevity of use and purpose through good design and architecture.<br /><br />
