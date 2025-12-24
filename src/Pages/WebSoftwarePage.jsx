@@ -16,13 +16,12 @@ function WebSoftwarePage()
             </div>
             <div className="row">
                 <div className='col-2-grid'>
-
                     <div className='info-card'>
                         <h3>
-                            <a target="_blank" href="https://react.dev/">React</a> + <a target="_blank" href="https://expressjs.com/">Express</a> + <a target="_blank" href="https://auth0.com/">Auth0</a><br />
-                            Fullstack Identity Assertion
+                            <a target="_blank" href="https://react.dev/">React</a> + <a target="_blank" href="https://expressjs.com/">Express</a> + <a target="_blank" href="https://auth0.com/">Auth0</a>:
+                            <br />Fullstack Identity
                         </h3>
-                        <hr />
+                        <hr />  
                         <div className='img-wrapper'>
                             <LazyImage src="/Portfolio/fsida3.png"/>
                         </div>
@@ -129,7 +128,8 @@ function WebSoftwarePage()
                                     <br />
                                     <br />
                                     <a href="https://github.com/havenfricke/ReactApp-Vanilla-Starter" target="_blank">GitHub Repository Link</a>
-                                </p>
+                                    <MarkdownFile src="https://raw.githubusercontent.com/havenfricke/ReactApp-Vanilla-Starter/refs/heads/main/README.md" className="modal-markdown"/>
+                                </p>    
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
@@ -186,12 +186,12 @@ function WebSoftwarePage()
                     </div>
 
                     <div className='info-card'>
-                        <h3><a target="_blank" href="https://react.dev/">React</a> + <a target="_blank" href="https://expressjs.com/">Express</a>:<br /> Website Builder Application</h3>
+                        <h3><a target="_blank" href="https://react.dev/">React</a> + <a target="_blank" href="https://expressjs.com/">Express</a>: Website Builder</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <LazyImage src="/Portfolio/wb1.png"/>
                         </div>
-                        <ModalWindow title={"Website Builder Application"}>
+                        <ModalWindow title={"Website Builder"}>
                         <div className='row'>
                                 <p>
                                     React front-end and Express backend full stack application. The server's static HTML page enables create, 
@@ -250,7 +250,7 @@ function WebSoftwarePage()
                     </div>
 
                     <div className='info-card'>
-                        <h3><a target='_blank' href="https://www.swift.org/">Swift</a>: Photo Utlity Application</h3>
+                        <h3><a target='_blank' href="https://www.swift.org/">Swift</a>: Photo Utlity</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <LazyImage src="/Portfolio/pua1.jpg"/>

@@ -25,19 +25,18 @@ export function Navbar() {
         <img className="right-arrow" src="/Portfolio/arrow-right-solid.svg" alt="Right Arrow" data-skip-on-tab="true"/>
       </button>
     </Link>
-    <Link to={'/Portfolio/3d'} className={location.pathname === '/Portfolio/3d' ? 'active' : ''} title="3D Artifacts">
+    {/* <Link to={'/Portfolio/3d'} className={location.pathname === '/Portfolio/3d' ? 'active' : ''} title="3D Artifacts">
       <button className={location.pathname === '/Portfolio/3d' ? 'active' : ''}>
         <img className="cube" src="/Portfolio/cube-solid.svg" alt="Cube" data-skip-on-tab="true"/>
         <img className="right-arrow" src="/Portfolio/arrow-right-solid.svg" alt="Right Arrow" data-skip-on-tab="true"/>
       </button>
-    </Link>
-    {/* <Link to={'/Portfolio/music'} className={location.pathname === '/Portfolio/music' ? 'active' : ''} title="Music Artifacts">
-      <button className={location.pathname === '/Portfolio/music' ? 'active' : ''}>
-        <img className="cube" src="/Portfolio/music-solid.svg" alt="Music Notes" data-skip-on-tab="true"/>
+    </Link> */}
+    <Link to={'/Portfolio/iot'} className={location.pathname === '/Portfolio/iot' ? 'active' : ''} title="IoT Artifacts">
+      <button className={location.pathname === '/Portfolio/iot' ? 'active' : ''}>
+        <img className="network" src="/Portfolio/network.svg" alt="Network" data-skip-on-tab="true"/>
         <img className="right-arrow" src="/Portfolio/arrow-right-solid.svg" alt="Right Arrow" data-skip-on-tab="true"/>
       </button>
     </Link> 
-    !CHANGE CSS TO ACCOMODATE! */}
     {/* <Link to={'/Portfolio/join'} className={location.pathname === '/Portfolio/join' ? 'active' : ''} title="Join me">
       <button className={location.pathname === '/Portfolio/join' ? 'active' : ''}>
         <img className="door-open" src="/Portfolio/door-open-solid.svg" alt="Door Open" data-skip-on-tab="true"/>

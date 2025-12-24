@@ -14,7 +14,7 @@ function HomePage()
       <div className="home-banner">
         <h1>Haven Fricke</h1>
         <hr />
-        <h3>Interactive Software Developer</h3><br /> 
+        <h3>Software, Games, Interactive Media, and Mobile</h3><br /> 
         <h3 className="home-icons">
           <a href="https://www.linkedin.com/in/haven-fricke/" target="_blank"><img className="linkedin" src="/Portfolio/linkedin-brands.svg" title="open in new tab"/></a>
           <a href="mailto:havenfricke@u.boisestate.edu" target="_blank"><img className="email" src="/Portfolio/envelope-solid.svg" title="open email"/></a>
@@ -24,7 +24,7 @@ function HomePage()
       <div className="home-content">
         <div className="info-card">
           <p>
-            I am a software developer specializing in interactive applications. <br /><br />
+            I specialize in interactive applications. <br /><br />
             My Ikigai is driven by a tactical perception of communication technologies, an intuition in design, and many years of working with computing technology. <br /><br />
             Computing as a means to communicate ideas to people using organized, accessible information is a tactical and technological approach 
             to business success and what I specialize in. <br /><br />
