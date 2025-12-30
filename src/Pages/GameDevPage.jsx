@@ -30,10 +30,10 @@ function GameDevPage()
                                 </p>
                             </div>
                             <div className='row'>
-                            <iframe className='video-player' src="https://drive.google.com/file/d/1hcMgP3iCLdyrBgm1oVNJoNnTPrdLpEzm/preview" width="1080" height="610" allow="autoplay"></iframe>
+                            <iframe className='video-player' src="https://drive.google.com/file/d/1hcMgP3iCLdyrBgm1oVNJoNnTPrdLpEzm/preview" ></iframe>
                             </div>
                             <div className='row'>
-                            <iframe src="https://drive.google.com/file/d/1VgssK52dBwFmQN16f7RXkTbxz-dlrZTp/preview" width="1080" height="610" allow="autoplay"></iframe>
+                            <iframe className='video-player' src="https://drive.google.com/file/d/1VgssK52dBwFmQN16f7RXkTbxz-dlrZTp/preview" ></iframe>
                             </div>
                             </ModalWindow>
                         </div>

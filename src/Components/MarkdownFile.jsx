@@ -13,7 +13,7 @@ export default function MarkdownFile({ src, className }) {
     fetch(src, { cache: 'no-cache' })
       .then(r => (r.ok ? r.text() : Promise.reject(`${r.status} ${r.statusText}`)))
       .then(md => alive && setText(md))
-      .catch(e => alive && setErr(String(e)));
+      .catch(e => alive && setErr(e.toString()));
     return () => { alive = false; };
   }, [src]);
 
@@ -49,7 +49,7 @@ export default function MarkdownFile({ src, className }) {
                   overflowWrap: 'anywhere',
                   overflowX: 'hidden',
                   margin: '1rem 0',
-                  padding: '.75rem 1rem',
+                  padding: '.75rem 0.5rem',
                   borderRadius: 6,
                   background: '#0f0f0f0d'
                 }}

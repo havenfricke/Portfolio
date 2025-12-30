@@ -24,15 +24,43 @@ function HomePage()
       <div className="home-content">
         <div className="info-card">
           <p>
-            I specialize in interactive applications. <br /><br />
-            My Ikigai is driven by a tactical perception of communication technologies, an intuition in design, and many years of working with computing technology. <br /><br />
-            Computing as a means to communicate ideas to people using organized, accessible information is a tactical and technological approach 
+            &nbsp;&nbsp;Thank you for being here, my name is Haven Fricke. I am a software developer, game developer, and interactive media creator with a passion for crafting engaging digital experiences.
+            Composition comes in many forms. Previously, composing music and sound design consumed much of my time and energy. Although very much a passion of mine, 
+            I found my medium to express creativity and ideas through technology. <br /><br />
+            &nbsp;&nbsp;My Ikigai is located where composition skills, perception of communication technologies, an intuition in design, and expertise that comes with many years of working 
+            with computing technology comes together. Computing as a means to communicate ideas and provide utility using organized, accessible information is a tactical and technological approach 
             to business success and what I specialize in. <br /><br />
-            My past experience as a tactical communicator plays heavily into my software development when it comes to innovating new technologies. My strategy is to establish solutions that maintain longevity of use and purpose through good design and architecture.<br /><br />
-            Using computers for a progamatically creative purpose such as game development is a newly introduced practice into my life but it extends my passion for connecting people with ideas.<br /><br />
+            &nbsp;&nbsp;Music theory points to a system - a language of organization and structure. Software development and computing are similar in that they also rely on systems of 
+            organization and structure to create functional and efficient solutions. Melodic patterns and harmonies can be likened to algorithms and data structures in programming. <br /><br />
+            &nbsp;&nbsp;Dissonance may occur when chord stacks are out of key or a function's purpose built as was it not intended, 
+            requiring adjustments and refinements to achieve the desired outcome.
+            There is harmony in structure and self-discipline, whether in a musical composition or a well-designed software application. 
+            My process is refined by understanding of systems, structure, and group dynamics when working alongside developers, artists, or engineers.
+            <br /><br />
+            &nbsp;&nbsp;My past experience as a tactical communicator in the United States Marine Corps plays heavily into my ability to engineer and innovate new technologies. Breaking through mental obstacles and maintaining 
+            focus under pressure has shaped my approach to problem-solving and project management. My strategy is to establish solutions that maintain longevity of use and purpose through good design and architecture by first
+            curating a sound mind and body for the ideas and inspiration that are necessary for my process to create effective results.<br /><br />
+            If language is the masculine aspect of communication, then visual and auditory are the feminine aspects. Both are necessary for a complete expression of ideas and emotions. I strive to balance these aspects in my work, 
+            creating experiences that are not only functional but also engaging and meaningful.<br /><br />
             <br /> 
           </p>
-          <p></p>
+        </div>
+        <div className="info-card">
+          <h3>Reading List</h3>
+          <div className="row">
+            <div className="col-2-grid">
+              <img className="book" alt="understandingmedia" src="/Portfolio/understandingmedia.jpg"/>
+              <img className="book" alt="mediumismessage" src="/Portfolio/mediumismessage.jpg"/>
+              <img className="book" alt="biocentrism" src="/Portfolio/biocentrism.jpg"/>
+              <img className="book" alt="creativeact" src="/Portfolio/creativeact.jpg"/>
+              <img className="book" alt="flow" src="/Portfolio/flow.jpg"/>
+              <img className="book" alt="vagabond" src="/Portfolio/vagabond.jpg"/>
+              <img className="book" alt="techniqueofmaster" src="/Portfolio/techniqueofmaster.jpg"/>
+              <img className="book" alt="alphabetgoddess" src="/Portfolio/alphabetgoddess.jpg"/>
+              <img className="book" alt="taoteching" src="/Portfolio/taoteching.jpg"/>
+              <img className="book" alt="stocism" src="/Portfolio/stocism.jpg"/>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -128,8 +128,11 @@ function WebSoftwarePage()
                                     <br />
                                     <br />
                                     <a href="https://github.com/havenfricke/ReactApp-Vanilla-Starter" target="_blank">GitHub Repository Link</a>
-                                    <MarkdownFile src="https://raw.githubusercontent.com/havenfricke/ReactApp-Vanilla-Starter/refs/heads/main/README.md" className="modal-markdown"/>
+                                   
                                 </p>    
+                            </div>
+                            <div className='row'>
+                                 <MarkdownFile src="https://raw.githubusercontent.com/havenfricke/ReactApp-Vanilla-Starter/refs/heads/main/README.md" className="modal-markdown"/>
                             </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
