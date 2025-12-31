@@ -24,7 +24,7 @@ function HomePage()
       <div className="home-content">
         <div className="info-card">
           <p>
-            &nbsp;&nbsp;Thank you for being here, my name is Haven Fricke. I am a software developer, game developer, and interactive media creator with a passion for crafting engaging digital experiences.
+            &nbsp;&nbsp;Thank you for being here, my name is Haven Fricke. I am a software developer, game developer, and interactive media creator with a passion for crafting engaging experiences.
             Composition comes in many forms. Previously, composing music and sound design consumed much of my time and energy. Although very much a passion of mine, 
             I found my medium to express creativity and ideas through technology. <br /><br />
             &nbsp;&nbsp;My Ikigai is located where composition skills, perception of communication technologies, an intuition in design, and expertise that comes with many years of working 
