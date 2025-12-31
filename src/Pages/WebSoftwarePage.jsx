@@ -16,6 +16,35 @@ function WebSoftwarePage()
             </div>
             <div className="row">
                 <div className='col-2-grid'>
+
+                    <div className='info-card'>
+                        <h3>
+                            <a href="https://dotnet.microsoft.com/en-us/apps/aspnet">ASP.NET</a>: Web Application Template
+                        </h3>
+                        <hr />  
+                        <div className='img-wrapper'>
+                            <LazyImage src="/Portfolio/fsida3.png"/>
+                        </div>
+                        <ModalWindow title={"ASP.NET Web Application Template"}>
+                            <MarkdownFile
+                                src="https://raw.githubusercontent.com/havenfricke/Dotnet_WebApplicationTemplate/refs/heads/master/README.md"
+                                className="modal-markdown"
+                            />
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <LazyImage src="/Portfolio/fsida1.png"/>
+                                    <LazyImage src="/Portfolio/fsida2.png"/>
+                                </div>  
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <LazyImage src="/Portfolio/fsida3.png"/>
+                                    <LazyImage src="/Portfolio/fsida4.png"/>
+                                </div>
+                            </div>
+                        </ModalWindow>
+                    </div>
+
                     <div className='info-card'>
                         <h3>
                             <a target="_blank" href="https://react.dev/">React</a> + <a target="_blank" href="https://expressjs.com/">Express</a> + <a target="_blank" href="https://auth0.com/">Auth0</a>:
