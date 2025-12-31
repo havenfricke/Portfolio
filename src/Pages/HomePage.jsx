@@ -32,7 +32,7 @@ function HomePage()
             to business success and what I specialize in. <br /><br />
             &nbsp;&nbsp;Music theory points to a system - a language of organization and structure. Software development and computing are similar in that they also rely on systems of 
             organization and structure to create functional and efficient solutions. Melodic patterns and harmonies can be likened to algorithms and data structures in programming. <br /><br />
-            &nbsp;&nbsp;Dissonance may occur when chord stacks are out of key or a function's purpose built as was it not intended, 
+            &nbsp;&nbsp;Dissonance may occur when chord stacks are out of key or a function's purpose built as it was not intended, 
             requiring adjustments and refinements to achieve the desired outcome.
             There is harmony in structure and self-discipline, whether in a musical composition or a well-designed software application. 
             My process is refined by understanding of systems, structure, and group dynamics when working alongside developers, artists, or engineers.

@@ -377,9 +377,8 @@
 
 /*Video Player*/
 .video-player{
-  width: 100%;
-  height: 40rem;  
-  margin: 0, 1%;
+  height: 540px;
+  width: 960px;
 }
 
 /*3D-Viewer*/
@@ -526,6 +525,11 @@
     min-height: 50vh;
     padding: 5% 5%;
     background-color: rgb(15, 3, 71)#000000;
+  }
+
+  .video-player{
+    height: 180px;
+    width: 500px;
   }
 
   .card-view-banner h2 {
