@@ -127,6 +127,43 @@ function IoTPage()
                         </ModalWindow>
                     </div>
 
+                    <div className="info-card">
+                        <h3>
+                            <a href="https://expressjs.com/" target="_blank">Express.js</a> + <a href="https://www.arduino.cc/" target="_blank">Arduino</a> Sensor Data to <a href="https://developer.amazon.com/en-US/alexa/alexa-skills-kit" target="_blank">Alexa Skill</a>
+                        </h3>
+                        <hr />
+                        <div className="img-wrapper">
+                            <LazyImage src="" />
+                        </div>
+    
+                        <ModalWindow title={"Arduino Project Compilation"}>
+                            <div className='row'>
+                                <p>
+                                    A compilation of basic Arduino code. This collection contains projects with basic I/O capabilities to 
+                                    familiarize with the Arduino Uno r3 and act as a reference or starting point for future projects involving Arduino.
+                                    <br />
+                                    <br />
+                                    <a href="https://github.com/havenfricke/Arduino-Project-Compilation" target="_blank">Github Repository Link</a>
+                                </p>
+                            </div>
+                            <div className="row">
+                                <MarkdownFile src="https://raw.githubusercontent.com/havenfricke/Arduino-Project-Compilation/refs/heads/main/README.md" className="modal-markdown"/>
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <LazyImage src="" />
+                                    <LazyImage src="" />
+                                </div>  
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <LazyImage src="" />
+                                    <LazyImage src="" />                        
+                                </div>
+                            </div>
+                        </ModalWindow>
+                    </div>
+
                 </div>
             </div>
         </section>
