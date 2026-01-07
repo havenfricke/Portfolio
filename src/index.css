@@ -49,14 +49,13 @@ p, ol, ul, li, blockquote, pre{
 }
 
 video {
-  width: 85%; 
-  display: flex;
+  width: 85%;
+  display: flex; 
   border: #646cff solid 1px;
   filter: drop-shadow(0 0 10px rgba(100, 108, 255, 0.5));
   border-radius: 1em;
   justify-self: center;
-  height: auto; 
-  aspect-ratio: 16 / 9; 
+  aspect-ratio: 16 / 9;
   margin-bottom: 3%;
 }
 

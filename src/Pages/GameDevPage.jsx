@@ -13,7 +13,7 @@ function GameDevPage()
                         <h3>2024 - 2026 Demo Reel</h3>
                         <hr />
                         <br />
-                        <video controls src='https://drive.google.com/file/d/1zZNP2tAAU6c4ffiwAe5TSVqqha6AaFYj/view?usp=sharing' ></video>
+                        <video src="/Portfolio/demoreelminified.webm" controls></video>
                     </div>
                 </div>  
             </section>
