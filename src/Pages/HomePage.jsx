@@ -14,7 +14,7 @@ function HomePage()
       <div className="home-banner">
         <h1>Haven Fricke</h1>
         <hr />
-        <h3>Software, Games, Interactive Media, and Mobile</h3><br /> 
+        <h2>Software, Games, Interactive Media, and Mobile</h2><br /> 
         <h3 className="home-icons">
           <a href="https://www.linkedin.com/in/haven-fricke/" target="_blank"><img className="linkedin" src="/Portfolio/linkedin-brands.svg" title="open in new tab"/></a>
           <a href="mailto:havenfricke@u.boisestate.edu" target="_blank"><img className="email" src="/Portfolio/envelope-solid.svg" title="open email"/></a>
@@ -53,7 +53,7 @@ function HomePage()
               <img className="book" alt="mediumismessage" src="/Portfolio/mediumismessage.jpg"/>
               <img className="book" alt="biocentrism" src="/Portfolio/biocentrism.jpg"/>
               <img className="book" alt="creativeact" src="/Portfolio/creativeact.jpg"/>
-              <img className="book" alt="flow" src="/Portfolio/flow.jpg"/>~
+              <img className="book" alt="flow" src="/Portfolio/flow.jpg"/>
               <img className="book" alt="techniqueofmaster" src="/Portfolio/techniqueofmaster.jpg"/>
               <img className="book" alt="alphabetgoddess" src="/Portfolio/alphabetgoddess.jpg"/>
               <img className="book" alt="taoteching" src="/Portfolio/taoteching.jpg"/>
