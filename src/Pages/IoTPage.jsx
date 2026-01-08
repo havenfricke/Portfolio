@@ -129,7 +129,7 @@ function IoTPage()
 
                     <div className="info-card">
                         <h3>
-                            <a href="https://expressjs.com/" target="_blank">Express.js</a> + <a href="https://www.arduino.cc/" target="_blank">Arduino</a> Sensor Data to <a href="https://developer.amazon.com/en-US/alexa/alexa-skills-kit" target="_blank">Alexa Skill</a>
+                            <a href="https://www.arduino.cc/" target="_blank">Arduino</a> Project Compilation
                         </h3>
                         <hr />
                         <div className="img-wrapper">
