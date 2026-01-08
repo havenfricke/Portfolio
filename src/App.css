@@ -19,7 +19,6 @@
   left: 0;
   width: 5%;
   height: 100dvh;
-  padding-bottom: env(safe-area-inset-bottom); /* SAFARI SAFE AREA */
   background-color: #1a1a1a; 
 }
 
@@ -29,9 +28,11 @@
   align-items: center;
   border-radius: 0;
   text-align: left;
-  padding-top: calc((100vh / 4) / 2.01); /*THIS IS THE CSS FOR THE NAVBAR BUTTONS CALC*/
-  padding-bottom: calc((100vh / 4) / 2.01);
+
+  padding-top: calc((100dvh / 4) / 2.013); /* CALC FOR NAVBAR BUTTON HEIGHT*/
+  padding-bottom: calc((100dvh / 4) / 2.013);/* CALC FOR NAVBAR BUTTON HEIGHT*/
 }
+
 
 .home-page {
   min-height: 10vh;
