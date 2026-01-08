@@ -32,8 +32,12 @@ a:hover {
   color: #646cff;
 }
 
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
 body {
-  min-height: 100vh;
   min-height: 100svh;   /* stable visible height */
   min-height: 100dvh;   /* dynamic visible height (modern iOS) */
   margin: 0;
