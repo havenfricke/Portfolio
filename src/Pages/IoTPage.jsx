@@ -37,18 +37,6 @@ function IoTPage()
                             <div className="row">
                                 <MarkdownFile src="https://raw.githubusercontent.com/havenfricke/ArduinoUnityInputModule/refs/heads/main/README.md" className="modal-markdown"/>
                             </div>
-                            <div className='row'>
-                                <div className='col-2-grid'>
-                                    <LazyImage src="" />
-                                    <LazyImage src="" />
-                                </div>  
-                            </div>
-                            <div className='row'>
-                                <div className='col-2-grid'>
-                                    <LazyImage src="" />
-                                    <LazyImage src="" />                        
-                                </div>
-                            </div>
                         </ModalWindow>
                     </div>
 
@@ -75,18 +63,6 @@ function IoTPage()
                             <div className="row">
                                 <MarkdownFile src="https://raw.githubusercontent.com/havenfricke/rd-03e_human_detection_arduino_uno_wifi_r2/refs/heads/main/README.md" className="modal-markdown"/>
                             </div>
-                            <div className='row'>
-                                <div className='col-2-grid'>
-                                    <LazyImage src="" />
-                                    <LazyImage src="" />
-                                </div>  
-                            </div>
-                            <div className='row'>
-                                <div className='col-2-grid'>
-                                    <LazyImage src="" />
-                                    <LazyImage src="" />                        
-                                </div>
-                            </div>
                         </ModalWindow>
                     </div>
 
@@ -112,18 +88,6 @@ function IoTPage()
                             <div className="row">
                                 <MarkdownFile src="https://raw.githubusercontent.com/havenfricke/IoT_Production/refs/heads/main/README.md" className="modal-markdown"/>
                             </div>
-                            <div className='row'>
-                                <div className='col-2-grid'>
-                                    <LazyImage src="" />
-                                    <LazyImage src="" />
-                                </div>  
-                            </div>
-                            <div className='row'>
-                                <div className='col-2-grid'>
-                                    <LazyImage src="" />
-                                    <LazyImage src="" />                        
-                                </div>
-                            </div>
                         </ModalWindow>
                     </div>
 
@@ -148,18 +112,6 @@ function IoTPage()
                             </div>
                             <div className="row">
                                 <MarkdownFile src="https://raw.githubusercontent.com/havenfricke/Arduino-Project-Compilation/refs/heads/main/README.md" className="modal-markdown"/>
-                            </div>
-                            <div className='row'>
-                                <div className='col-2-grid'>
-                                    <LazyImage src="" />
-                                    <LazyImage src="" />
-                                </div>  
-                            </div>
-                            <div className='row'>
-                                <div className='col-2-grid'>
-                                    <LazyImage src="" />
-                                    <LazyImage src="" />                        
-                                </div>
                             </div>
                         </ModalWindow>
                     </div>

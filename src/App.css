@@ -382,12 +382,6 @@
   padding: 0% 12%;
 }
 
-/*Video Player*/
-.video-player{
-  height: 540px;
-  width: 960px;
-}
-
 /*3D-Viewer*/
 .three-d-page {
   height: 100vh; /* Exactly the viewport height */

@@ -42,18 +42,7 @@ export default function MarkdownFile({ src, className }) {
             }
             // fenced code blocks
             return (
-              <pre
-                style={{
-                  whiteSpace: 'pre-wrap',
-                  wordBreak: 'break-word',
-                  overflowWrap: 'anywhere',
-                  overflowX: 'hidden',
-                  margin: '1rem 0',
-                  padding: '.75rem 0.5rem',
-                  borderRadius: 6,
-                  background: '#0f0f0f0d'
-                }}
-              >
+              <pre>
                 <code className={className} {...props}>{children}</code>
               </pre>
             );

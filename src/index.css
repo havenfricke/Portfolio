@@ -61,33 +61,50 @@ video {
   margin-bottom: 3%;
 }
 
-code {
-  font-family: 'Courier New', Courier, monospace;
+pre {
   background-color: #1a1a1a;
-  padding: 2px 4px;
-  border-radius: 4px;
+  padding: 1em;
+  border-radius: 8px;
+  overflow-x: auto;
   font-size: 0.95em;
 }
 
+code {
+  font-size: 0.95em;
+}
+
+pre {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(9, 7, 20);
+  padding: 2px 4px;
+  border-radius: 1em;
+  font-size: 1.1em;
+}
+
+pre[data-token="if"] {
+  color: #6a9955;
+}
+
 h1 {
-  font-size: 2.8em;
+  font-size: 2.2em;
   line-height: 1.1;
 }
 h2 {
-  font-size: 1.6em;
+  font-size: 1.8em;
   line-height: 1.1;
-  font-weight: 400;
+  font-weight: 350;
 }
 h3{
   font-size: 1.4em;
   line-height: 1.1;
-  font-weight: 400;
+  font-weight: 350;
   letter-spacing: 0.11em;
 }
 h4{
   font-size: 1.1em;
   line-height: 1.1;
-  font-weight: 400;
+  font-weight: 350;
+  letter-spacing: 0.11em;
 }
 
 button {

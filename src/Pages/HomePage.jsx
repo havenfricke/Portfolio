@@ -58,6 +58,7 @@ function HomePage()
               <img className="book" alt="alphabetgoddess" src="/Portfolio/alphabetgoddess.jpg"/>
               <img className="book" alt="taoteching" src="/Portfolio/taoteching.jpg"/>
               <img className="book" alt="stocism" src="/Portfolio/stocism.jpg"/>
+              <img className="book" alt="quantum body" src="/Portfolio/qbody.jpg"/>
             </div>
           </div>
         </div>
