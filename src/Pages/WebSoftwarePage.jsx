@@ -28,7 +28,7 @@ function WebSoftwarePage()
                         </div>
                         <ModalWindow title={"Fullstack Identity Assertion"}>
                             <MarkdownFile
-                                src="/Portfolio/README-Fullstack-ID.md"
+                                src="https://raw.githubusercontent.com/havenfricke/Fullstack-Indentity-Vite-React-Express-Auth0/refs/heads/main/README.md"
                                 className="modal-markdown"
                             />
                             <div className='row'>

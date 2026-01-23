@@ -1,4 +1,7 @@
 import { observer } from 'mobx-react-lite';
+import LazyImage from '../Components/LazyImage';
+import ModalWindow from '../Components/ModalWindow';
+import MarkdownFile from '../Components/MarkdownFile';
 
 function GameDevPage()
 {
@@ -8,14 +11,180 @@ function GameDevPage()
                 <div className="card-view-banner">
                     <h2><strong>Game <br/>Development</strong></h2> 
                 </div>
-                <div className="row">
-                    <div className='info-card'>
-                        <h3>2024 - 2026 Demo Reel</h3>
-                        <hr />
-                        <br />
-                        <video src="/Portfolio/demoreelminified.webm" controls></video>
-                    </div>
+                <br />
+                <div>
+                    <h3 className='reel-title'>2024 - 2026 Gameplay Programming Reel</h3>
+                </div>
+                <div>
+                    <video src="/Portfolio/demoreelminified.webm" controls></video>
                 </div>  
+                <br />
+                <hr />
+                <div className='row'>
+                    <div className='col-2-grid'>
+                        <div className='info-card'>
+                            <h3>
+                                <a target="_blank" href="">Unreal Engine</a> + <a target='_blank' href="">AngelScript</a>: 
+                                <br />Soul Incarnate
+                            </h3>
+                            <hr />    
+                            <div className='img-wrapper'>
+                                <LazyImage src=""/>
+                            </div>
+                            <ModalWindow title={"Soul Incarnate"}>
+                                <div className='row'>
+                                    <p>
+                                        Content coming soon!
+                                    </p>
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src=""/>
+                                        <LazyImage src=""/>
+                                    </div>  
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src=""/>
+                                        <LazyImage src=""/>
+                                    </div>
+                                </div>
+                            </ModalWindow>
+                        </div>
+                        <div className='info-card'>
+                            <h3>
+                                <a target="_blank" href="">Unity Engine</a> + <a target='_blank' href="">PUN 2</a>: Trial by Fire
+                            </h3>
+                            <hr />    
+                            <div className='img-wrapper'>
+                                <LazyImage src=""/>
+                            </div>
+                            <ModalWindow title={"Trial by Fire"}>
+                                <div className='row'>
+                                    <p>
+                                        Content coming soon!
+                                    </p>
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src=""/>
+                                        <LazyImage src=""/>
+                                    </div>  
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src=""/>
+                                        <LazyImage src=""/>
+                                    </div>
+                                </div>
+                            </ModalWindow>
+                        </div>
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className='col-2-grid'>
+                        <div className='info-card'>
+                            <h3>
+                                <a target="_blank" href="">Unity</a>: Photon Network Singleton
+                            </h3>
+                            <hr />    
+                            <div className='img-wrapper'>
+                                <LazyImage src=""/>
+                            </div>
+                            <ModalWindow title={"Photon Network Singleton"}>
+                                <div className='row'>
+                                    <a href="https://github.com/havenfricke/ReactApp-Vanilla-Starter" target="_blank">GitHub Repository Link</a>
+                                </div>
+                                <div className='row'>
+                                    <MarkdownFile
+                                    src="https://raw.githubusercontent.com/havenfricke/PUN2_Net_Singleton/refs/heads/main/README.md"
+                                    className="modal-markdown"
+                                    />
+                                </div>
+                            </ModalWindow>
+                        </div>
+                        <div className='info-card'>
+                            <h3>
+                                <a target="_blank" href="">Unity Engine</a> + Input Module
+                            </h3>
+                            <hr />    
+                            <div className='img-wrapper'>
+                                <LazyImage src=""/>
+                            </div>
+                            <ModalWindow title={"Unity Input Module"}>
+                                <div className='row'>
+                                    <a href="https://github.com/havenfricke/ReactApp-Vanilla-Starter" target="_blank">GitHub Repository Link</a>
+                                </div>
+                                <div>
+                                    <MarkdownFile
+                                    src="https://raw.githubusercontent.com/havenfricke/Unity6_PlayerInputModule/refs/heads/main/README.md"
+                                    className="modal-markdown"
+                                    />
+                                </div>
+                            </ModalWindow>
+                        </div>
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className='col-2-grid'>
+                        <div className='info-card'>
+                            <h3>
+                                <a target="_blank" href="">Unreal Engine</a>: Fisticuffs
+                            </h3>
+                            <hr />    
+                            <div className='img-wrapper'>
+                                <LazyImage src=""/>
+                            </div>
+                            <ModalWindow title={"Prototype Online Multiplayer Game"}>
+                                <div className='row'>
+                                    <p>
+                                        Content coming soon!
+                                    </p>
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src=""/>
+                                        <LazyImage src=""/>
+                                    </div>  
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src=""/>
+                                        <LazyImage src=""/>
+                                    </div>
+                                </div>
+                            </ModalWindow>
+                        </div>
+                        <div className='info-card'>
+                            <h3>
+                                <a target="_blank" href="">Unity Engine</a> + <a target='_blank' href="">PUN 2</a>: Wary Path
+                            </h3>
+                            <hr />    
+                            <div className='img-wrapper'>
+                                <LazyImage src=""/>
+                            </div>
+                            <ModalWindow title={"Prototype Online Multiplayer Game"}>
+                                <div className='row'>
+                                    <p>
+                                        Content coming soon!
+                                    </p>
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src=""/>
+                                        <LazyImage src=""/>
+                                    </div>  
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src=""/>
+                                        <LazyImage src=""/>
+                                    </div>
+                                </div>
+                            </ModalWindow>
+                        </div>
+                    </div>
+                </div>
             </section>
     )
 }

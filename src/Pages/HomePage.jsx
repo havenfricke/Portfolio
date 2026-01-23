@@ -17,6 +17,7 @@ function HomePage()
         <h2>Software, Games, Interactive Media, and Mobile</h2><br /> 
         <h3 className="home-icons">
           <a href="https://www.linkedin.com/in/haven-fricke/" target="_blank"><img className="linkedin" src="/Portfolio/linkedin-brands.svg" title="open in new tab"/></a>
+          <a href="https://x.com/havenf_gg" target="_blank"><img className="x-twitter" src="/Portfolio/x-twitter.svg" title="open in new tab"/></a>
           <a href="mailto:havenfricke@u.boisestate.edu" target="_blank"><img className="email" src="/Portfolio/envelope-solid.svg" title="open email"/></a>
            {/* <a href="https://app.joinhandshake.com/profiles/w975ep" target="_blank"><img className="linkedin" src="/Portfolio/handshake.svg" title="open in new tab"/></a> */}
         </h3>

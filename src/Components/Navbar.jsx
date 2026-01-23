@@ -13,15 +13,15 @@ export function Navbar() {
         <img className="right-arrow" src="/Portfolio/arrow-right-solid.svg" alt="Right Arrow" data-skip-on-tab="true"/>
       </button>
     </Link>
-    <Link to={'/Portfolio/websoftware'} className={location.pathname === '/Portfolio/websoftware' ? 'active' : ''} title="Web & Software Artifacts">
-      <button className={location.pathname === '/Portfolio/websoftware' ? 'active' : ''}>
-        <img className="code" src="/Portfolio/code-solid.svg" alt="Code Bracket" data-skip-on-tab="true"/>
-        <img className="right-arrow" src="/Portfolio/arrow-right-solid.svg" alt="Right Arrow" data-skip-on-tab="true"/>
-      </button>
-    </Link>
     <Link to={'/Portfolio/gamedev'} className={location.pathname === '/Portfolio/gamedev' ? 'active' : ''} title="Game Dev Artifacts">
       <button className={location.pathname === '/Portfolio/gamedev' ? 'active' : ''}>
         <img className="game-pad" src="/Portfolio/gamepad-solid.svg" alt="Gamepad" data-skip-on-tab="true"/>
+        <img className="right-arrow" src="/Portfolio/arrow-right-solid.svg" alt="Right Arrow" data-skip-on-tab="true"/>
+      </button>
+    </Link>
+    <Link to={'/Portfolio/websoftware'} className={location.pathname === '/Portfolio/websoftware' ? 'active' : ''} title="Web & Software Artifacts">
+      <button className={location.pathname === '/Portfolio/websoftware' ? 'active' : ''}>
+        <img className="code" src="/Portfolio/code-solid.svg" alt="Code Bracket" data-skip-on-tab="true"/>
         <img className="right-arrow" src="/Portfolio/arrow-right-solid.svg" alt="Right Arrow" data-skip-on-tab="true"/>
       </button>
     </Link>
