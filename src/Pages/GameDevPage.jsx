@@ -93,7 +93,7 @@ function GameDevPage()
                             </div>
                             <ModalWindow title={"Photon Network Singleton"}>
                                 <div className='row'>
-                                    <a href="https://github.com/havenfricke/ReactApp-Vanilla-Starter" target="_blank">GitHub Repository Link</a>
+                                    <a href="https://github.com/havenfricke/PUN2_Net_Singleton" target="_blank">GitHub Repository Link</a>
                                 </div>
                                 <div className='row'>
                                     <MarkdownFile
@@ -113,7 +113,7 @@ function GameDevPage()
                             </div>
                             <ModalWindow title={"Unity Input Module"}>
                                 <div className='row'>
-                                    <a href="https://github.com/havenfricke/ReactApp-Vanilla-Starter" target="_blank">GitHub Repository Link</a>
+                                    <a href="https://github.com/havenfricke/Unity6_PlayerInputModule" target="_blank">GitHub Repository Link</a>
                                 </div>
                                 <div>
                                     <MarkdownFile

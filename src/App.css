@@ -498,7 +498,13 @@
 }
 
 .row p{
-  padding: 0 8%;
+  text-align: left;
+  width: 90%;
+}
+
+.row a {
+  text-align: left;
+  width: 90%;
 }
 
 .col-2-grid {
