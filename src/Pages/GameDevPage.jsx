@@ -34,6 +34,7 @@ function GameDevPage()
                             <ModalWindow title={"Soul Incarnate"}>
                                 <div className='row'>
                                     <p>
+                                        <a href='https://github.com/havenfricke/Soul_Incarnate' target='_blank'>Github Repository Link</a><br />
                                         Content coming soon!
                                     </p>
                                 </div>
@@ -138,7 +139,8 @@ function GameDevPage()
                             <ModalWindow title={"Prototype Online Multiplayer Game"}>
                                 <div className='row'>
                                     <p>
-                                        Content coming soon!
+                                        <a href='https://github.com/havenfricke/Fisticuffs_UE5' target='_blank'>Github Repository Link</a><br />
+                                        More content coming soon!
                                     </p>
                                 </div>
                                 <div className='row'>
@@ -166,7 +168,8 @@ function GameDevPage()
                             <ModalWindow title={"Prototype Online Multiplayer Game"}>
                                 <div className='row'>
                                     <p>
-                                        Content coming soon!
+                                        <a href='https://github.com/havenfricke/Wary-Path' target='_blank'>Github Repository Link</a><br />
+                                        More content coming soon!
                                     </p>
                                 </div>
                                 <div className='row'>
