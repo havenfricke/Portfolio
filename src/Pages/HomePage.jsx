@@ -19,11 +19,12 @@ function HomePage()
           <a href="https://www.linkedin.com/in/haven-fricke/" target="_blank"><img className="linkedin" src="/Portfolio/linkedin-brands.svg" title="open in new tab"/></a>
           <a href="https://x.com/havenf_gg" target="_blank"><img className="x-twitter" src="/Portfolio/x-twitter.svg" title="open in new tab"/></a>
           <a href="mailto:havenfricke@u.boisestate.edu" target="_blank"><img className="email" src="/Portfolio/envelope-solid.svg" title="open email"/></a>
-           {/* <a href="https://app.joinhandshake.com/profiles/w975ep" target="_blank"><img className="linkedin" src="/Portfolio/handshake.svg" title="open in new tab"/></a> */}
         </h3>
       </div>
       <div className="home-content">
+        
         <div className="info-card">
+          <a href="/Portfolio/Haven_Fricke_CV.pdf" target="_blank">View my résumé &#128279;</a>
           <p>
             &nbsp;&nbsp;Thank you for being here, my name is Haven Fricke. I am a software developer, game developer, and interactive media creator with a passion for crafting engaging experiences.
             Composition comes in many forms. Previously, composing music and sound design consumed much of my time and energy. Although very much a passion of mine, 

@@ -28,7 +28,7 @@ function GameDevPage()
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
-                                <LazyImage src=""/>
+                                <LazyImage src="/Portfolio/unity-banner.jpg"/>
                             </div>
                             <ModalWindow title={"Photon Network Singleton"}>
                                 <div className='row'>
@@ -48,7 +48,7 @@ function GameDevPage()
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
-                                <LazyImage src=""/>
+                                <LazyImage src="/Portfolio/unity-banner.jpg"/>
                             </div>
                             <ModalWindow title={"Unity Input Module"}>
                                 <div className='row'>
@@ -73,7 +73,7 @@ function GameDevPage()
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
-                                <LazyImage src=""/>
+                                <LazyImage src="angelscript_unreal.png"/>
                             </div>
                             <ModalWindow title={"Soul Incarnate"}>
                                 <div className='row'>
@@ -102,7 +102,7 @@ function GameDevPage()
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
-                                <LazyImage src=""/>
+                                <LazyImage src="/Portfolio/unity-banner.jpg"/>
                             </div>
                             <ModalWindow title={"Trial by Fire"}>
                                 <div className='row'>
@@ -134,7 +134,7 @@ function GameDevPage()
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
-                                <LazyImage src=""/>
+                                <LazyImage src="unreal-banner.webp"/>
                             </div>
                             <ModalWindow title={"Prototype Online Multiplayer Game"}>
                                 <div className='row'>
@@ -163,7 +163,7 @@ function GameDevPage()
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
-                                <LazyImage src=""/>
+                                <LazyImage src="/Portfolio/unity-banner.jpg"/>
                             </div>
                             <ModalWindow title={"Prototype Online Multiplayer Game"}>
                                 <div className='row'>
