@@ -24,6 +24,50 @@ function GameDevPage()
                     <div className='col-2-grid'>
                         <div className='info-card'>
                             <h3>
+                                <a target="_blank" href="">Unity</a>: Photon Network Singleton
+                            </h3>
+                            <hr />    
+                            <div className='img-wrapper'>
+                                <LazyImage src=""/>
+                            </div>
+                            <ModalWindow title={"Photon Network Singleton"}>
+                                <div className='row'>
+                                    <a href="https://github.com/havenfricke/PUN2_Net_Singleton" target="_blank">GitHub Repository Link</a>
+                                </div>
+                                <div className='row'>
+                                    <MarkdownFile
+                                    src="https://raw.githubusercontent.com/havenfricke/PUN2_Net_Singleton/refs/heads/main/README.md"
+                                    className="modal-markdown"
+                                    />
+                                </div>
+                            </ModalWindow>
+                        </div>
+                        <div className='info-card'>
+                            <h3>
+                                <a target="_blank" href="">Unity Engine</a> + Input Module
+                            </h3>
+                            <hr />    
+                            <div className='img-wrapper'>
+                                <LazyImage src=""/>
+                            </div>
+                            <ModalWindow title={"Unity Input Module"}>
+                                <div className='row'>
+                                    <a href="https://github.com/havenfricke/Unity6_PlayerInputModule" target="_blank">GitHub Repository Link</a>
+                                </div>
+                                <div>
+                                    <MarkdownFile
+                                    src="https://raw.githubusercontent.com/havenfricke/Unity6_PlayerInputModule/refs/heads/main/README.md"
+                                    className="modal-markdown"
+                                    />
+                                </div>
+                            </ModalWindow>
+                        </div>
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className='col-2-grid'>
+                        <div className='info-card'>
+                            <h3>
                                 <a target="_blank" href="">Unreal Engine</a> + <a target='_blank' href="">AngelScript</a>: 
                                 <br />Soul Incarnate
                             </h3>
@@ -77,50 +121,6 @@ function GameDevPage()
                                         <LazyImage src=""/>
                                         <LazyImage src=""/>
                                     </div>
-                                </div>
-                            </ModalWindow>
-                        </div>
-                    </div>
-                </div>
-                <div className='row'>
-                    <div className='col-2-grid'>
-                        <div className='info-card'>
-                            <h3>
-                                <a target="_blank" href="">Unity</a>: Photon Network Singleton
-                            </h3>
-                            <hr />    
-                            <div className='img-wrapper'>
-                                <LazyImage src=""/>
-                            </div>
-                            <ModalWindow title={"Photon Network Singleton"}>
-                                <div className='row'>
-                                    <a href="https://github.com/havenfricke/PUN2_Net_Singleton" target="_blank">GitHub Repository Link</a>
-                                </div>
-                                <div className='row'>
-                                    <MarkdownFile
-                                    src="https://raw.githubusercontent.com/havenfricke/PUN2_Net_Singleton/refs/heads/main/README.md"
-                                    className="modal-markdown"
-                                    />
-                                </div>
-                            </ModalWindow>
-                        </div>
-                        <div className='info-card'>
-                            <h3>
-                                <a target="_blank" href="">Unity Engine</a> + Input Module
-                            </h3>
-                            <hr />    
-                            <div className='img-wrapper'>
-                                <LazyImage src=""/>
-                            </div>
-                            <ModalWindow title={"Unity Input Module"}>
-                                <div className='row'>
-                                    <a href="https://github.com/havenfricke/Unity6_PlayerInputModule" target="_blank">GitHub Repository Link</a>
-                                </div>
-                                <div>
-                                    <MarkdownFile
-                                    src="https://raw.githubusercontent.com/havenfricke/Unity6_PlayerInputModule/refs/heads/main/README.md"
-                                    className="modal-markdown"
-                                    />
                                 </div>
                             </ModalWindow>
                         </div>
