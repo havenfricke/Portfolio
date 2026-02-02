@@ -295,6 +295,20 @@
   border-radius: 0.3em;
 }
 
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      
+}
+
+.video-container img {
+  width: 40%;               
+  max-width: 120px;       
+  height: auto;
+  margin-top: 1rem;
+}
+
+
 .img-wrapper {
   position: relative;         /* Needed for ::before to position correctly */
   display: flex;

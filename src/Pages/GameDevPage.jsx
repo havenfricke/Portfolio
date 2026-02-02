@@ -15,11 +15,11 @@ function GameDevPage()
                 <div>
                     <h3 className='reel-title'>2024 - 2026 Gameplay Programming Reel</h3>
                 </div>
-                <div>
+                <div className='video-container'>
                     <video src="/Portfolio/demoreelminified.webm" controls></video>
+                    <img src="/Portfolio/arrow-down.gif"/>
                 </div>  
-                <br />
-                <hr />
+                <br />  
                 <div className='row'>
                     <div className='col-2-grid'>
                         <div className='info-card'>
