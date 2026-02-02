@@ -73,7 +73,8 @@
 .book{
   display: flex;
   justify-self: center;
-  height: 20rem;
+  width: 80%;
+  height: 90%;
   border: solid 0.5px #646cff;
   box-shadow: #111111 3px 3px 5px;
   margin: 2% 0;
