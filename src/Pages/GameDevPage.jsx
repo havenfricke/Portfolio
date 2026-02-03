@@ -69,26 +69,23 @@ function GameDevPage()
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
-                                <LazyImage src="/Portfolio/dx-microsoft.jpg"/>
+                                <LazyImage src="/Portfolio/dx11.jpg"/>
                             </div>
                             <ModalWindow title={"C++, DirectX 11, and HLSL"}>
                                 <div className='row'>
                                     <p>
+                                        My individual research project done during my senior year at Boise State University while attending GIMM. 
+                                        The project is meant to be a reference and learning resource for myself and my peers to get started learning
+                                        how to build game engines using C++ and DirectX from source. 
+                                        <br />
                                         <a href='https://github.com/havenfricke/Engine' target='_blank'>Github Repository Link</a><br />
-                                        Content coming soon!
                                     </p>
                                 </div>
-                                <div className='row'>
-                                    <div className='col-2-grid'>
-                                        <LazyImage src=""/>
-                                        <LazyImage src=""/>
-                                    </div>  
-                                </div>
-                                <div className='row'>
-                                    <div className='col-2-grid'>
-                                        <LazyImage src=""/>
-                                        <LazyImage src=""/>
-                                    </div>
+                                <div>
+                                    <MarkdownFile
+                                    src="https://raw.githubusercontent.com/havenfricke/Engine/refs/heads/master/README.md"
+                                    className="modal-markdown"
+                                    />
                                 </div>
                             </ModalWindow>
                         </div>

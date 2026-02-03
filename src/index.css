@@ -64,21 +64,26 @@ video {
 
 
 code {
-  font-size: 0.95em;
+  font-size: 0.9em;
+  white-space: break-spaces;
 }
+
 
 pre {
+  display: inline-block;              /* shrink-wrap to content */
   font-family: 'Courier New', Courier, monospace;
   background-color: rgb(9, 7, 20);
-  padding: 2px 4px;
+  padding: 0.15em 0.2em;
+  margin: 0;
   border-radius: 1em;
   font-size: 1.1em;
-  overflow-x: auto;
+
+  max-width: 100%;                     
+  white-space: pre-wrap;               
+  word-break: break-word;              /* break long tokens */
 }
 
-pre[data-token="if"] {
-  color: #6a9955;
-}
+
 
 h1 {
   font-size: 2.2em;
