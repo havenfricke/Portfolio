@@ -155,6 +155,11 @@ button:active .right-arrow{
   transform: translateX(0px);
 }
 
+footer p {
+  text-align: center;
+  padding-left: 5%;
+}
+
 @media screen and (max-width: 768px) {
   h1, h2, h3 {
     transform: scale(0.9);

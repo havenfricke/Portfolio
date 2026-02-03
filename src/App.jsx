@@ -9,6 +9,9 @@ import { Navbar } from './Components/Navbar'
       <Navbar />
       <ScrollToTop />
       <Outlet />
+      <footer>
+        <p><em>© 2026 Haven Fricke. All rights reserved.</em></p>
+      </footer>
     </>
   )
 }
