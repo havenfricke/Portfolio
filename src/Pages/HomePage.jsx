@@ -55,7 +55,7 @@ function HomePage()
               <img className="book" alt="biocentrism" src="/Portfolio/biocentrism.jpg"/>
               <img className="book" alt="creativeact" src="/Portfolio/creativeact.jpg"/>
               <img className="book" alt="flow" src="/Portfolio/flow.jpg"/>
-              <img className="book" alt="techniqueofmaster" src="/Portfolio/techniqueofmaster.jpg"/>
+              <img className="book" alt="techniqueofmaster" src="/Portfolio/sunandsteel.jpg"/>
               <img className="book" alt="alphabetgoddess" src="/Portfolio/alphabetgoddess.jpg"/>
               <img className="book" alt="taoteching" src="/Portfolio/taoteching.jpg"/>
               <img className="book" alt="stocism" src="/Portfolio/stocism.jpg"/>
