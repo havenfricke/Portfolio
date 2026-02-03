@@ -24,7 +24,7 @@ function GameDevPage()
                     <div className='col-2-grid'>
                         <div className='info-card'>
                             <h3>
-                                <a target="_blank" href="">Unity</a>: Photon Network Singleton
+                                <a target="_blank" href="https://unity.com/">Unity</a>: <a href='https://www.photonengine.com/pun' target='_blank'>Photon Network</a> Singleton
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
@@ -44,7 +44,7 @@ function GameDevPage()
                         </div>
                         <div className='info-card'>
                             <h3>
-                                <a target="_blank" href="">Unity Engine</a> + Input Module
+                                <a target="_blank" href="https://unity.com/">Unity Engine</a> Input Module
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
@@ -92,7 +92,7 @@ function GameDevPage()
      
                         <div className='info-card'>
                             <h3>
-                                <a target="_blank" href="">Unreal Engine</a> + <a target='_blank' href="">AngelScript</a>: 
+                                <a target="_blank" href="https://angelscript.hazelight.se/">Unreal Engine</a> + <a target='_blank' href="">AngelScript</a>: 
                                 <br />Soul Incarnate
                             </h3>
                             <hr />    
@@ -179,7 +179,7 @@ function GameDevPage()
                         </div>
                         <div className='info-card'>
                             <h3>
-                                <a target="_blank" href="">Unity Engine</a> + <a target='_blank' href="">PUN 2</a>: Wary Path
+                                <a target="_blank" href="https://unity.com/">Unity Engine</a> + <a target='_blank' href="https://www.photonengine.com/pun">PUN 2</a>: Wary Path
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>

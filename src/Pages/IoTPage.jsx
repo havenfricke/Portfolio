@@ -21,7 +21,7 @@ function IoTPage()
                         </h3>
                         <hr />
                         <div className="img-wrapper">
-                            <LazyImage src="" />
+                            <LazyImage src="/Portfolio/arduino-unity.png" />
                         </div>
     
                         <ModalWindow title={"Unity Engine + Arduino Joystick Input"}>
@@ -46,7 +46,7 @@ function IoTPage()
                         </h3>
                         <hr />
                         <div className="img-wrapper">
-                            <LazyImage src="" />
+                            <LazyImage src="/Portfolio/arduino.png" />
                         </div>
     
                         <ModalWindow title={"Arduino: RD-03E mmWave Human Detection"}>
@@ -72,7 +72,7 @@ function IoTPage()
                         </h3>
                         <hr />
                         <div className="img-wrapper">
-                            <LazyImage src="" />
+                            <LazyImage src="/Portfolio/iot-alexa-node.png" />
                         </div>
     
                         <ModalWindow title={"Express.js Arduino Sensor Data to Alexa Skill"}>
@@ -97,7 +97,7 @@ function IoTPage()
                         </h3>
                         <hr />
                         <div className="img-wrapper">
-                            <LazyImage src="" />
+                            <LazyImage src="/Portfolio/arduino.png" />
                         </div>
     
                         <ModalWindow title={"Arduino Project Compilation"}>
