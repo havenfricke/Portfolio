@@ -17,7 +17,7 @@ function GameDevPage()
                 </div>
                 <div className='video-container'>
                     <video src="/Portfolio/demoreelminified.webm" controls></video>
-                    <img src="/Portfolio/arrow-down.gif"/>
+                    <img alt='arrow down indicator' src="/Portfolio/arrow-down.gif"/>
                 </div>  
                 <br />  
                 <div className='row'>
