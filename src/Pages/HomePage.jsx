@@ -22,7 +22,6 @@ function HomePage()
         </h3>
       </div>
       <div className="home-content">
-        
         <div className="info-card">
           <a href="/Portfolio/Haven_Fricke_CV.pdf" target="_blank">View my résumé &#128279;</a>
           <p>
