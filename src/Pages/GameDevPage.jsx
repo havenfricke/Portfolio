@@ -62,10 +62,37 @@ function GameDevPage()
                                 </div>
                             </ModalWindow>
                         </div>
-                    </div>
-                </div>
-                <div className='row'>
-                    <div className='col-2-grid'>
+
+                        <div className='info-card'>
+                            <h3>
+                                C++, DirectX 11, and HLSL
+                            </h3>
+                            <hr />    
+                            <div className='img-wrapper'>
+                                <LazyImage src="/Portfolio/dx-microsoft.jpg"/>
+                            </div>
+                            <ModalWindow title={"C++, DirectX 11, and HLSL"}>
+                                <div className='row'>
+                                    <p>
+                                        <a href='https://github.com/havenfricke/Engine' target='_blank'>Github Repository Link</a><br />
+                                        Content coming soon!
+                                    </p>
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src=""/>
+                                        <LazyImage src=""/>
+                                    </div>  
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src=""/>
+                                        <LazyImage src=""/>
+                                    </div>
+                                </div>
+                            </ModalWindow>
+                        </div>
+     
                         <div className='info-card'>
                             <h3>
                                 <a target="_blank" href="">Unreal Engine</a> + <a target='_blank' href="">AngelScript</a>: 
@@ -124,10 +151,6 @@ function GameDevPage()
                                 </div>
                             </ModalWindow>
                         </div>
-                    </div>
-                </div>
-                <div className='row'>
-                    <div className='col-2-grid'>
                         <div className='info-card'>
                             <h3>
                                 <a target="_blank" href="">Unreal Engine</a>: Fisticuffs
