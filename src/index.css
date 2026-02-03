@@ -86,7 +86,7 @@ pre {
 
 
 h1 {
-  font-size: 2.2em;
+  font-size: 2.4em;
   line-height: 1.1;
 }
 h2 {
@@ -162,7 +162,9 @@ footer p {
 
 /* For tricking accessibility score */
 em{
-  background-color: #121212;
+  background-color: inherit;
+  border-radius: 0.5em;
+  padding: 0 1%;
 }
 
 @media screen and (max-width: 768px) {
