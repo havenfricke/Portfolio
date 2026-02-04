@@ -7,8 +7,8 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.918);
 
-  background-color: rgb(15, 3, 71)#000000;
-  filter: contrast(0.95) hue-rotate(1deg);
+  background-color: rgb(18, 18, 18);
+  filter: contrast(0.95) hue-rotate(1deg); /* lower overall contrast to blend */
   min-height: 100%; 
   
   background-attachment: fixed;
