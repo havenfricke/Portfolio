@@ -17,6 +17,30 @@ function IoTPage()
 
                     <div className="info-card">
                         <h3>
+                            Smart Asset Management System
+                        </h3>
+                        <hr />
+                        <div className="img-wrapper">
+                            <LazyImage src="/Portfolio/arduino.png" />
+                        </div>
+    
+                        <ModalWindow title={"Smart Asset Management System"}>
+                            <div className='row'>
+                                <p>
+                                    Currently in development. Check back soon!
+                                    <br />
+                                    <br />
+                                    <a href="https://github.com/havenfricke/asset-management-system" target="_blank">Github Repository Link</a>.
+                                </p>
+                            </div>
+                            <div className="row">
+                                <MarkdownFile src="https://raw.githubusercontent.com/havenfricke/asset-management-system/refs/heads/main/README.md" className="modal-markdown"/>
+                            </div>
+                        </ModalWindow>
+                    </div>
+
+                    <div className="info-card">
+                        <h3>
                             <a href="https://unity.com/">Unity Engine</a> + <a>Arduino</a> Joystick Input
                         </h3>
                         <hr />
