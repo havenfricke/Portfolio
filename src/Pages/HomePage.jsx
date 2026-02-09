@@ -23,7 +23,7 @@ function HomePage()
       </div>
       <div className="home-content">
         <div className="info-card">
-          <a href="/Portfolio/Haven_Fricke_CV.pdf" target="_blank">View my résumé &#128279;</a>
+          <a href="/Portfolio/Haven_Fricke_Resume.pdf" target="_blank">View my résumé &#128279;</a>
           <p>
             &nbsp;&nbsp;Thank you for being here, my name is Haven Fricke. I am a software developer, game developer, and interactive media creator with a passion for crafting engaging experiences.
             Composition comes in many forms. Previously, composing music and sound design consumed much of my time and energy. Although very much a passion of mine, 
