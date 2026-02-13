@@ -248,6 +248,17 @@
   animation: iconBounce 1s ease;
 }
 
+.caduceus {
+  filter: invert(1) sepia(1) saturate(50) hue-rotate(210deg);
+  display: flex;
+  justify-content: center;
+}
+
+.caduceus img {
+  max-width: 30%;
+  margin: 5%;
+}
+
 @keyframes iconBounce {
   0%{
     transform: translateY(0);
