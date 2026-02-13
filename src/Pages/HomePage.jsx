@@ -25,25 +25,35 @@ function HomePage()
         <div className="info-card">
           <a href="/Portfolio/Haven_Fricke_Resume.pdf" target="_blank">View my résumé &#128279;</a>
           <p>
-            &nbsp;&nbsp;Thank you for being here, my name is Haven Fricke. I am a software developer, game developer, and interactive media creator with a passion for crafting engaging experiences.
-            Composition comes in many forms. Previously, composing music and sound design consumed much of my time and energy. Although very much a passion of mine, 
-            I found my medium to express creativity and ideas through technology. <br /><br />
-            &nbsp;&nbsp;My Ikigai is located where composition skills, perception of communication technologies, an intuition in design, and expertise that comes with many years of working 
-            with computing technology comes together. Computing as a means to communicate ideas and provide utility using organized, accessible information is a tactical and technological approach 
-            to business success and what I specialize in. <br /><br />
-            &nbsp;&nbsp;Music theory points to a system - a language of organization and structure. Software development and computing are similar in that they also rely on systems of 
-            organization and structure to create functional and efficient solutions. Melodic patterns and harmonies can be likened to algorithms and data structures in programming. <br /><br />
-            &nbsp;&nbsp;Dissonance may occur when chord stacks are out of key or a function's purpose built as it was not intended, 
-            requiring adjustments and refinements to achieve the desired outcome.
-            There is harmony in structure and self-discipline, whether in a musical composition or a well-designed software application. 
-            My process is refined by understanding of systems, structure, and group dynamics when working alongside developers, artists, or engineers.
+            Thank you for being here. My name is Haven Fricke, and I am a software developer, game developer, 
+            and interactive media creator with a passion for building meaningful, engaging experiences. 
+            Composition has always been central to my life. For many years, music and sound design were 
+            my primary creative outlets. While that passion remains, I ultimately discovered that technology 
+            is the medium through which I best express ideas and bring concepts to life.
             <br /><br />
-            &nbsp;&nbsp;My past experience as a tactical communicator in the United States Marine Corps plays heavily into my ability to engineer and innovate new technologies. Breaking through mental obstacles and maintaining 
-            focus under pressure has shaped my approach to problem-solving and project management. My strategy is to establish solutions that maintain longevity of use and purpose through good design and architecture by first
-            curating a sound mind and body for the ideas and inspiration that are necessary for my process to create effective results.<br /><br />
-            If language is the masculine aspect of communication, then visual and auditory are the feminine aspects. Both are necessary for a complete expression of ideas and emotions. I strive to balance these aspects in my work, 
-            creating experiences that are not only functional but also engaging and meaningful.<br /><br />
-            <br /> 
+            My ikigai lies at the intersection of composition, communication technologies, intuitive design, 
+            and the technical expertise developed through years of working with computing systems. I view 
+            computing as a powerful vehicle for communicating ideas and delivering utility through organized, 
+            accessible information—a strategic and technological approach to problem‑solving that defines my work.
+            <br /><br />
+            Music theory offers a structured language of patterns and relationships. Software development mirrors 
+            this: both rely on systems of organization to create functional, elegant solutions. Melodic patterns 
+            and harmonies parallel algorithms and data structures; dissonance emerges when a chord falls out of 
+            key just as it does when a function is misaligned with its intended purpose. In both disciplines, 
+            refinement leads to clarity. My process is grounded in understanding systems, structure, and group 
+            dynamics—whether collaborating with developers, artists, or engineers.
+            <br /><br />
+            My background as a tactical communicator in the United States Marine Corps significantly shapes my 
+            approach to engineering and innovation. Operating under pressure, overcoming mental barriers, and 
+            maintaining focus have become core strengths that inform my problem‑solving and project management 
+            style. I aim to build solutions with longevity—architectures and designs that endure—supported by a 
+            disciplined mindset that fosters creativity and effective execution.
+            <br /><br />
+            If language represents the masculine aspect of communication, then visual and auditory expression 
+            represent the feminine. Both are essential for conveying ideas and emotion fully. I strive to balance 
+            these dimensions in my work, creating experiences that are not only functional but also engaging, 
+            expressive, and meaningful.
+            <br /><br />
           </p>
         </div>
         <div className="info-card">
