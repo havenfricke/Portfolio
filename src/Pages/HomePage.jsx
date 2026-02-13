@@ -34,7 +34,7 @@ function HomePage()
             My ikigai lies at the intersection of composition, communication technologies, intuitive design, 
             and the technical expertise developed through years of working with computing systems. I view 
             computing as a powerful vehicle for communicating ideas and delivering utility through organized, 
-            accessible information—a strategic and technological approach to problem‑solving that defines my work.
+            accessible information. 
             <br /><br />
             Music theory offers a structured language of patterns and relationships. Software development mirrors 
             this: both rely on systems of organization to create functional, elegant solutions. Melodic patterns 
@@ -43,14 +43,14 @@ function HomePage()
             refinement leads to clarity. My process is grounded in understanding systems, structure, and group 
             dynamics when collaborating with developers, artists, or engineers.
             <br /><br />
-            My background as a tactical communicator in the United States Marine Corps significantly shapes my 
+            My earlier years as a tactical communicator in the United States Marine Corps significantly shaped my 
             approach to engineering and innovation. Operating under pressure, overcoming mental barriers, and 
-            maintaining focus have become core strengths that inform my problem‑solving and project management 
-            style. I aim to build solutions with longevity and designs that endure. A disciplined mindset 
+            maintaining focus have become core strengths that inform my problem solving and project management 
+            style. I aim to build solutions with longevity and designs that feel timeless. A disciplined mindset 
             fosters effective execution.
             <br /><br />
             If language represents the masculine aspect of communication, then visual and auditory expression 
-            represent the feminine. Both are essential for conveying ideas and emotion completely. I strive to balance 
+            represent the feminine. All are essential for conveying ideas and emotion completely. I strive to balance 
             these dimensions in my work, creating experiences that are not only functional but also engaging, 
             expressive, and meaningful.
             <br /><br />
