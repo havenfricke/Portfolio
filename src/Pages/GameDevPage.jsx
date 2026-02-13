@@ -13,7 +13,7 @@ function GameDevPage()
                 </div>
                 <br />
                 <div>
-                    <h3 className='reel-title'>2024 - 2026 Gameplay Programming Reel</h3>
+                    <h3 className='reel-title'>2024 - 2026 Gameplay Engineering Reel</h3>
                 </div>
                 <div className='video-container'>
                     <video src="/Portfolio/demoreelminified.webm" controls></video>
