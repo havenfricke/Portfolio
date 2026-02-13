@@ -23,10 +23,6 @@ function HomePage()
       </div>
       <div className="home-content">
         <div className="info-card">
-          <div className="caduceus">
-              <img alt="caduceus icon" src="/Portfolio/caduceus.webp" title="caduceus"/>
-          </div>
-          <hr />
           <a href="/Portfolio/Haven_Fricke_Resume.pdf" target="_blank">View my résumé &#128279;</a>
           <p>
             Thank you for being here. My name is Haven Fricke, and I am a software developer, game developer, 
