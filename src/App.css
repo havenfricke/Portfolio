@@ -45,13 +45,13 @@
   border-radius: 50%;
   padding: 7%;
   margin: 3% 7%;
-  background-color: rgb(148, 148, 148);
-  background-image: url("/public/me_05_05_25.jpg");
+  /* background-color: rgb(148, 148, 148); */
+  background-image: url("/public/haven_1_minified_cropped.png");
   background-size: cover; 
   background-repeat: no-repeat; 
   border:#646cff solid 2px ;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%) drop-shadow(0 0 10px rgba(100, 108, 255, 0.5));
+  /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0 */
+  /* filter: grayscale(100%) drop-shadow(0 0 10px rgba(100, 108, 255, 0.5)); */
 }
 
 .home-banner{
