@@ -21,8 +21,7 @@ export default function LazyImage({ src, alt = '', height = 300, ...props }) {
       {!loaded && (
         <Skeleton
           variant="rectangular"
-          width="100%"
-          height={height}
+          className="skeleton"
           animation="wave"
         />
       )}
@@ -30,7 +29,6 @@ export default function LazyImage({ src, alt = '', height = 300, ...props }) {
         <img
           src={src}
           alt={alt}
-          style={{ width: '100%', display: 'block' }}
           loading="lazy"
           {...props}
         />

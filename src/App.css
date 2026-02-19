@@ -295,18 +295,17 @@
 }
 
 .video-container {
+  width: 100%; 
   display: flex;
   flex-direction: column;
   align-items: center;      
 }
 
-.video-container img {
-  width: 40%;               
-  max-width: 120px;       
+.video-container img {              
+  max-width: 120px;     
   height: auto;
   margin-top: 1rem;
 }
-
 
 .img-wrapper {
   position: relative;         /* Needed for ::before to position correctly */
@@ -322,7 +321,7 @@
 
 .img-wrapper img {
   height: 100%;
-  width: auto;
+  width: 100%;
   object-fit: cover;
   border: solid 0.5px #7e7e7e;
   display: block;
@@ -340,6 +339,10 @@
   background: linear-gradient(to bottom, rgba(19, 220, 255, 0.363), rgba(25, 0, 255, 0.233));
   pointer-events: none;
   z-index: 1;
+}
+
+.skeleton{
+  width: 100%;
 }
 
 .reel-title{
@@ -383,6 +386,7 @@
 
 .modal-content img{
   max-width: 100%;
+  min-height: 100%;
   filter: drop-shadow(20px 20px 20px #0c0c0c);
   border: solid 1px #646cff;
 }
