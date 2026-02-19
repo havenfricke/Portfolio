@@ -33,9 +33,9 @@ function GameDevPage()
                             <ModalWindow title={"Trial by Fire"}>
                                 <div className='row'>
                                     <p>
-                                        This is the third of three prototype iterations in Unity Engine done during my time with GIMM at Boise State University. 
-                                        This project features VFX, <a href="">PUN 2</a> multiplayer, player stats, and more. Stay tuned! As I work on this project
-                                        I will post more content here.
+                                        This is the third of three prototype iterations in Unity Engine (HDRP) done during my time with GIMM at Boise State University. 
+                                        This project features VFX, <a href="https://www.photonengine.com/pun" target='_blank'>PUN 2</a> multiplayer, player stats, 
+                                        and more. Stay tuned! As I work on this project more content will be here.
                                         <br />
                                         <br />
                                         <a href='https://github.com/havenfricke/Open-World-RPG-Prototype' target='_blank'>First Iteration Repository Link</a><br />
@@ -73,7 +73,14 @@ function GameDevPage()
                             </div>
                             <ModalWindow title={"PUN 2 Singleton"}>
                                 <div className='row'>
-                                    <a href="https://github.com/havenfricke/PUN2_Net_Singleton" target="_blank">GitHub Repository Link</a>
+                                    <p>
+                                        A singleton pattern network facade that is meant to be a liason between Photon classes / methods that provide online services. This script
+                                        is written to solidify understanding, of <a href='https://www.photonengine.com/pun' target='_blank'>PUN 2</a> features, RPCs, and
+                                        server / client model based multiplayer games.
+                                        <br />
+                                        <br />
+                                        <a href="https://github.com/havenfricke/PUN2_Net_Singleton" target="_blank">GitHub Repository Link</a>
+                                    </p>  
                                 </div>
                                 <div className='row'>
                                     <MarkdownFile
@@ -93,7 +100,14 @@ function GameDevPage()
                             </div>
                             <ModalWindow title={"Unity Input Module"}>
                                 <div className='row'>
-                                    <a href="https://github.com/havenfricke/Unity6_PlayerInputModule" target="_blank">GitHub Repository Link</a>
+                                    <p>
+                                        A modular script for Unity 6 default input system that forwards control inputs. The design pattern keeps game logic
+                                        away from input into a clear, easy-to-understand system. This modular C# script has the ability to handle both UI
+                                        and Player input schemes that comes out of the box with Unity 6.
+                                        <br />
+                                        <br />
+                                        <a href="https://github.com/havenfricke/Unity6_PlayerInputModule" target="_blank">GitHub Repository Link</a>
+                                    </p>     
                                 </div>
                                 <div>
                                     <MarkdownFile
