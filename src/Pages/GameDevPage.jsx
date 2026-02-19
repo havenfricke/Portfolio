@@ -110,10 +110,12 @@ function GameDevPage()
                                     </p>     
                                 </div>
                                 <div>
-                                    <MarkdownFile
-                                    src="https://raw.githubusercontent.com/havenfricke/Unity6_PlayerInputModule/refs/heads/main/README.md"
-                                    className="modal-markdown"
-                                    />
+                                    <div className='row'>
+                                        <MarkdownFile
+                                        src="https://raw.githubusercontent.com/havenfricke/Unity6_PlayerInputModule/refs/heads/main/README.md"
+                                        className="modal-markdown"
+                                        />
+                                    </div>
                                 </div>
                             </ModalWindow>
                         </div>
@@ -139,10 +141,12 @@ function GameDevPage()
                                     </p>
                                 </div>
                                 <div>
-                                    <MarkdownFile
-                                    src="https://raw.githubusercontent.com/havenfricke/Engine/refs/heads/master/README.md"
-                                    className="modal-markdown"
-                                    />
+                                    <div className='row'>
+                                        <MarkdownFile
+                                        src="https://raw.githubusercontent.com/havenfricke/Engine/refs/heads/master/README.md"
+                                        className="modal-markdown"
+                                        />
+                                    </div>
                                 </div>
                             </ModalWindow>
                         </div>

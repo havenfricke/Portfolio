@@ -27,10 +27,12 @@ function WebSoftwarePage()
                             <LazyImage src="/Portfolio/fsida3.png"/>
                         </div>
                         <ModalWindow title={"Fullstack Identity Assertion"}>
-                            <MarkdownFile
+                            <div className='row'>
+                                 <MarkdownFile
                                 src="https://raw.githubusercontent.com/havenfricke/Fullstack-Indentity-Vite-React-Express-Auth0/refs/heads/main/README.md"
                                 className="modal-markdown"
-                            />
+                                />
+                            </div>
                             <div className='row'>
                                 <div className='col-2-grid'>
                                     <LazyImage src="/Portfolio/fsida1.png"/>

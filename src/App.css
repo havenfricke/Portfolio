@@ -393,7 +393,8 @@
 }
 
 .modal-markdown {
-  min-width: 100%;
+  width: 100%;
+  max-width: 70vw;
   height: auto;
   border-radius: 0.5em;
   box-shadow: #000000 0px 0px 15px;
