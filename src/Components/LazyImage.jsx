@@ -22,6 +22,8 @@ export default function LazyImage({ src, alt = '', height = 300, ...props }) {
         <Skeleton
           variant="rectangular"
           className="skeleton"
+          width="100%"
+          height={height}
           animation="wave"
         />
       )}

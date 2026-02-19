@@ -65,6 +65,70 @@ function GameDevPage()
                         </div>
                         <div className='info-card'>
                             <h3>
+                                <a target="_blank" href="">Unreal Engine</a>: Fisticuffs
+                            </h3>
+                            <hr />    
+                            <div className='img-wrapper'>
+                                <LazyImage src="unreal-banner.webp"/>
+                            </div>
+                            <ModalWindow title={"Prototype Online Multiplayer Game"}>
+                                <div className='row'>
+                                    <p>
+                                        A group project during my time with GIMM at Boise State University. The goal within the group was to learn Unreal Engine 5. Features 
+                                        very basic multiplayer auto-matchmaking, state-machine AI, collision detection, health systems, and a beautifully crafted saloon level.
+                                        Team members consisted of myself, <a href="https://www.linkedin.com/in/aidan-link/" target="_blank">Aidan Link</a>, 
+                                        and <a href="https://www.linkedin.com/in/kadenvissotski/" target="_blank">Kaden Vissotski</a>.
+                                        <br />
+                                        <br />
+                                        <a href='https://github.com/havenfricke/Fisticuffs_UE5' target='_blank'>Github Repository Link</a><br />
+                                    </p>
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src="/Portfolio/fisti_1.png"/>
+                                        <LazyImage src="/Portfolio/fisti_2.png"/>
+                                    </div>  
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src="/Portfolio/fisti_3.png"/>
+                                        <LazyImage src="/Portfolio/fisti_4.png"/>
+                                    </div>
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src="/Portfolio/fisti_5.png"/>
+                                        <LazyImage src="/Portfolio/fisti_6.png"/>
+                                    </div>  
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src="/Portfolio/fisti_7.png"/>
+                                        <LazyImage src="/Portfolio/fisti_8.png"/>
+                                    </div>
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src="/Portfolio/fisti_9.png"/>
+                                        <LazyImage src="/Portfolio/fisti_10.png"/>
+                                    </div>  
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src="/Portfolio/fisti_11.png"/>
+                                        <LazyImage src="/Portfolio/fisti_12.png"/>
+                                    </div>
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src="/Portfolio/fisti_13.png"/>
+                                        <LazyImage src="/Portfolio/fisti_14.png"/>
+                                    </div>  
+                                </div>
+                            </ModalWindow>
+                        </div>
+                        <div className='info-card'>
+                            <h3>
                                 <a target="_blank" href="https://unity.com/">Unity</a>: <a href='https://www.photonengine.com/pun' target='_blank'>PUN 2</a> Singleton
                             </h3>
                             <hr />    
@@ -150,7 +214,33 @@ function GameDevPage()
                                 </div>
                             </ModalWindow>
                         </div>
-     
+                         <div className='info-card'>
+                            <h3>
+                                <a target="_blank" href="https://unity.com/">Unity</a>: Accessible Text Compenent
+                            </h3>
+                            <hr />    
+                            <div className='img-wrapper'>
+                                <LazyImage src="/Portfolio/unity-banner.jpg"/>
+                            </div>
+                            <ModalWindow title={"Unity Accessible Text Component"}>
+                                <div className='row'>
+                                    <p>
+                                        An algorithm script component for Text Mesh Pro GUI GameObjects in Unity. The algorithm is based on 
+                                        <a href='https://bionic-reading.com/' target='_blank'> Bionic Reading</a>'s style of text alteration. The text is for individuals
+                                        with cognitive impairments. Specifically made for ADHD and Dyslexic people. 
+                                        <br />
+                                        <br />
+                                        <a href="https://github.com/havenfricke/Unity_AccessibleText" target="_blank">GitHub Repository Link</a>
+                                    </p>  
+                                </div>
+                                <div className='row'>
+                                    <MarkdownFile
+                                    src="https://raw.githubusercontent.com/havenfricke/Unity_AccessibleText/refs/heads/main/README.md"
+                                    className="modal-markdown"
+                                    />
+                                </div>
+                            </ModalWindow>
+                        </div>
                         <div className='info-card'>
                             <h3>
                                 <a target="_blank" href="https://angelscript.hazelight.se/">Unreal Engine</a> + <a target='_blank' href="">AngelScript</a>: 
@@ -178,70 +268,6 @@ function GameDevPage()
                                         <LazyImage src=""/>
                                         <LazyImage src=""/>
                                     </div>
-                                </div>
-                            </ModalWindow>
-                        </div>
-                        <div className='info-card'>
-                            <h3>
-                                <a target="_blank" href="">Unreal Engine</a>: Fisticuffs
-                            </h3>
-                            <hr />    
-                            <div className='img-wrapper'>
-                                <LazyImage src="unreal-banner.webp"/>
-                            </div>
-                            <ModalWindow title={"Prototype Online Multiplayer Game"}>
-                                <div className='row'>
-                                    <p>
-                                        A group project during my time with GIMM at Boise State University. The goal within the group was to learn Unreal Engine 5. Features 
-                                        very basic multiplayer auto-matchmaking, state-machine AI, collision detection, health systems, and a beautifully crafted saloon level.
-                                        Team members consisted of myself, <a href="https://www.linkedin.com/in/aidan-link/" target="_blank">Aidan Link</a>, 
-                                        and <a href="https://www.linkedin.com/in/kadenvissotski/" target="_blank">Kaden Vissotski</a>.
-                                        <br />
-                                        <br />
-                                        <a href='https://github.com/havenfricke/Fisticuffs_UE5' target='_blank'>Github Repository Link</a><br />
-                                    </p>
-                                </div>
-                                <div className='row'>
-                                    <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/fisti_1.png"/>
-                                        <LazyImage src="/Portfolio/fisti_2.png"/>
-                                    </div>  
-                                </div>
-                                <div className='row'>
-                                    <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/fisti_3.png"/>
-                                        <LazyImage src="/Portfolio/fisti_4.png"/>
-                                    </div>
-                                </div>
-                                <div className='row'>
-                                    <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/fisti_5.png"/>
-                                        <LazyImage src="/Portfolio/fisti_6.png"/>
-                                    </div>  
-                                </div>
-                                <div className='row'>
-                                    <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/fisti_7.png"/>
-                                        <LazyImage src="/Portfolio/fisti_8.png"/>
-                                    </div>
-                                </div>
-                                <div className='row'>
-                                    <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/fisti_9.png"/>
-                                        <LazyImage src="/Portfolio/fisti_10.png"/>
-                                    </div>  
-                                </div>
-                                <div className='row'>
-                                    <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/fisti_11.png"/>
-                                        <LazyImage src="/Portfolio/fisti_12.png"/>
-                                    </div>
-                                </div>
-                                <div className='row'>
-                                    <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/fisti_13.png"/>
-                                        <LazyImage src="/Portfolio/fisti_14.png"/>
-                                    </div>  
                                 </div>
                             </ModalWindow>
                         </div>
