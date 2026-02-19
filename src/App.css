@@ -375,20 +375,21 @@
   padding: 35px;
   border: 1px solid #888;
   width: 90%;
-  max-width: 90%;
-  min-height: 85vh;
-  max-height: 85vh;
+  max-height: 70vh; /* Removed the conflicting 85vh declarations */
   border-radius: 2px;
   position: relative;
-  max-height: 70vh;    
-  overflow-y: scroll;    
+  overflow-y: auto; /* 'auto' is cleaner than 'scroll' as it only shows the scrollbar when needed */
+  -webkit-overflow-scrolling: touch; /* Essential for smooth momentum scrolling on iOS */
 }
 
-.modal-content img{
-  max-width: 100%;
-  min-height: 100%;
+.modal-content img {
+  width: 100%; 
+  height: 333px; 
+  object-fit: cover; 
+  object-position: center; 
   filter: drop-shadow(20px 20px 20px #0c0c0c);
   border: solid 1px #646cff;
+  display: block;
 }
 
 .modal-markdown {
