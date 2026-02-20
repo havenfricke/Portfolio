@@ -19,23 +19,23 @@ export const router = createBrowserRouter([
           element: <HomePage />,
         },
         {
-          path:"/Portfolio/websoftware",
+          path:"/Portfolio/websoftware/",
           element: <WebSoftwarePage />
         },
         {
-          path: "/Portfolio/gamedev",
+          path: "/Portfolio/gamedev/",
           element: <GameDevPage />
         },
         {
-          path: "/Portfolio/3d",
+          path: "/Portfolio/3d/",
           element: <ThreeDPage />
         },
         {
-          path: "/Portfolio/iot",
+          path: "/Portfolio/iot/",
           element: <IoTPage />
         },
         {
-          path:"/Portfolio/join",
+          path:"/Portfolio/join/",
           element: <JoinPage />
         }
       ],

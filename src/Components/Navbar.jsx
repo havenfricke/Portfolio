@@ -13,14 +13,14 @@ export function Navbar() {
         <img className="right-arrow" src="/Portfolio/arrow-right-solid.svg" alt="Right Arrow" data-skip-on-tab="true"/>
       </button>
     </Link>
-    <Link to={'/Portfolio/gamedev'} className={location.pathname === '/Portfolio/gamedev' ? 'active' : ''} title="Game Dev Artifacts">
-      <button className={location.pathname === '/Portfolio/gamedev' ? 'active' : ''}>
+    <Link to={'/Portfolio/gamedev/'} className={location.pathname === '/Portfolio/gamedev/' ? 'active' : ''} title="Game Dev Artifacts">
+      <button className={location.pathname === '/Portfolio/gamedev/' ? 'active' : ''}>
         <img className="game-pad" src="/Portfolio/gamepad-solid.svg" alt="Gamepad" data-skip-on-tab="true"/>
         <img className="right-arrow" src="/Portfolio/arrow-right-solid.svg" alt="Right Arrow" data-skip-on-tab="true"/>
       </button>
     </Link>
-    <Link to={'/Portfolio/websoftware'} className={location.pathname === '/Portfolio/websoftware' ? 'active' : ''} title="Web & Software Artifacts">
-      <button className={location.pathname === '/Portfolio/websoftware' ? 'active' : ''}>
+    <Link to={'/Portfolio/websoftware/'} className={location.pathname === '/Portfolio/websoftware/' ? 'active' : ''} title="Web & Software Artifacts">
+      <button className={location.pathname === '/Portfolio/websoftware/' ? 'active' : ''}>
         <img className="code" src="/Portfolio/code-solid.svg" alt="Code Bracket" data-skip-on-tab="true"/>
         <img className="right-arrow" src="/Portfolio/arrow-right-solid.svg" alt="Right Arrow" data-skip-on-tab="true"/>
       </button>
@@ -32,7 +32,7 @@ export function Navbar() {
       </button>
     </Link> */}
     <Link to={'/Portfolio/iot'} className={location.pathname === '/Portfolio/iot' ? 'active' : ''} title="IoT Artifacts">
-      <button className={location.pathname === '/Portfolio/iot' ? 'active' : ''}>
+      <button className={location.pathname === '/Portfolio/iot/' ? 'active' : ''}>
         <img className="network" src="/Portfolio/network.svg" alt="Network" data-skip-on-tab="true"/>
         <img className="right-arrow" src="/Portfolio/arrow-right-solid.svg" alt="Right Arrow" data-skip-on-tab="true"/>
       </button>
