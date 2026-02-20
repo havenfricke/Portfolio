@@ -325,9 +325,9 @@ function GameDevPage()
                         </div>
                          <div className='info-card'>
                             <h3>
-                                <a target="_blank" href="https://unity.com/">Unity Engine</a> + 
-                                <a target='_blank' href="https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@2.9/manual/networking-concepts.html">Netcode</a>: 
-                                Online Open World RPG Prototype
+                                <a target="_blank" href="https://unity.com/">Unity</a> + 
+                                <a target='_blank' href="https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@2.9/manual/networking-concepts.html"> Netcode</a>: 
+                                Prototype RPG Multiplayer Game
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
