@@ -183,7 +183,6 @@ function GameDevPage()
                                 </div>
                             </ModalWindow>
                         </div>
-
                         <div className='info-card'>
                             <h3>
                                 C++, DirectX 11, and HLSL
@@ -243,36 +242,6 @@ function GameDevPage()
                         </div>
                         <div className='info-card'>
                             <h3>
-                                <a target="_blank" href="https://angelscript.hazelight.se/">Unreal Engine</a> + <a target='_blank' href="">AngelScript</a>: 
-                                <br />Soul Incarnate
-                            </h3>
-                            <hr />    
-                            <div className='img-wrapper'>
-                                <LazyImage src="angelscript_unreal.png"/>
-                            </div>
-                            <ModalWindow title={"Soul Incarnate"}>
-                                <div className='row'>
-                                    <p>
-                                        <a href='https://github.com/havenfricke/Soul_Incarnate' target='_blank'>Github Repository Link</a><br />
-                                        Content coming soon!
-                                    </p>
-                                </div>
-                                <div className='row'>
-                                    <div className='col-2-grid'>
-                                        <LazyImage src=""/>
-                                        <LazyImage src=""/>
-                                    </div>  
-                                </div>
-                                <div className='row'>
-                                    <div className='col-2-grid'>
-                                        <LazyImage src=""/>
-                                        <LazyImage src=""/>
-                                    </div>
-                                </div>
-                            </ModalWindow>
-                        </div>
-                        <div className='info-card'>
-                            <h3>
                                 <a target="_blank" href="https://unity.com/">Unity Engine</a> + <a target='_blank' href="https://www.photonengine.com/pun">PUN 2</a>: Wary Path
                             </h3>
                             <hr />    
@@ -323,7 +292,7 @@ function GameDevPage()
                                 </div>
                             </ModalWindow>
                         </div>
-                         <div className='info-card'>
+                        <div className='info-card'>
                             <h3>
                                 <a target="_blank" href="https://unity.com/">Unity</a> + 
                                 <a target='_blank' href="https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@2.9/manual/networking-concepts.html"> Netcode</a>: 
@@ -379,6 +348,37 @@ function GameDevPage()
                                 </div>
                             </ModalWindow>
                         </div>
+                        <div className='info-card'>
+                            <h3>
+                                <a target="_blank" href="https://angelscript.hazelight.se/">Unreal Engine</a> + <a target='_blank' href="">AngelScript</a>: 
+                                <br />Soul Incarnate
+                            </h3>
+                            <hr />    
+                            <div className='img-wrapper'>
+                                <LazyImage src="angelscript_unreal.png"/>
+                            </div>
+                            <ModalWindow title={"Soul Incarnate"}>
+                                <div className='row'>
+                                    <p>
+                                        <a href='https://github.com/havenfricke/Soul_Incarnate' target='_blank'>Github Repository Link</a><br />
+                                        Content coming soon!
+                                    </p>
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src=""/>
+                                        <LazyImage src=""/>
+                                    </div>  
+                                </div>
+                                <div className='row'>
+                                    <div className='col-2-grid'>
+                                        <LazyImage src=""/>
+                                        <LazyImage src=""/>
+                                    </div>
+                                </div>
+                            </ModalWindow>
+                        </div>
+                        {/* END OF INFO CARDS */}
                     </div>
                 </div>
             </section>
