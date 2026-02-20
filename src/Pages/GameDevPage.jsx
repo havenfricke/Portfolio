@@ -16,8 +16,8 @@ function GameDevPage()
                     <h3 className='reel-title'>2024 - 2026 Gameplay Engineering Reel</h3>
                 </div>
                 <div className='video-container'>
-                    <video src="/Portfolio/demoreelminified.webm" poster="/Portfolio/link-thumbnail.png" controls></video>
-                    <img alt='arrow down indicator' src="/Portfolio/arrow-down.gif"/>
+                    <video src="/demoreelminified.webm" poster="/link-thumbnail.png" controls></video>
+                    <img alt='arrow down indicator' src="/arrow-down.gif"/>
                 </div>  
                 <br />  
                 <div className='row'>
@@ -28,7 +28,7 @@ function GameDevPage()
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
-                                <LazyImage src="/Portfolio/unity-banner.jpg"/>
+                                <LazyImage src="/unity-banner.jpg"/>
                             </div>
                             <ModalWindow title={"Trial by Fire"}>
                                 <div className='row'>
@@ -45,20 +45,20 @@ function GameDevPage()
                                 </div>
                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/tbf_1.png"/>
-                                        <LazyImage src="/Portfolio/tbf_2.png"/>
+                                        <LazyImage src="/tbf_1.png"/>
+                                        <LazyImage src="/tbf_2.png"/>
                                     </div>  
                                 </div>
                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/tbf_3.png"/>
-                                        <LazyImage src="/Portfolio/tbf_4.png"/>
+                                        <LazyImage src="/tbf_3.png"/>
+                                        <LazyImage src="/tbf_4.png"/>
                                     </div>
                                 </div>
                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/tbf_5.png"/>
-                                        <LazyImage src="/Portfolio/tbf_6.png"/>
+                                        <LazyImage src="/tbf_5.png"/>
+                                        <LazyImage src="/tbf_6.png"/>
                                     </div>
                                 </div>
                             </ModalWindow>
@@ -85,44 +85,44 @@ function GameDevPage()
                                 </div>
                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/fisti_1.png"/>
-                                        <LazyImage src="/Portfolio/fisti_2.png"/>
+                                        <LazyImage src="/fisti_1.png"/>
+                                        <LazyImage src="/fisti_2.png"/>
                                     </div>  
                                 </div>
                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/fisti_3.png"/>
-                                        <LazyImage src="/Portfolio/fisti_4.png"/>
+                                        <LazyImage src="/fisti_3.png"/>
+                                        <LazyImage src="/fisti_4.png"/>
                                     </div>
                                 </div>
                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/fisti_5.png"/>
-                                        <LazyImage src="/Portfolio/fisti_6.png"/>
+                                        <LazyImage src="/fisti_5.png"/>
+                                        <LazyImage src="/fisti_6.png"/>
                                     </div>  
                                 </div>
                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/fisti_7.png"/>
-                                        <LazyImage src="/Portfolio/fisti_8.png"/>
+                                        <LazyImage src="/fisti_7.png"/>
+                                        <LazyImage src="/fisti_8.png"/>
                                     </div>
                                 </div>
                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/fisti_9.png"/>
-                                        <LazyImage src="/Portfolio/fisti_10.png"/>
+                                        <LazyImage src="/fisti_9.png"/>
+                                        <LazyImage src="/fisti_10.png"/>
                                     </div>  
                                 </div>
                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/fisti_11.png"/>
-                                        <LazyImage src="/Portfolio/fisti_12.png"/>
+                                        <LazyImage src="/fisti_11.png"/>
+                                        <LazyImage src="/fisti_12.png"/>
                                     </div>
                                 </div>
                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/fisti_13.png"/>
-                                        <LazyImage src="/Portfolio/fisti_14.png"/>
+                                        <LazyImage src="/fisti_13.png"/>
+                                        <LazyImage src="/fisti_14.png"/>
                                     </div>  
                                 </div>
                             </ModalWindow>
@@ -133,7 +133,7 @@ function GameDevPage()
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
-                                <LazyImage src="/Portfolio/unity-banner.jpg"/>
+                                <LazyImage src="/unity-banner.jpg"/>
                             </div>
                             <ModalWindow title={"PUN 2 Singleton"}>
                                 <div className='row'>
@@ -160,7 +160,7 @@ function GameDevPage()
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
-                                <LazyImage src="/Portfolio/unity-banner.jpg"/>
+                                <LazyImage src="/unity-banner.jpg"/>
                             </div>
                             <ModalWindow title={"Unity Input Module"}>
                                 <div className='row'>
@@ -189,7 +189,7 @@ function GameDevPage()
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
-                                <LazyImage src="/Portfolio/dx11.jpg"/>
+                                <LazyImage src="/dx11.jpg"/>
                             </div>
                             <ModalWindow title={"C++, DirectX 11, and HLSL"}>
                                 <div className='row'>
@@ -219,7 +219,7 @@ function GameDevPage()
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
-                                <LazyImage src="/Portfolio/unity-banner.jpg"/>
+                                <LazyImage src="/unity-banner.jpg"/>
                             </div>
                             <ModalWindow title={"Unity Accessible Text Component"}>
                                 <div className='row'>
@@ -246,7 +246,7 @@ function GameDevPage()
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
-                                <LazyImage src="/Portfolio/unity-banner.jpg"/>
+                                <LazyImage src="/unity-banner.jpg"/>
                             </div>
                             <ModalWindow title={"Prototype RPG Multiplayer Game"}>
                                 <div className='row'>
@@ -268,26 +268,26 @@ function GameDevPage()
                                 </div>
                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/wapa_1.png"/>
-                                        <LazyImage src="/Portfolio/wapa_2.png"/>
+                                        <LazyImage src="/wapa_1.png"/>
+                                        <LazyImage src="/wapa_2.png"/>
                                     </div>  
                                 </div>
                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/wapa_3.png"/>
-                                        <LazyImage src="/Portfolio/wapa_4.png"/>
+                                        <LazyImage src="/wapa_3.png"/>
+                                        <LazyImage src="/wapa_4.png"/>
                                     </div>
                                 </div>
                                                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/wapa_5.png"/>
-                                        <LazyImage src="/Portfolio/wapa_6.png"/>
+                                        <LazyImage src="/wapa_5.png"/>
+                                        <LazyImage src="/wapa_6.png"/>
                                     </div>  
                                 </div>
                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/wapa_7.png"/>
-                                        <LazyImage src="/Portfolio/wapa_8.png"/>
+                                        <LazyImage src="/wapa_7.png"/>
+                                        <LazyImage src="/wapa_8.png"/>
                                     </div>
                                 </div>
                             </ModalWindow>
@@ -300,7 +300,7 @@ function GameDevPage()
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
-                                <LazyImage src="/Portfolio/unity-banner.jpg"/>
+                                <LazyImage src="/unity-banner.jpg"/>
                             </div>
                             <ModalWindow title={"Prototype RPG Multiplayer Game"}>
                                 <div className='row'>
@@ -318,32 +318,32 @@ function GameDevPage()
                                 </div>
                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/rpg_1.png"/>
-                                        <LazyImage src="/Portfolio/rpg_2.png"/>
+                                        <LazyImage src="/rpg_1.png"/>
+                                        <LazyImage src="/rpg_2.png"/>
                                     </div>  
                                 </div>
                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/rpg_3.png"/>
-                                        <LazyImage src="/Portfolio/rpg_4.png"/>
+                                        <LazyImage src="/rpg_3.png"/>
+                                        <LazyImage src="/rpg_4.png"/>
                                     </div>
                                 </div>
                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/rpg_5.png"/>
-                                        <LazyImage src="/Portfolio/rpg_6.png"/>
+                                        <LazyImage src="/rpg_5.png"/>
+                                        <LazyImage src="/rpg_6.png"/>
                                     </div>  
                                 </div>
                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/rpg_7.png"/>
-                                        <LazyImage src="/Portfolio/rpg_8.png"/>
+                                        <LazyImage src="/rpg_7.png"/>
+                                        <LazyImage src="/rpg_8.png"/>
                                     </div>
                                 </div>
                                 <div className='row'>
                                     <div className='col-2-grid'>
-                                        <LazyImage src="/Portfolio/rpg_9.png"/>
-                                        <LazyImage src="/Portfolio/rpg_10.png"/>
+                                        <LazyImage src="/rpg_9.png"/>
+                                        <LazyImage src="/rpg_10.png"/>
                                     </div>  
                                 </div>
                             </ModalWindow>

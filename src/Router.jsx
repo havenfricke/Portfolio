@@ -9,35 +9,35 @@ import ThreeDPage from './Pages/ThreeDPage.jsx';
 import IoTPage from './Pages/IoTPage.jsx';
 
 export const router = createBrowserRouter([
-    {
-      path: "/Portfolio/",
-      element: <App />,
-      errorElement: <ErrorPage />,
-      children: [
-        {
-          path: "/Portfolio/",
-          element: <HomePage />,
-        },
-        {
-          path:"/Portfolio/websoftware/",
-          element: <WebSoftwarePage />
-        },
-        {
-          path: "/Portfolio/gamedev/",
-          element: <GameDevPage />
-        },
-        {
-          path: "/Portfolio/3d/",
-          element: <ThreeDPage />
-        },
-        {
-          path: "/Portfolio/iot/",
-          element: <IoTPage />
-        },
-        {
-          path:"/Portfolio/join/",
-          element: <JoinPage />
-        }
-      ],
-    },
-  ]);
+  {
+    path: "/", 
+    element: <App />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        index: true, 
+        element: <HomePage />,
+      },
+      {
+        path: "websoftware", 
+        element: <WebSoftwarePage />
+      },
+      {
+        path: "gamedev",
+        element: <GameDevPage />
+      },
+      {
+        path: "3d",
+        element: <ThreeDPage />
+      },
+      {
+        path: "iot",
+        element: <IoTPage />
+      },
+      {
+        path: "join",
+        element: <JoinPage />
+      }
+    ],
+  },
+]);

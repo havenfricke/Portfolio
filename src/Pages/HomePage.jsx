@@ -16,14 +16,14 @@ function HomePage()
         <hr />
         <h2>Software, Games, Interactive Media, and Mobile</h2><br /> 
         <h3 className="home-icons">
-          <a href="https://www.linkedin.com/in/haven-fricke/" target="_blank"><img className="linkedin" src="/Portfolio/linkedin-brands.svg" title="open in new tab"/></a>
-          <a href="https://x.com/havenf_gg" target="_blank"><img className="x-twitter" src="/Portfolio/x-twitter.svg" title="open in new tab"/></a>
-          <a href="mailto:havenfricke@u.boisestate.edu" target="_blank"><img className="email" src="/Portfolio/envelope-solid.svg" title="open email"/></a>
+          <a href="https://www.linkedin.com/in/haven-fricke/" target="_blank"><img className="linkedin" src="/linkedin-brands.svg" title="open in new tab"/></a>
+          <a href="https://x.com/havenf_gg" target="_blank"><img className="x-twitter" src="/x-twitter.svg" title="open in new tab"/></a>
+          <a href="mailto:havenfricke@u.boisestate.edu" target="_blank"><img className="email" src="/envelope-solid.svg" title="open email"/></a>
         </h3>
       </div>
       <div className="home-content">
         <div className="info-card">
-          <a href="/Portfolio/Haven_Fricke_Resume.pdf" target="_blank">View my résumé &#128279;</a>
+          <a href="/Haven_Fricke_Resume.pdf" target="_blank">View my résumé &#128279;</a>
           <p>
             Thank you for being here. My name is Haven Fricke, and I am a software developer, game developer, 
             and interactive media creator with a passion for building meaningful, engaging experiences. 
@@ -60,16 +60,16 @@ function HomePage()
           <h3>Reading List</h3>
           <div className="row">
             <div className="col-2-grid">
-              <img className="book" alt="understandingmedia" src="/Portfolio/understandingmedia.jpg"/>
-              <img className="book" alt="mediumismessage" src="/Portfolio/mediumismessage.jpg"/>
-              <img className="book" alt="biocentrism" src="/Portfolio/biocentrism.jpg"/>
-              <img className="book" alt="creativeact" src="/Portfolio/creativeact.jpg"/>
-              <img className="book" alt="flow" src="/Portfolio/flow.jpg"/>
-              <img className="book" alt="techniqueofmaster" src="/Portfolio/sunandsteel.jpg"/>
-              <img className="book" alt="alphabetgoddess" src="/Portfolio/alphabetgoddess.jpg"/>
-              <img className="book" alt="taoteching" src="/Portfolio/taoteching.jpg"/>
-              <img className="book" alt="stocism" src="/Portfolio/stocism.jpg"/>
-              <img className="book" alt="quantum body" src="/Portfolio/qbody.jpg"/>
+              <img className="book" alt="understandingmedia" src="/understandingmedia.jpg"/>
+              <img className="book" alt="mediumismessage" src="/mediumismessage.jpg"/>
+              <img className="book" alt="biocentrism" src="/biocentrism.jpg"/>
+              <img className="book" alt="creativeact" src="/creativeact.jpg"/>
+              <img className="book" alt="flow" src="/flow.jpg"/>
+              <img className="book" alt="techniqueofmaster" src="/sunandsteel.jpg"/>
+              <img className="book" alt="alphabetgoddess" src="/alphabetgoddess.jpg"/>
+              <img className="book" alt="taoteching" src="/taoteching.jpg"/>
+              <img className="book" alt="stocism" src="/stocism.jpg"/>
+              <img className="book" alt="quantum body" src="/qbody.jpg"/>
             </div>
           </div>
         </div>
