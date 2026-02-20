@@ -139,8 +139,8 @@ function GameDevPage()
                                 <div className='row'>
                                     <p>
                                         A singleton pattern network facade that is meant to be a liason between Photon classes / methods that provide online services. This script
-                                        is written to solidify understanding, of <a href='https://www.photonengine.com/pun' target='_blank'>PUN 2</a> features, RPCs, and
-                                        server / client model based multiplayer games.
+                                        is written to solidify understanding of <a href='https://www.photonengine.com/pun' target='_blank'>PUN 2</a> features, RPCs, and
+                                        server / client model based multiplayer games. It also serves as an easy starting point for networked multiplayer projects.
                                         <br />
                                         <br />
                                         <a href="https://github.com/havenfricke/PUN2_Net_Singleton" target="_blank">GitHub Repository Link</a>
