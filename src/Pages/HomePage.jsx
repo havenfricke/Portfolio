@@ -57,7 +57,8 @@ function HomePage()
           </p>
         </div>
         <div className="info-card">
-          <h3>Reading List</h3>
+          <h2>My Reading List</h2>
+          <hr />
           <div className="row">
             <div className="col-2-grid">
               <img className="book" alt="understandingmedia" src="/understandingmedia.jpg"/>
