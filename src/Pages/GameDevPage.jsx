@@ -9,7 +9,7 @@ function GameDevPage()
     return (
             <section className='card-view-page'>
                 <div className="card-view-banner">
-                    <h2><strong>Games</strong></h2> 
+                    <h2><strong>3D Programming & Games</strong></h2> 
                 </div>
                 <br />
                 <div>
