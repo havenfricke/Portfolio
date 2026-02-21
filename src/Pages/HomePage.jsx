@@ -25,8 +25,8 @@ function HomePage()
         <div className="info-card">
           <a href="/Haven_Fricke_Resume.pdf" target="_blank">View my résumé &#128279;</a>
           <p>
-            Thank you for being here. My name is Haven Fricke, and I am a software developer, game developer, 
-            and interactive media creator with a passion for building meaningful, engaging experiences. 
+            Thank you for being here. My name is Haven Fricke, and I am an engineer, developer, 
+            and interactive media creator with a passion for building meaningful experiences. 
             Composition has always been central to my life. For many years, music and sound design were 
             my primary creative outlets. While that passion remains, I ultimately discovered that technology 
             is the medium through which I best express ideas and bring concepts to life.
@@ -36,7 +36,7 @@ function HomePage()
             computing as a powerful vehicle for communicating ideas and delivering utility through organized, 
             accessible information. 
             <br /><br />
-            Music theory offers a structured language of patterns and relationships. Software development mirrors 
+            Music theory offers a structured language of patterns and relationships. Engineering mirrors 
             this: both rely on systems of organization to create functional, elegant solutions. Melodic patterns 
             and harmonies parallel algorithms and data structures; dissonance emerges when a chord falls out of 
             key just as it does when a function is misaligned with its intended purpose. In both disciplines, 
