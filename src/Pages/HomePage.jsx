@@ -44,7 +44,7 @@ function HomePage()
             dynamics when collaborating with developers, artists, or engineers.
             <br /><br />
             My earlier years as a tactical communicator in the United States Marine Corps significantly shaped my 
-            approach to engineering and innovation. Operating under pressure, overcoming mental barriers, and 
+            approach to engineering and innovation. Operating under pressure, overcoming mental barriers (Vritti), and 
             maintaining focus have become core strengths that inform my problem solving and project management 
             style. I aim to build solutions with longevity and designs that feel timeless. A disciplined mindset 
             fosters effective execution.
