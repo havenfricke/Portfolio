@@ -10,7 +10,7 @@ function IoTPage()
     return (
         <section className='card-view-page'>
             <div className="card-view-banner">
-                <h2><strong>IoT<br /> Development</strong></h2> 
+                <h2><strong>Internet of Things</strong></h2> 
             </div>
             <div className="row">
                 <div className="col-2-grid">
