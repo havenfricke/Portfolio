@@ -28,6 +28,17 @@ function WebSoftwarePage()
                         </div>
                         <ModalWindow title={"Fullstack Identity Assertion"}>
                             <div className='row'>
+                                <p>
+                                    A summer project to demystify login services in a fullstack software environment. The project features a React front end and 
+                                    Express backend that connects with Auth0 login services. The client and Auth0 first talk to each other to confirm identity
+                                    credentials then, the client and back end talk to each other to store users that Uath0 has verified via email. The architecture
+                                    proves strong as a scaffold for the start of your next full stack project.
+                                    <br />
+                                    <br />
+                                    <a href="https://github.com/havenfricke/Fullstack-Indentity-Vite-React-Express-Auth0" target='_blank'>GitHub Repository</a>
+                                </p>
+                            </div>
+                            <div className='row'>
                                  <MarkdownFile
                                 src="https://raw.githubusercontent.com/havenfricke/Fullstack-Indentity-Vite-React-Express-Auth0/refs/heads/main/README.md"
                                 className="modal-markdown"
@@ -111,15 +122,15 @@ function WebSoftwarePage()
                     </div>
 
                     <div className='info-card'>
-                        <h3><a target="_blank" href="https://react.dev/">React</a>: Vanilla Boilerplate</h3>
+                        <h3><a target="_blank" href="https://react.dev/">React</a>: Vanilla Scaffold</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <LazyImage src="/reactvan1.png"/>
                         </div>
-                        <ModalWindow title={"React Vanilla Boilerplate"}>
+                        <ModalWindow title={"React Vanilla Scaffold"}>
                             <div className='row'>
                                 <p>
-                                    This GitHub repository is boilerplate code that I made for beginning web applications while attending  
+                                    This GitHub repository is scaffold code that I made for beginning web applications while attending  
                                     <a href="https://www.boisestate.edu/gimm/student-information/" target='_blank'> Boise State University</a>. 
                                     The architecture was learned during my time as a student at <a href="https://boisecodeworks.com/" target='_blank'>Boise CodeWorks</a>, 
                                     a trade school that focuses on teaching with refactored code to touch on basic concepts in a high 
@@ -127,7 +138,7 @@ function WebSoftwarePage()
                                     react mobx, react document object model, react router, and axios. 
                                     Additionally it has some example components, an application state, and API example call routes.
                                     This is a client, single-page application, and front end of a full stack application. 
-                                    This website is using the boilerplate as a foundation.
+                                    This website is using the scaffold as a foundation.
                                     <br />
                                     <br />
                                     <a href="https://github.com/havenfricke/ReactApp-Vanilla-Starter" target="_blank">GitHub Repository Link</a>
@@ -166,7 +177,7 @@ function WebSoftwarePage()
                                     It challenged students to create a responsive front end application built on React that 
                                     gamified datasets. The goal with this project was to create an unbiased narrative with support from
                                     fossil fuel data, atmospheric records, basic economic concepts, and some general sentiments.
-                                    The application is built on boilerplate code from my 
+                                    The application is built on scaffold code from my 
                                     <a href="https://github.com/havenfricke/ReactApp-Vanilla-Starter" target='_blank'> React client repository</a>. 
                                     <br />
                                     <br />
@@ -202,7 +213,10 @@ function WebSoftwarePage()
                                 <p>
                                     React front-end and Express backend full stack application. The server's static HTML page enables create, 
                                     read, update, and delete routes for data management. The React front-end only contains a get, fetching the 
-                                    public facing website's page content.
+                                    public facing website's page content. This project features basic capability in translating HTML and uploaded
+                                    images to a React front-end to mimic the features of a content management system such as WordPress. It uses
+                                    a MySQL database to store images in Base64 format and raw HTML plus its inner text. The user interface to input HTML
+                                    and images is served from a static HTML page from the back end (Express).  
                                     <br />
                                     <br />
                                     <a href="https://github.com/havenfricke/Website-Builder" target="_blank">GitHub Repository Link</a>
@@ -296,7 +310,7 @@ function WebSoftwarePage()
                         <ModalWindow title={"Swift: iOS + MVC"}>
                         <div className='row'>
                                 <p>
-                                    Basic Model, View, Controller boilerplate iOS application designed as a blueprint for new projects. 
+                                    Basic Model, View, Controller scaffold iOS application designed as a blueprint for new projects. 
                                     In this setup, Swift's "Main Actor" or main dispatch queue of the iOS device doubles as a controller's code (MVC). 
                                     This is to prioritize processing power for the application when/if an API call is made over network and UI updates with returned data.
                                     <br />

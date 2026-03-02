@@ -24,7 +24,7 @@ function GameDevPage()
                     <div className='col-2-grid'>
                         <div className='info-card'>
                             <h3>
-                                <a target="_blank" href="https://unity.com/">Unity Engine</a> + <a target='_blank' href="https://www.photonengine.com/pun">PUN 2</a>: Trial by Fire
+                                <a target="_blank" href="https://unity.com/">Unity Engine</a> + <a target='_blank' href="https://www.photonengine.com/pun">PUN 2</a> Trial by Fire
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
@@ -77,7 +77,9 @@ function GameDevPage()
                                         A group project during my time with GIMM at Boise State University. The goal within the group was to learn Unreal Engine 5. Features 
                                         very basic multiplayer auto-matchmaking, state-machine AI, collision detection, health systems, and a beautifully crafted saloon level.
                                         Team members consisted of myself, <a href="https://www.linkedin.com/in/aidan-link/" target="_blank">Aidan Link</a>, 
-                                        and <a href="https://www.linkedin.com/in/kadenvissotski/" target="_blank">Kaden Vissotski</a>.
+                                        and <a href="https://www.linkedin.com/in/kadenvissotski/" target="_blank">Kaden Vissotski</a>. My role in the project was stricly 
+                                        programmatic and audio. I designed the state machine AI, player controls, multiplayer features (state synch), sounds cues, collision detection, and
+                                        health systems.
                                         <br />
                                         <br />
                                         <a href='https://github.com/havenfricke/Fisticuffs_UE5' target='_blank'>Github Repository Link</a><br />
@@ -129,7 +131,7 @@ function GameDevPage()
                         </div>
                         <div className='info-card'>
                             <h3>
-                                <a target="_blank" href="https://unity.com/">Unity</a>: <a href='https://www.photonengine.com/pun' target='_blank'>PUN 2</a> Singleton
+                                <a target="_blank" href="https://unity.com/">Unity</a> <a href='https://www.photonengine.com/pun' target='_blank'>PUN 2</a> Singleton
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
@@ -140,7 +142,10 @@ function GameDevPage()
                                     <p>
                                         A singleton pattern network facade that is meant to be a liason between Photon classes / methods that provide online services. This script
                                         is written to solidify understanding of <a href='https://www.photonengine.com/pun' target='_blank'>PUN 2</a> features, RPCs, and
-                                        server / client model based multiplayer games. It also serves as an easy starting point for networked multiplayer projects.
+                                        server / client model based multiplayer games. It also serves as an easy starting point for networked multiplayer projects. This is meant
+                                        to be a basic starting point with Photon Unity Engine for Unity projects. It has a clear pattern for developers and engineers to add
+                                        or modify in the scenario more advanced multiplayer logic is necessary. The facade is a great addition to any multiplayer Unity project due to
+                                        the ability to add custom logic in this class before data is sent to Photon's main singleton class.  
                                         <br />
                                         <br />
                                         <a href="https://github.com/havenfricke/PUN2_Net_Singleton" target="_blank">GitHub Repository Link</a>
@@ -167,7 +172,10 @@ function GameDevPage()
                                     <p>
                                         A modular script for Unity 6 default input system that forwards control inputs. The design pattern keeps game logic
                                         away from input into a clear, easy-to-understand system. This modular C# script has the ability to handle both UI
-                                        and Player input schemes that comes out of the box with Unity 6.
+                                        and Player input schemes that comes out of the box with Unity 6. The main issue many developers and engineers run into 
+                                        when building a game is project complexity that stems from player controls mixing with game logic. This class aims to 
+                                        create a clear distinction of hardware input and game logic to reduce complexity of Unity projects over time. Control input
+                                        values are meant to be forwarded from this class to game logic scripts to create that clear distinction.
                                         <br />
                                         <br />
                                         <a href="https://github.com/havenfricke/Unity6_PlayerInputModule" target="_blank">GitHub Repository Link</a>
@@ -197,7 +205,9 @@ function GameDevPage()
                                         My individual research project done during my senior year at Boise State University while attending GIMM. 
                                         The project is meant to be a reference and learning resource for myself and my peers to get started learning
                                         how to build game engines using C++ and DirectX from source. It also serves as a learning resource to understand 
-                                        the general mechanisms of modern game engines such as Unity or Unreal.
+                                        the general mechanisms of modern game engines such as Unity or Unreal. Largely inspired by 
+                                        <a href="https://x.com/notch?lang=en" target="_blank"> notch's</a> (Minecraft creator) sentiments on creating games
+                                        and to progress my individual capability in an industry I care very much about. 
                                         <br />
                                         <br />
                                         <a href='https://github.com/havenfricke/Engine' target='_blank'>Github Repository Link</a><br />
@@ -215,7 +225,7 @@ function GameDevPage()
                         </div>
                          <div className='info-card'>
                             <h3>
-                                <a target="_blank" href="https://unity.com/">Unity</a>: Accessible Text Compenent
+                                <a target="_blank" href="https://unity.com/">Unity</a> Accessible Text Compenent
                             </h3>
                             <hr />    
                             <div className='img-wrapper'>
@@ -226,7 +236,9 @@ function GameDevPage()
                                     <p>
                                         An algorithm script component for Text Mesh Pro GUI GameObjects in Unity. The algorithm is based on 
                                         <a href='https://bionic-reading.com/' target='_blank'> Bionic Reading</a>'s style of text alteration. The text is for individuals
-                                        with cognitive impairments. Specifically made for ADHD and Dyslexic people. 
+                                        with cognitive impairments. Specifically made for ADHD and Dyslexic people, this algorithm stemmed from a VR project I worked on
+                                        doing UI/UX. Our application goal is simulation for the automotive industry posing a crucial need for an accessible experience. 
+                                        It is meant to guide a reading eye from one word to the next using simple letter-bolding techniques at the beginning of each word.
                                         <br />
                                         <br />
                                         <a href="https://github.com/havenfricke/Unity_AccessibleText" target="_blank">GitHub Repository Link</a>

@@ -66,7 +66,7 @@ function IoTPage()
 
                     <div className="info-card">
                         <h3>
-                            <a href="https://www.arduino.cc/" target="_blank">Arduino</a>: RD-03E mmWave Human Detection
+                            <a href="https://www.arduino.cc/" target="_blank">Arduino</a> RD-03E mmWave Human Detection
                         </h3>
                         <hr />
                         <div className="img-wrapper">
@@ -128,7 +128,9 @@ function IoTPage()
                             <div className='row'>
                                 <p>
                                     A compilation of basic Arduino code. This collection contains projects with basic I/O capabilities to 
-                                    familiarize with the Arduino Uno r3 and act as a reference or starting point for future projects involving Arduino.
+                                    familiarize with the Arduino Uno r3 and acts as a reference or starting point for future projects involving Arduino.
+                                    This is a great learning resource for basic C++ syntax and memory management with edge-computing, sensor integration, 
+                                    state machines, and IoT development / engineering. 
                                     <br />
                                     <br />
                                     <a href="https://github.com/havenfricke/Arduino-Project-Compilation" target="_blank">Github Repository Link</a>
