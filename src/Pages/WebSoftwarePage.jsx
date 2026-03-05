@@ -248,7 +248,9 @@ function WebSoftwarePage()
                                 <p>
                                     An iOS application that uses ARKit and peer-to-peer with the goal of assisting people who have non-verbal disabilities. 
                                     The application is meant to be used as a liaison between the business and customer, facilitating more efficient communication 
-                                    with a specific demographic of customer.
+                                    with a specific demographic of customer. Using ARKit, cloud computing, and Swift, this application allows users to check in
+                                    to a business and identiify as a customer. Once the system identifies the customer, information based on a user profile is 
+                                    sent to the business's side of the application to better accomodate the user as a customer.
                                     <br />
                                     <br />
                                     <a href="https://github.com/havenfricke/Assistive-App" target="_blank">GitHub Repository Link</a>
@@ -280,7 +282,8 @@ function WebSoftwarePage()
                                 <p>
                                     Project that uses SwiftData and device permissions to access photos. The intent of the project was to familiarize with SwiftData and
                                     the iOS device's photo library. Additionaly, apply the MVC pattern to Swift. The project was built on Swift, SwiftUI, and Xcode.
-                                    Features include utilization of photos with proper access consent for an application on an iOS device.
+                                    Features include utilization of photos with proper access consent for an application on an iOS device. A good starting point for
+                                    applications that needs to access iPhone's photos.
                                     <br />
                                     <br />
                                     <a href="https://github.com/havenfricke/PhotoUtilityApp" target="_blank">GitHub Repository Link</a>
@@ -313,6 +316,10 @@ function WebSoftwarePage()
                                     Basic Model, View, Controller scaffold iOS application designed as a blueprint for new projects. 
                                     In this setup, Swift's "Main Actor" or main dispatch queue of the iOS device doubles as a controller's code (MVC). 
                                     This is to prioritize processing power for the application when/if an API call is made over network and UI updates with returned data.
+                                    The idea was to bring a familiar structure in software to iOS to better organize and understand an application. This architecture
+                                    serves as a clean starting point for new projects and offers a clearly defined design contract to the develper or engineer using it.
+                                    Controllers in this architecture are responsible for updating the views in an iOS application, creating a distinct separation of 
+                                    concerns that scales well.
                                     <br />
                                     <br />
                                     <a href="https://github.com/havenfricke/Swift-iOS-MVC" target="_blank">GitHub Repository Link</a>
