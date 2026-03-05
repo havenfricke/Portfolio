@@ -387,7 +387,7 @@ function WebSoftwarePage()
                                     PlanIt is a project that I started in 2022 during my attendance at Boise Codeworks, a trade school that focuses on
                                     teaching with refactored code to touch on basic concepts in a high level, full stack development environment.
                                     The goal of the project was to create a full stack application that allows users to
-                                    create, edit, and delete projects then sprints (Agile framework) within those projects. 
+                                    create, edit, and delete projects for sprints (Agile/Scrum framework) in a group setting.
                                     Sprints can be shared to other users via url. The project was built on
                                     Vue, Vue Router, SASS / SCSS, and Axios. The back end is built on Node.js, Express, and MongoDB.
                                     <br />
