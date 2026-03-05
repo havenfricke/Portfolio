@@ -33,9 +33,9 @@ function GameDevPage()
                             <ModalWindow title={"Trial by Fire"}>
                                 <div className='row'>
                                     <p>
-                                        This is the third of three prototype iterations in Unity Engine (HDRP) done during my time with GIMM at Boise State University. 
-                                        This project features VFX, <a href="https://www.photonengine.com/pun" target='_blank'>PUN 2</a> multiplayer, player stats, 
-                                        and more. Stay tuned! As I work on this project more content will be here.
+                                        This is the third of three prototype iterations in Unity Engine (HDRP) done solo during my time with GIMM at Boise State University. 
+                                        This project features VFX, <a href="https://www.photonengine.com/pun" target='_blank'>PUN 2</a> multiplayer matchmaking, player stats, 
+                                        combat & health systems, locomotion systems, level design, and more. Stay tuned! As I work on this project more content will be here.
                                         <br />
                                         <br />
                                         <a href='https://github.com/havenfricke/Open-World-RPG-Prototype' target='_blank'>First Iteration Repository Link</a><br />
@@ -172,7 +172,7 @@ function GameDevPage()
                                     <p>
                                         A modular script for Unity 6 default input system that forwards control inputs. The design pattern keeps game logic
                                         away from input into a clear, easy-to-understand system. This modular C# script has the ability to handle both UI
-                                        and Player input schemes that comes out of the box with Unity 6. The main issue many developers and engineers run into 
+                                        and Player input schemes that come with Unity 6. The main issue many developers and engineers run into 
                                         when building a game is project complexity that stems from player controls mixing with game logic. This class aims to 
                                         create a clear distinction of hardware input and game logic to reduce complexity of Unity projects over time. Control input
                                         values are meant to be forwarded from this class to game logic scripts to create that clear distinction.
