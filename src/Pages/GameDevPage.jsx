@@ -78,7 +78,7 @@ function GameDevPage()
                                         very basic multiplayer auto-matchmaking, state-machine AI, collision detection, health systems, and a beautifully crafted saloon level.
                                         Team members consisted of myself, <a href="https://www.linkedin.com/in/aidan-link/" target="_blank">Aidan Link</a>, 
                                         and <a href="https://www.linkedin.com/in/kadenvissotski/" target="_blank">Kaden Vissotski</a>. My role in the project was stricly 
-                                        programmatic and audio. I designed the state machine AI, player controls, multiplayer features (state synch), sounds cues, collision detection, and
+                                        programming, combat systems, and audio. I designed the state machine AI, player controls, multiplayer features (state synch), sounds cues, collision detection, and
                                         health systems.
                                         <br />
                                         <br />
