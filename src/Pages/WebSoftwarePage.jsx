@@ -15,6 +15,50 @@ function WebSoftwarePage()
             <div className="row">
                 <div className='col-2-grid'>
 
+                     <div className='info-card'>
+                        <h3>
+                            Fullstack TypeScript
+                        </h3>
+                        <hr />  
+                        <div className='img-wrapper'>
+                            <LazyImage src="/tsexpress.png"/>
+                        </div>
+                        <ModalWindow title={"Fullstack TypeScript"}>
+                            <div className='row'>
+                                <p>
+                                    A project to learn TypeScript and build a fullstack scaffold for future projects. The architecture is one I have used
+                                    from prior education at Boise Codeworks. It was originally taught in JavaScript using Vue, Express, and .NET web server.
+                                    Since 2024 TypeScript has become the standard to replace JavaScript. The wild west days of JavaScript are beginning
+                                    to end as web infrastructure demands typed languages as the standard moving forward. This project is a means of staying with
+                                    the times and honing my skills. It features a React client and Express server. The React client is equipped with a router, 
+                                    application state using mobx, models, and prewritten service routes for web API calls. The server is equipped with dotenv
+                                    and mysql2 for secure environment variables and parameterized queries.
+                                    <br />
+                                    <br />
+                                    <a href="https://github.com/havenfricke/Fullstack-Indentity-Vite-React-Express-Auth0" target='_blank'>GitHub Repository</a>
+                                </p>
+                            </div>
+                            <div className='row'>
+                                 <MarkdownFile
+                                src="https://raw.githubusercontent.com/havenfricke/TypeScript-Fullstack/refs/heads/main/README.md"
+                                className="modal-markdown"
+                                />
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <LazyImage src="/fsida1.png"/>
+                                    <LazyImage src="/fsida2.png"/>
+                                </div>  
+                            </div>
+                            <div className='row'>
+                                <div className='col-2-grid'>
+                                    <LazyImage src="/fsida3.png"/>
+                                    <LazyImage src="/fsida4.png"/>
+                                </div>
+                            </div>
+                        </ModalWindow>
+                    </div>
+
                     <div className='info-card'>
                         <h3>
                             <a target="_blank" href="https://react.dev/">React</a> + <a target="_blank" href="https://expressjs.com/">Express</a> + <a target="_blank" href="https://auth0.com/">Auth0</a>:
@@ -27,7 +71,7 @@ function WebSoftwarePage()
                         <ModalWindow title={"Fullstack Identity Assertion"}>
                             <div className='row'>
                                 <p>
-                                    A summer project to demystify login services in a fullstack software environment. The project features a React front end and 
+                                    A summer JavaScript project to demystify login services in a fullstack software environment. The project features a React front end and 
                                     Express backend that connects with Auth0 login services. The client and Auth0 first talk to each other to confirm identity
                                     credentials then, the client and back end talk to each other to store users that Uath0 has verified via email. The architecture
                                     proves strong as a scaffold for the start of your next full stack project.
