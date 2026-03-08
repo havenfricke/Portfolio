@@ -35,7 +35,7 @@ function WebSoftwarePage()
                                     and mysql2 for secure environment variables and parameterized queries.
                                     <br />
                                     <br />
-                                    <a href="https://github.com/havenfricke/Fullstack-Indentity-Vite-React-Express-Auth0" target='_blank'>GitHub Repository</a>
+                                    <a href="https://github.com/havenfricke/TypeScript-Fullstack" target='_blank'>GitHub Repository</a>
                                 </p>
                             </div>
                             <div className='row'>
