@@ -11,15 +11,12 @@ function GameDevPage()
                 <div className="card-view-banner">
                     <h2><strong>3D Programming & Games</strong></h2> 
                 </div>
-                <br />
-                <div>
-                    <h3 className='reel-title'>2024 - 2026 Gameplay Engineering Reel</h3>
-                </div>
-                <div className='video-container'>
-                    <video src="/demoreelminified.webm" poster="/link-thumbnail.png" controls></video>
-                    <img alt='arrow down indicator' src="/arrow-down.gif"/>
-                </div>  
-                <br />  
+                    {/* <br />
+                    <div className='video-container'>
+                        <video src="/demoreelminified.webm" poster="/link-thumbnail.png" controls></video>
+                        <img alt='arrow down indicator' src="/arrow-down.gif"/>
+                    </div>  
+                    <br />   */}
                 <div className='row'>
                     <div className='col-2-grid'>
                         <div className='info-card'>

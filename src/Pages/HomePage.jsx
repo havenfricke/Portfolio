@@ -14,7 +14,7 @@ function HomePage()
       <div className="home-banner">
         <h1>Haven Fricke</h1>
         <hr />
-        <h2>Software, Games, Interactive Media, and Mobile</h2><br /> 
+        <h3>Software, Games, Interactive Media, and Mobile</h3><br /> 
         <h3 className="home-icons">
           <a href="https://www.linkedin.com/in/haven-fricke/" target="_blank"><img className="linkedin" src="/linkedin-brands.svg" title="open in new tab"/></a>
           <a href="https://x.com/havenf_gg" target="_blank"><img className="x-twitter" src="/x-twitter.svg" title="open in new tab"/></a>
