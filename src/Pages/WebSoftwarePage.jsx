@@ -44,18 +44,6 @@ function WebSoftwarePage()
                                 className="modal-markdown"
                                 />
                             </div>
-                            <div className='row'>
-                                <div className='col-2-grid'>
-                                    <LazyImage src="/fsida1.png"/>
-                                    <LazyImage src="/fsida2.png"/>
-                                </div>  
-                            </div>
-                            <div className='row'>
-                                <div className='col-2-grid'>
-                                    <LazyImage src="/fsida3.png"/>
-                                    <LazyImage src="/fsida4.png"/>
-                                </div>
-                            </div>
                         </ModalWindow>
                     </div>
 
