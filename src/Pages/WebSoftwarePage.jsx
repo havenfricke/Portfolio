@@ -1,7 +1,5 @@
-import React from 'react';
 import { observer } from 'mobx-react-lite';
 import ModalWindow from '../Components/ModalWindow'
-import { Skeleton } from '@mui/material';
 import LazyImage from '../Components/LazyImage';
 import MarkdownFile from '../Components/MarkdownFile';
 
