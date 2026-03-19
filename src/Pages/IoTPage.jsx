@@ -10,31 +10,34 @@ function IoTPage()
     return (
         <section className='card-view-page'>
             <div className="card-view-banner">
-                <h2><strong>Internet of Things</strong></h2> 
+                <h2><strong>IoT & Infrastructure</strong></h2> 
             </div>
             <div className="row">
                 <div className="col-2-grid">
 
                     <div className="info-card">
                         <h3>
-                            Smart Asset Management System
+                            The <a href="https://www.python.org/" target="_blank">Python</a> Dojo
                         </h3>
                         <hr />
                         <div className="img-wrapper">
-                            <LazyImage src="/arduino.png" />
+                            <LazyImage src="/python.png" />
                         </div>
     
-                        <ModalWindow title={"Smart Asset Management System"}>
+                        <ModalWindow title={"The Python Dojo"}>
                             <div className='row'>
                                 <p>
-                                    Currently in development. Check back soon!
+                                    A Self-paced study into Python's features and syntax from a computer science perspective.
+                                    The goal of this repository is to provide a learning resource for myself and others to learn Python.
+                                    The project separates lessons into "Dojo Sessions" for myself and others to practice coding in Python.
+                                    The "Dojo Sessions" include a README file for each module explaining concepts found in each session.
                                     <br />
                                     <br />
-                                    <a href="https://github.com/havenfricke/asset-management-system" target="_blank">Github Repository Link</a>.
+                                    <a href="https://github.com/havenfricke/Python-Dojo" target="_blank">Github Repository Link</a>.
                                 </p>
                             </div>
                             <div className="row">
-                                <MarkdownFile src="https://raw.githubusercontent.com/havenfricke/asset-management-system/refs/heads/main/README.md" className="modal-markdown"/>
+                                <MarkdownFile src="https://raw.githubusercontent.com/havenfricke/Python-Dojo/refs/heads/main/README.md" className="modal-markdown"/>
                             </div>
                         </ModalWindow>
                     </div>

@@ -17,7 +17,7 @@ function WebSoftwarePage()
 
                      <div className='info-card'>
                         <h3>
-                            Fullstack TypeScript
+                            Fullstack <a href="https://www.typescriptlang.org/" target='_blank'>TypeScript</a>
                         </h3>
                         <hr />  
                         <div className='img-wrapper'>
