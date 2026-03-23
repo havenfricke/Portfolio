@@ -248,6 +248,18 @@
   animation: iconBounce 1s ease;
 }
 
+.file {
+    filter: invert(1) sepia(1) saturate(50) hue-rotate(180deg);
+    max-width:30px;
+    margin-right: 0.2em;
+    transition: all 0.2s ease;
+}
+
+.file:hover, .fil:focus {
+  transition: all 0.25s ease;
+  animation: iconBounce 1s ease;
+}
+
 @keyframes iconBounce {
   0%{
     transform: translateY(0);
@@ -568,6 +580,7 @@
   margin: 0 10%;
 }
 
+
 @media screen and (max-width: 768px) {
   #nav {
     width: 12.5%; 
@@ -610,7 +623,6 @@
 
   .info-card h3{
     padding-top: 15%;
-    padding-right: 25%;
   }
 
   .right-arrow{
