@@ -15,6 +15,37 @@ function WebSoftwarePage()
             <div className="row">
                 <div className='col-2-grid'>
 
+                    <div className='info-card'>
+                        <h3>
+                            <a href="https://www.python.org/" target='_blank'>Python</a> Web Server
+                        </h3>
+                        <hr />  
+                        <div className='img-wrapper'>
+                            <LazyImage src="/python.png"/>
+                        </div>
+                        <ModalWindow title={"Python Web Server"}>
+                            <div className='row'>
+                                <p>
+                                    A project to create tools more native to Linux operating systems. This web server features 
+                                    example routing and models for incoming and outgoing data to communicate with both clients. 
+                                    and a MySQL database. The system uses FastAPI, Uvicorn, dotenv, and SQLalchemy Python libraries 
+                                    that all work together to create a clean, well-structured application programming interface. 
+                                    Data models contained in this web server are intended to mirrorthe features of a typed languages 
+                                    such as C++, C#, or Java to match enterprise-grade security.
+                                    <br />
+                                    <br />
+                                    <a href="https://github.com/havenfricke/python_webserver" target='_blank'>GitHub Repository</a>
+                                </p>
+                            </div>
+                            <div className='row'>
+                                 <MarkdownFile
+                                src="https://raw.githubusercontent.com/havenfricke/python_webserver/refs/heads/main/README.md"
+                                className="modal-markdown"
+                                />
+                            </div>
+                        </ModalWindow>
+                    </div>
+
                      <div className='info-card'>
                         <h3>
                             Fullstack <a href="https://www.typescriptlang.org/" target='_blank'>TypeScript</a>
