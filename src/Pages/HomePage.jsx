@@ -26,7 +26,7 @@ function HomePage()
         <div className="info-card">
             <h3><a href="/websoftware">Full-stack and Cloud Infrastructure</a></h3>  
             <ul>
-              <li>Backend: Node.js, Express.ts/js, TypeScript, JavaScript</li>  
+              <li>Backend: FastAPI, Express.ts/js, Python, TypeScript, JavaScript</li>  
               <li>Frontend: React, Vue.js, Interactive/Real-time dashboards, Interactive Data</li> 
               <li>Databases & Data: MySQL, Time-series databases</li>
               <li>Cloud & DevOps: CI/CD, Cloud deployment</li>
