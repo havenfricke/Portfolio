@@ -92,7 +92,7 @@ function WebSoftwarePage()
                                 <p>
                                     A summer JavaScript project to demystify login services in a fullstack software environment. The project features a React front end and 
                                     Express backend that connects with Auth0 login services. The client and Auth0 first talk to each other to confirm identity
-                                    credentials then, the client and back end talk to each other to store users that Uath0 has verified via email. The architecture
+                                    credentials then, the client and back end talk to each other to store users that Auth0 has verified via email. The architecture
                                     proves strong as a scaffold for the start of your next full stack project.
                                     <br />
                                     <br />
