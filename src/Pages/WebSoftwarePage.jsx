@@ -17,6 +17,40 @@ function WebSoftwarePage()
 
                     <div className='info-card'>
                         <h3>
+                            <a href="https://www.python.org/" target='_blank'>Python</a> GUI App Starter
+                        </h3>
+                        <hr />  
+                        <div className='img-wrapper'>
+                            <LazyImage src="/python.png"/>
+                        </div>
+                        <ModalWindow title={"Python GUI App Starter"}>
+                            <div className='row'>
+                                <p>
+                                   This application is a cross-platform graphical user interface (GUI) built with Python, utilizing OpenGL 
+                                   for hardware-accelerated rendering and GLFW for window management. It employs a modular architecture where 
+                                   the user interface logic is decoupled into a dedicated window class, separating low-level graphics initialization 
+                                   from the high-level application state. The interface is powered by ImGui, utilizing a sidebar-based navigation 
+                                   system to swap between different functional views like a Dashboard, Settings, and Diagnostics. Navigation is 
+                                   managed through a central app_state module, allowing for seamless transitions within a single-window "content panel" 
+                                   layout. By disabling persistent configuration files, the app ensures a dynamic, responsive layout that scales precisely 
+                                   to the user's window dimensions. This structure is designed for high-performance utility tasks, providing a clean and 
+                                   organized framework for system monitoring or tool development.
+                                    <br />
+                                    <br />
+                                    <a href="https://github.com/havenfricke/python_gui_app" target='_blank'>GitHub Repository</a>
+                                </p>
+                            </div>
+                            <div className='row'>
+                                 <MarkdownFile
+                                src="https://raw.githubusercontent.com/havenfricke/python_gui_app/refs/heads/main/README.md"
+                                className="modal-markdown"
+                                />
+                            </div>
+                        </ModalWindow>
+                    </div>
+
+                    <div className='info-card'>
+                        <h3>
                             <a href="https://www.python.org/" target='_blank'>Python</a> Web Server
                         </h3>
                         <hr />  
